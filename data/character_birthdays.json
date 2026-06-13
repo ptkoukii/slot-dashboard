@@ -1,0 +1,8 @@
+{
+  "_readme": "キャラ誕生日データ（サンプル・要編集）。month/day は毎年共通。machine_keywords は取材名との紐付け用キーワード（部分一致）。実際の誕生日に合わせて自由に追記・修正してください。",
+  "birthdays": [
+    { "name": "サンプルキャラA", "machine": "機種名A", "month": 6, "day": 13, "machine_keywords": ["A", "機種名A"] },
+    { "name": "サンプルキャラB", "machine": "機種名B", "month": 6, "day": 15, "machine_keywords": ["B"] },
+    { "name": "サンプルキャラC", "machine": "機種名C", "month": 6, "day": 18, "machine_keywords": ["C"] }
+  ]
+}

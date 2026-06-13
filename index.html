@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>スロット取材スケジュール｜東京</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>🎰 取材スケジュール <span class="pref-badge">東京</span></h1>
+    <p class="updated" id="updated">読み込み中…</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab is-active" data-view="schedule">📅 スケジュール</button>
+    <button class="tab" data-view="birthday">🎂 誕生日カレンダー</button>
+  </nav>
+
+  <!-- ========== スケジュール ========== -->
+  <section id="view-schedule" class="view is-active">
+    <div class="controls">
+      <input id="search" type="search" inputmode="search"
+             placeholder="ホール名で検索（例：マルハン）" autocomplete="off" />
+
+      <div class="date-chips" id="date-chips"></div>
+
+      <div class="filter-row">
+        <select id="filter-area" aria-label="エリア">
+          <option value="">エリア（区）：すべて</option>
+        </select>
+        <select id="filter-rank" aria-label="ランク">
+          <option value="">ランク：すべて</option>
+          <option value="S">S</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+        <select id="sort" aria-label="並び替え">
+          <option value="date">日付順</option>
+          <option value="score">スコア順</option>
+        </select>
+      </div>
+      <input id="filter-event" type="search" inputmode="search"
+             placeholder="取材種別で絞り込み（例：旧イベ、来店）" autocomplete="off" />
+    </div>
+
+    <p class="result-count" id="result-count"></p>
+    <div id="schedule-list" class="list"></div>
+  </section>
+
+  <!-- ========== 誕生日カレンダー ========== -->
+  <section id="view-birthday" class="view">
+    <p class="hint">今日〜1週間のキャラ誕生日と、その日の狙い目ホール（高ランク取材）を表示します。
+       誕生日データは <code>data/character_birthdays.json</code> で編集できます。</p>
+    <div id="birthday-list" class="list"></div>
+  </section>
+
+  <footer class="app-footer">
+    <p>データ出典：<a href="https://hall-navi.com" rel="noopener" target="_blank">hall-navi.com</a>（公開分のみ）</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
