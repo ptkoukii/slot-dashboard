@@ -1,8 +1,26 @@
 {
-  "_readme": "キャラ誕生日データ（サンプル・要編集）。month/day は毎年共通。machine_keywords は取材名との紐付け用キーワード（部分一致）。実際の誕生日に合わせて自由に追記・修正してください。",
   "birthdays": [
-    { "name": "サンプルキャラA", "machine": "機種名A", "month": 6, "day": 13, "machine_keywords": ["A", "機種名A"] },
-    { "name": "サンプルキャラB", "machine": "機種名B", "month": 6, "day": 15, "machine_keywords": ["B"] },
-    { "name": "サンプルキャラC", "machine": "機種名C", "month": 6, "day": 18, "machine_keywords": ["C"] }
+    {"name":"立花響","machine":"戦姫絶唱シンフォギア","month":9,"day":13,"machine_keywords":["シンフォギア"],"rank":5},
+    {"name":"鹿目まどか","machine":"まどマギ","month":10,"day":3,"machine_keywords":["まどマギ","まどか"],"rank":5},
+    {"name":"来栖","machine":"甲鉄城のカバネリ","month":9,"day":24,"machine_keywords":["カバネリ"],"rank":3},
+    {"name":"無名","machine":"甲鉄城のカバネリ","month":10,"day":20,"machine_keywords":["カバネリ"],"rank":4},
+    {"name":"金木研","machine":"東京喰種","month":12,"day":20,"machine_keywords":["喰種","グール"],"rank":3},
+    {"name":"渚カヲル","machine":"エヴァンゲリオン","month":9,"day":13,"machine_keywords":["エヴァ"],"rank":4},
+    {"name":"綾波レイ","machine":"エヴァンゲリオン","month":3,"day":30,"machine_keywords":["エヴァ"],"rank":4},
+    {"name":"碇シンジ","machine":"エヴァンゲリオン","month":6,"day":6,"machine_keywords":["エヴァ"],"rank":4},
+    {"name":"レム＆ラム","machine":"リゼロ","month":2,"day":2,"machine_keywords":["リゼロ","Re:ゼロ"],"rank":4},
+    {"name":"天鳥美馬","machine":"甲鉄城のカバネリ","month":12,"day":6,"machine_keywords":["カバネリ"],"rank":3},
+    {"name":"生駒","machine":"カバネリ","month":2,"day":28,"machine_keywords":["カバネリ"],"rank":3},
+    {"name":"ジョーカー","machine":"炎炎ノ消防隊2","month":6,"day":14,"machine_keywords":["炎炎"],"rank":2},
+    {"name":"アーサー","machine":"炎炎ノ消防隊2","month":7,"day":10,"machine_keywords":["炎炎"],"rank":2},
+    {"name":"ナタク孫","machine":"炎炎ノ消防隊2","month":7,"day":9,"machine_keywords":["炎炎"],"rank":2},
+    {"name":"火縄","machine":"炎炎ノ消防隊2","month":9,"day":23,"machine_keywords":["炎炎"],"rank":2},
+    {"name":"森羅日下部","machine":"炎炎ノ消防隊2","month":10,"day":29,"machine_keywords":["炎炎"],"rank":2},
+    {"name":"カリム","machine":"炎炎ノ消防隊2","month":12,"day":12,"machine_keywords":["炎炎"],"rank":2},
+    {"name":"轟金剛","machine":"番長シリーズ","month":10,"day":16,"machine_keywords":["番長"],"rank":3},
+    {"name":"キリト","machine":"ソードアート・オンライン","month":10,"day":7,"machine_keywords":["SAO","ソードアート"],"rank":3},
+    {"name":"白銀御行","machine":"かぐや様は告らせたい","month":9,"day":9,"machine_keywords":["かぐや"],"rank":3},
+    {"name":"ルルーシュ","machine":"コードギアス","month":12,"day":5,"machine_keywords":["コードギアス"],"rank":3},
+    {"name":"政宗","machine":"政宗シリーズ","month":8,"day":21,"machine_keywords":["政宗"],"rank":3}
   ]
 }
