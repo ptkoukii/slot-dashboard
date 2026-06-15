@@ -254,22 +254,6 @@ function renderAnalyze() {
         <span style="font-size:11px;color:#f59e0b;cursor:pointer;margin-top:6px;display:inline-block" onclick="var i=document.getElementById('ai-api-key');i.type=i.type==='password'?'text':'password'">表示/非表示</span>
       </div>
       <div style="background:#1e2d1a;border-left:3px solid #f59e0b;border-radius:0 8px 8px 0;padding:10px 12px;font-size:12px;color:#94a3b8;margin-bottom:1rem">💡 筐体・データ画面・グラフなど複数枚送ると精度UP！</div>
-      <div id="ai-upload"
-
-cat >> ~/slot-dashboard/app.js << 'JSEOF'
-
-// ---------- 台判別AI ----------
-function renderAnalyze() {
-  const root = $("#analyze-root");
-  if (root.innerHTML) return;
-  root.innerHTML = `
-    <div style="padding:1rem;max-width:480px;margin:0 auto">
-      <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:1rem;margin-bottom:1rem">
-        <div style="font-size:12px;color:#94a3b8;margin-bottom:6px">Anthropic APIキー</div>
-        <input type="password" id="ai-api-key" placeholder="sk-ant-..." style="width:100%;background:#0f172a;border:1px solid #334155;border-radius:8px;padding:10px;color:#f1f5f9;font-size:13px">
-        <span style="font-size:11px;color:#f59e0b;cursor:pointer;margin-top:6px;display:inline-block" onclick="var i=document.getElementById('ai-api-key');i.type=i.type==='password'?'text':'password'">表示/非表示</span>
-      </div>
-      <div style="background:#1e2d1a;border-left:3px solid #f59e0b;border-radius:0 8px 8px 0;padding:10px 12px;font-size:12px;color:#94a3b8;margin-bottom:1rem">💡 筐体・データ画面・グラフなど複数枚送ると精度UP！</div>
       <div id="ai-upload" style="background:#1e293b;border:2px dashed #334155;border-radius:16px;padding:2rem 1rem;text-align:center;cursor:pointer;position:relative;margin-bottom:1rem">
         <input type="file" accept="image/*" multiple onchange="aiHandleFiles(this.files)" style="position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%">
         <div style="font-size:40px;margin-bottom:12px">📷</div>
