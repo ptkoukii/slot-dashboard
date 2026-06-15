@@ -16,6 +16,7 @@
   <nav class="tabs">
     <button class="tab is-active" data-view="schedule">📅 スケジュール</button>
     <button class="tab" data-view="birthday">🎂 誕生日カレンダー</button>
+    <button class="tab" data-view="analyze">🔍 台判別AI</button>
   </nav>
 
   <!-- ========== スケジュール ========== -->
@@ -55,6 +56,11 @@
     <p class="hint">今日〜1週間のキャラ誕生日と、その日の狙い目ホール（高ランク取材）を表示します。
        誕生日データは <code>data/character_birthdays.json</code> で編集できます。</p>
     <div id="birthday-list" class="list"></div>
+  </section>
+
+  <!-- ========== 台判別AI ========== -->
+  <section id="view-analyze" class="view">
+    <div id="analyze-root"></div>
   </section>
 
   <footer class="app-footer">

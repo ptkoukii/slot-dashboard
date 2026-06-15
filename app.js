@@ -227,6 +227,8 @@ function bindEvents() {
       $$(".tab").forEach((x) => x.classList.toggle("is-active", x === t));
       $("#view-schedule").classList.toggle("is-active", state.view === "schedule");
       $("#view-birthday").classList.toggle("is-active", state.view === "birthday");
+      $("#view-analyze").classList.toggle("is-active", state.view === "analyze");
+      if (state.view === "analyze") renderAnalyze();
       render();
     })
   );
@@ -239,3 +241,117 @@ function bindEvents() {
 
 bindEvents();
 load();
+
+// ---------- 台判別AI ----------
+function renderAnalyze() {
+  const root = $("#analyze-root");
+  if (root.innerHTML) return;
+  root.innerHTML = `
+    <div style="padding:1rem;max-width:480px;margin:0 auto">
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:1rem;margin-bottom:1rem">
+        <div style="font-size:12px;color:#94a3b8;margin-bottom:6px">Anthropic APIキー</div>
+        <input type="password" id="ai-api-key" placeholder="sk-ant-..." style="width:100%;background:#0f172a;border:1px solid #334155;border-radius:8px;padding:10px;color:#f1f5f9;font-size:13px">
+        <span style="font-size:11px;color:#f59e0b;cursor:pointer;margin-top:6px;display:inline-block" onclick="var i=document.getElementById('ai-api-key');i.type=i.type==='password'?'text':'password'">表示/非表示</span>
+      </div>
+      <div style="background:#1e2d1a;border-left:3px solid #f59e0b;border-radius:0 8px 8px 0;padding:10px 12px;font-size:12px;color:#94a3b8;margin-bottom:1rem">💡 筐体・データ画面・グラフなど複数枚送ると精度UP！</div>
+      <div id="ai-upload"
+
+cat >> ~/slot-dashboard/app.js << 'JSEOF'
+
+// ---------- 台判別AI ----------
+function renderAnalyze() {
+  const root = $("#analyze-root");
+  if (root.innerHTML) return;
+  root.innerHTML = `
+    <div style="padding:1rem;max-width:480px;margin:0 auto">
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:1rem;margin-bottom:1rem">
+        <div style="font-size:12px;color:#94a3b8;margin-bottom:6px">Anthropic APIキー</div>
+        <input type="password" id="ai-api-key" placeholder="sk-ant-..." style="width:100%;background:#0f172a;border:1px solid #334155;border-radius:8px;padding:10px;color:#f1f5f9;font-size:13px">
+        <span style="font-size:11px;color:#f59e0b;cursor:pointer;margin-top:6px;display:inline-block" onclick="var i=document.getElementById('ai-api-key');i.type=i.type==='password'?'text':'password'">表示/非表示</span>
+      </div>
+      <div style="background:#1e2d1a;border-left:3px solid #f59e0b;border-radius:0 8px 8px 0;padding:10px 12px;font-size:12px;color:#94a3b8;margin-bottom:1rem">💡 筐体・データ画面・グラフなど複数枚送ると精度UP！</div>
+      <div id="ai-upload" style="background:#1e293b;border:2px dashed #334155;border-radius:16px;padding:2rem 1rem;text-align:center;cursor:pointer;position:relative;margin-bottom:1rem">
+        <input type="file" accept="image/*" multiple onchange="aiHandleFiles(this.files)" style="position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%">
+        <div style="font-size:40px;margin-bottom:12px">📷</div>
+        <div style="font-size:15px;font-weight:600;margin-bottom:6px">写真を選択 / 撮影</div>
+        <div style="font-size:12px;color:#94a3b8">筐体・データ画面・グラフ画面など</div>
+      </div>
+      <div id="ai-preview"></div>
+      <button id="ai-btn" onclick="aiAnalyze()" disabled style="width:100%;padding:14px;border:none;border-radius:12px;font-size:15px;font-weight:600;cursor:pointer;background:linear-gradient(135deg,#c45c2a,#f59e0b);color:#000;margin-bottom:8px;opacity:0.4">AI判別スタート 🔍</button>
+      <div id="ai-result"></div>
+    </div>`;
+}
+
+let aiImages = [];
+
+function aiHandleFiles(files) {
+  Array.from(files).forEach(file => {
+    const r = new FileReader();
+    r.onload = e => { aiImages.push({data: e.target.result, type: file.type}); aiRenderPreview(); };
+    r.readAsDataURL(file);
+  });
+}
+
+function aiRenderPreview() {
+  const c = $("#ai-preview");
+  const btn = $("#ai-btn");
+  if (!aiImages.length) { c.innerHTML = ''; btn.disabled = true; btn.style.opacity = '0.4'; return; }
+  c.innerHTML = '<div style="display:grid;grid-template-columns:'+(aiImages.length===1?'1fr':'1fr 1fr')+';gap:8px;margin-bottom:1rem">' +
+    aiImages.map((img,i) => '<div style="position:relative"><img src="'+img.data+'" style="width:100%;height:120px;object-fit:cover;border-radius:8px;border:1px solid #334155"><button onclick="aiRemove('+i+')" style="position:absolute;top:4px;right:4px;background:rgba(0,0,0,0.7);border:none;color:white;width:22px;height:22px;border-radius:50%;cursor:pointer;font-size:12px">×</button></div>').join('') +
+    '</div><div style="background:#1e293b;border:1px dashed #334155;border-radius:8px;padding:8px;font-size:12px;color:#94a3b8;cursor:pointer;text-align:center;margin-bottom:1rem;position:relative"><input type="file" accept="image/*" multiple onchange="aiHandleFiles(this.files)" style="position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%">＋ 追加で写真を選ぶ</div>';
+  btn.disabled = false; btn.style.opacity = '1';
+}
+
+function aiRemove(i) { aiImages.splice(i,1); aiRenderPreview(); }
+
+async function aiAnalyze() {
+  const key = $("#ai-api-key").value.trim();
+  if (!key) { alert('APIキーを入力してください'); return; }
+  if (!aiImages.length) { alert('写真を選択してください'); return; }
+  const btn = $("#ai-btn");
+  btn.disabled = true; btn.textContent = '解析中...';
+  $("#ai-result").innerHTML = '<div style="text-align:center;padding:2rem"><div style="width:40px;height:40px;border:3px solid #334155;border-top-color:#f59e0b;border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 12px"></div><p style="font-size:13px;color:#94a3b8">AIが画像を解析中です...</p></div>';
+  const content = [{type:'text',text:`あなたはパチスロの設定判別と立ち回りのエキスパートです。送られた画像を分析して以下をJSONのみで返してください。{"machine":"機種名","maker":"メーカー","type":"AT/ART/ノーマル等","data":{"games":"ゲーム数","bonus_count":"ボーナス回数","at_count":"AT回数","bonus_rate":"ボーナス確率","max_medals":"最高出玉"},"setting_analysis":{"eliminated":["否定設定"],"possible":["可能性ある設定"],"most_likely":"最有力設定","confidence":"high/medium/low","reason":"判別根拠"},"strategy":{"verdict":"GO/WAIT/STOP","approach":"朝一/ゾーン/天井/設定狙い/ヤメ推奨","target_games":"狙いG数","stop_games":"ヤメG数","advice":"立ち回りアドバイス3〜5行"},"notable":"特筆事項"}`},
+    ...aiImages.map(img => ({type:'image',source:{type:'base64',media_type:img.type,data:img.data.split(',')[1]}}))];
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01'},body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:1500,messages:[{role:'user',content}]})});
+    const data = await res.json();
+    if (data.error) throw new Error(data.error.message);
+    const json = JSON.parse(data.content.map(i=>i.text||'').join('').replace(/```json|```/g,'').trim());
+    aiRenderResult(json);
+  } catch(e) {
+    $("#ai-result").innerHTML = '<div style="background:rgba(224,85,85,0.1);border:1px solid #e05555;border-radius:12px;padding:1rem;font-size:13px;color:#e05555">エラー: '+e.message+'</div>';
+  }
+  btn.disabled = false; btn.textContent = 'AI判別スタート 🔍';
+}
+
+function aiRenderResult(d) {
+  const s = d.setting_analysis||{}; const st = d.strategy||{};
+  const vc = {GO:'#4caf7d',WAIT:'#f59e0b',STOP:'#e05555'}[st.verdict]||'#f59e0b';
+  const vl = {GO:'✅ 今すぐ打て！',WAIT:'⏳ 様子見',STOP:'🚫 ヤメ推奨'}[st.verdict]||'判定中';
+  const chips = [1,2,3,4,5,6].map(n => {
+    const e=(s.eliminated||[]).map(String).includes(String(n));
+    const l=String(s.most_likely)===String(n);
+    const p=(s.possible||[]).map(String).includes(String(n));
+    return '<div style="flex:1;text-align:center;padding:6px 2px;border-radius:6px;font-size:11px;font-weight:600;background:'+(l?'#f59e0b':p?'rgba(245,158,11,0.15)':'#1e293b')+';color:'+(l?'#000':p?'#f59e0b':'#64748b')+';opacity:'+(e?'0.2':'1')+'">設'+n+'</div>';
+  }).join('');
+  const dd = d.data||{};
+  $("#ai-result").innerHTML = '<div style="background:#1e293b;border:1px solid #334155;border-radius:16px;padding:1.25rem;margin-top:1rem">'+
+    '<div style="font-size:18px;font-weight:700;color:#f59e0b">'+(d.machine||'機種不明')+'</div>'+
+    '<div style="font-size:11px;color:#94a3b8;margin-bottom:8px">'+(d.maker||'')+' '+(d.type||'')+'</div>'+
+    '<div style="display:inline-block;font-size:13px;font-weight:600;padding:4px 12px;border-radius:20px;background:'+vc+'22;color:'+vc+';border:1px solid '+vc+';margin-bottom:1rem">'+vl+'</div>'+
+    (dd.games||dd.bonus_count?'<div style="font-size:11px;color:#94a3b8;margin-bottom:8px">読み取りデータ</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:1rem">'+
+    (dd.games?'<div style="background:#0f172a;border-radius:8px;padding:10px"><div style="font-size:10px;color:#94a3b8">ゲーム数</div><div style="font-size:16px;font-weight:600">'+dd.games+'G</div></div>':'')+
+    (dd.bonus_count?'<div style="background:#0f172a;border-radius:8px;padding:10px"><div style="font-size:10px;color:#94a3b8">ボーナス回数</div><div style="font-size:16px;font-weight:600">'+dd.bonus_count+'回</div></div>':'')+
+    (dd.at_count?'<div style="background:#0f172a;border-radius:8px;padding:10px"><div style="font-size:10px;color:#94a3b8">AT/ART回数</div><div style="font-size:16px;font-weight:600">'+dd.at_count+'回</div></div>':'')+
+    (dd.bonus_rate?'<div style="background:#0f172a;border-radius:8px;padding:10px"><div style="font-size:10px;color:#94a3b8">ボーナス確率</div><div style="font-size:16px;font-weight:600">'+dd.bonus_rate+'</div></div>':'')+
+    '</div>':'')+'<div style="font-size:11px;color:#94a3b8;margin-bottom:8px">設定判別</div>'+
+    '<div style="display:flex;gap:4px;margin-bottom:6px">'+chips+'</div>'+
+    '<div style="font-size:12px;color:#94a3b8;line-height:1.7;margin-bottom:1rem">'+(s.reason||'')+'</div>'+
+    '<div style="font-size:11px;color:#94a3b8;margin-bottom:8px">立ち回り判定</div>'+
+    '<div style="margin-bottom:8px">'+(st.approach?'<span style="display:inline-block;font-size:11px;padding:3px 10px;border-radius:20px;margin:2px;background:rgba(74,158,255,0.15);color:#4a9eff;border:1px solid rgba(74,158,255,0.3)">'+st.approach+'</span>':'')+
+    (st.target_games?'<span style="display:inline-block;font-size:11px;padding:3px 10px;border-radius:20px;margin:2px;background:rgba(74,158,255,0.15);color:#4a9eff;border:1px solid rgba(74,158,255,0.3)">狙い目 '+st.target_games+'G〜</span>':'')+
+    (st.stop_games?'<span style="display:inline-block;font-size:11px;padding:3px 10px;border-radius:20px;margin:2px;background:rgba(74,158,255,0.15);color:#4a9eff;border:1px solid rgba(74,158,255,0.3)">ヤメ '+st.stop_games+'G</span>':'')+'</div>'+
+    '<div style="font-size:13px;line-height:1.8;white-space:pre-wrap">'+(st.advice||'')+'</div>'+
+    (d.notable?'<div style="font-size:11px;color:#94a3b8;margin-top:1rem;margin-bottom:6px">注目ポイント</div><div style="font-size:12px;color:#f59e0b;line-height:1.7">'+d.notable+'</div>':'')+'</div>';
+}
