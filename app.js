@@ -268,6 +268,8 @@ function renderAnalyze() {
 
 let aiImages = [];
 
+addClaudeButton();
+
 function aiHandleFiles(files) {
   Array.from(files).forEach(file => {
     const r = new FileReader();
@@ -338,4 +340,22 @@ function aiRenderResult(d) {
     (st.stop_games?'<span style="display:inline-block;font-size:11px;padding:3px 10px;border-radius:20px;margin:2px;background:rgba(74,158,255,0.15);color:#4a9eff;border:1px solid rgba(74,158,255,0.3)">ヤメ '+st.stop_games+'G</span>':'')+'</div>'+
     '<div style="font-size:13px;line-height:1.8;white-space:pre-wrap">'+(st.advice||'')+'</div>'+
     (d.notable?'<div style="font-size:11px;color:#94a3b8;margin-top:1rem;margin-bottom:6px">注目ポイント</div><div style="font-size:12px;color:#f59e0b;line-height:1.7">'+d.notable+'</div>':'')+'</div>';
+}
+
+// ---------- Claudeチャットボタン ----------
+function addClaudeButton() {
+  const root = $("#analyze-root");
+  if (!root) return;
+  const btn = document.createElement('div');
+  btn.style.cssText = 'padding:0 1rem 1rem;max-width:480px;margin:0 auto';
+  btn.innerHTML = `
+    <div style="border-top:1px solid #334155;margin-bottom:1rem"></div>
+    <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:1rem;text-align:center">
+      <div style="font-size:13px;color:#94a3b8;margin-bottom:12px">APIキーなしで使う</div>
+      <a href="https://claude.ai" target="_blank" style="display:block;width:100%;padding:12px;border:none;border-radius:10px;font-size:14px;font-weight:600;background:linear-gradient(135deg,#7c3aed,#4f46e5);color:white;text-decoration:none;box-sizing:border-box">
+        💬 Claudeに質問する（無料）
+      </a>
+      <div style="font-size:11px;color:#64748b;margin-top:8px">クリックするとclaude.aiが開きます。台の写真を貼り付けて「設定判別して」と送るだけでOK！</div>
+    </div>`;
+  root.appendChild(btn);
 }
