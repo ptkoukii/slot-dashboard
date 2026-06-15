@@ -72,7 +72,7 @@ async function load() {
 function buildDateChips() {
   const today = new Date();
   const chips = [`<button class="chip is-active" data-date="">すべて</button>`];
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 365; i++) {
     const d = addDays(today, i);
     const key = ymd(d);
     const wd = WD[d.getDay()];
@@ -173,7 +173,7 @@ function renderSchedule() {
 function renderBirthday() {
   const today = new Date();
   const blocks = [];
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 365; i++) {
     const d = addDays(today, i);
     const key = ymd(d);
     const m = d.getMonth() + 1;
