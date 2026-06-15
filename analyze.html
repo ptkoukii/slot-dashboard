@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>台判別AI</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0f0f13;color:#f0f0f0;font-family:-apple-system,sans-serif;min-height:100vh;padding-bottom:2rem}
+header{background:#1a1a22;border-bottom:1px solid #2e2e3e;padding:1rem;text-align:center}
+header h1{font-size:16px;font-weight:600;color:#e8b84b}
+header p{font-size:11px;color:#888;margin-top:2px}
+.container{max-width:480px;margin:0 auto;padding:1rem}
+.api-section{background:#1a1a22;border:1px solid #2e2e3e;border-radius:12px;padding:1rem;margin-bottom:1rem}
+.api-section label{font-size:12px;color:#888;display:block;margin-bottom:6px}
+.api-section input{width:100%;background:#22222e;border:1px solid #2e2e3e;border-radius:8px;padding:10px;color:#f0f0f0;font-size:13px}
+.upload-area{background:#1a1a22;border:2px dashed #2e2e3e;border-radius:16px;padding:2rem 1rem;text-align:center;cursor:pointer;position:relative;margin-bottom:1rem}
+.upload-area input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.upload-icon{font-size:40px;margin-bottom:12px}
+.upload-title{font-size:15px;font-weight:600;margin-bottom:6px}
+.upload-sub{font-size:12px;color:#888}
+.preview-wrap{position:relative;margin-bottom:1rem}
+.preview-wrap img{width:100%;border-radius:12px;display:block;max-height:300px;object-fit:contain;background:#22222e}
+.preview-clear{position:absolute;top:8px;right:8px;background:rgba(0,0,0,0.7);border:none;color:white;width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:16px}
+.btn{width:100%;padding:14px;border:none;border-radius:12px;font-size:15px;font-weight:600;cursor:pointer;margin-bottom:8px}
+.btn-primary{background:linear-gradient(135deg,#c45c2a,#e8b84b);color:#000}
+.btn-primary:disabled{opacity:0.4;cursor:not-allowed}
+.btn-sub{background:#22222e;color:#f0f0f0;border:1px solid #2e2e3e;font-size:13px;padding:10px}
+.result-card{background:#1a1a22;border:1px solid #2e2e3e;border-radius:16px;padding:1.25rem;margin-bottom:1rem}
+.machine-name{font-size:18px;font-weight:700;color:#e8b84b;margin-bottom:4px}
+.verdict{display:inline-block;font-size:13px;font-weight:600;padding:4px 12px;border-radius:20px;margin-bottom:1rem}
+.verdict.go{background:rgba(76,175,125,0.2);color:#4caf7d;border:1px solid #4caf7d}
+.verdict.wait{background:rgba(232,184,75,0.2);color:#e8b84b;border:1px solid #e8b84b}
+.verdict.stop{background:rgba(224,85,85,0.2);color:#e05555;border:1px solid #e05555}
+.section-title{font-size:11px;color:#888;margin-bottom:8px;margin-top:1rem}
+.data-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.data-item{background:#22222e;border-radius:8px;padding:10px}
+.data-label{font-size:10px;color:#888;margin-bottom:3px}
+.data-val{font-size:16px;font-weight:600}
+.setting-bar{display:flex;gap:4px}
+.s-chip{flex:1;text-align:center;padding:6px 2px;border-radius:6px;font-size:11px;font-weight:600;background:#22222e;color:#888}
+.s-chip.active{background:#e8b84b;color:#000}
+.s-chip.possible{background:rgba(232,184,75,0.15);color:#e8b84b;border:1px solid rgba(232,184,75,0.4)}
+.advice-text{font-size:13px;line-height:1.8;white-space:pre-wrap}
+.zone-tag{display:inline-block;font-size:11px;padding:3px 10px;border-radius:20px;margin:2px;background:rgba(74,158,255,0.15);color:#4a9eff;border:1px solid rgba(74,158,255,0.3)}
+.loading{text-align:center;padding:2rem}
+.loading-spinner{width:40px;height:40px;border:3px solid #2e2e3e;border-top-color:#e8b84b;border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.error{background:rgba(224,85,85,0.1);border:1px solid #e05555;border-radius:12px;padding:1rem;font-size:13px;color:#e05555;margin-bottom:1rem}
+.tip{background:#22222e;border-left:3px solid #e8b84b;border-radius:0 8px 8px 0;padding:10px 12px;font-size:12px;color:#888;margin-bottom:1rem}
+.multi-preview{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:1rem}
+.multi-preview img{width:100%;height:120px;object-fit:cover;border-radius:8px}
+.add-photo-btn{background:#22222e;border:1px dashed #2e2e3e;border-radius:8px;padding:8px;font-size:12px;color:#888;cursor:pointer;text-align:center;margin-bottom:1rem;position:relative}
+.add-photo-btn input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎰 台判別AI</h1>
+  <p>写真を撮るだけで設定・狙い目を判定</p>
+</header>
+<div class="container">
+  <div class="api-section">
+    <label>Anthropic APIキー</label>
+    <input type="password" id="api-key" placeholder="sk-ant-...">
+    <span style="font-size:11px;color:#e8b84b;cursor:pointer;margin-top:6px;display:inline-block" onclick="document.getElementById('api-key').type=document.getElementById('api-key').type==='password'?'text':'password'">表示/非表示</span>
+  </div>
+  <div class="tip">💡 筐体・データ画面・グラフなど複数枚送ると精度UP！</div>
+  <div class="upload-area">
+    <input type="file" id="file-input" accept="image/*" multiple onchange="handleFiles(this.files)">
+    <div class="upload-icon">📷</div>
+    <div class="upload-title">写真を選択 / 撮影</div>
+    <div class="upload-sub">筐体・データ画面・グラフ画面など</div>
+  </div>
+  <div id="preview-container"></div>
+  <button class="btn btn-primary" id="analyze-btn" onclick="analyze()" disabled>AI判別スタート 🔍</button>
+  <button class="btn btn-sub" onclick="reset()">リセット</button>
+  <div id="result-container"></div>
+</div>
+<script>
+let images=[];
+function handleFiles(files){
+  Array.from(files).forEach(file=>{
+    const r=new FileReader();
+    r.onload=e=>{images.push({data:e.target.result,type:file.type});renderPreviews();};
+    r.readAsDataURL(file);
+  });
+}
+function renderPreviews(){
+  const c=document.getElementById('preview-container');
+  if(!images.length){c.innerHTML='';return;}
+  if(images.length===1){
+    c.innerHTML='<div class="preview-wrap"><img src="'+images[0].data+'"><button class="preview-clear" onclick="removeImage(0)">×</button></div><div class="add-photo-btn"><input type="file" accept="image/*" multiple onchange="handleFiles(this.files)">＋ 追加で写真を選ぶ</div>';
+  }else{
+    c.innerHTML='<div class="multi-preview">'+images.map((img,i)=>'<div style="position:relative"><img src="'+img.data+'"><button class="preview-clear" onclick="removeImage('+i+')" style="width:22px;height:22px;font-size:12px">×</button></div>').join('')+'</div><div class="add-photo-btn"><input type="file" accept="image/*" multiple onchange="handleFiles(this.files)">＋ 追加で写真を選ぶ</div>';
+  }
+  document.getElementById('analyze-btn').disabled=false;
+}
+function removeImage(i){images.splice(i,1);renderPreviews();if(!images.length)document.getElementById('analyze-btn').disabled=true;}
+function reset(){images=[];document.getElementById('preview-container').innerHTML='';document.getElementById('result-container').innerHTML='';document.getElementById('analyze-btn').disabled=true;}
+async function analyze(){
+  const key=document.getElementById('api-key').value.trim();
+  if(!key){alert('APIキーを入力してください');return;}
+  if(!images.length){alert('写真を選択してください');return;}
+  const btn=document.getElementById('analyze-btn');
+  btn.disabled=true;btn.textContent='解析中...';
+  document.getElementById('result-container').innerHTML='<div class="loading"><div class="loading-spinner"></div><p>AIが画像を解析中です<br>少々お待ちください...</p></div>';
+  const content=[{type:'text',text:`あなたはパチスロの設定判別と立ち回りのエキスパートです。送られた画像を分析して以下をJSON形式のみで返してください。{"machine":"機種名","maker":"メーカー","type":"AT/ART/ノーマル等","data":{"games":"ゲーム数","bonus_count":"ボーナス回数","at_count":"AT回数","bonus_rate":"ボーナス確率","max_medals":"最高出玉"},"setting_analysis":{"eliminated":["否定設定リスト"],"possible":["可能性ある設定"],"most_likely":"最有力設定","confidence":"high/medium/low","reason":"判別根拠"},"strategy":{"verdict":"GO/WAIT/STOP","verdict_reason":"判断理由","approach":"朝一/ゾーン/天井/設定狙い/ヤメ推奨","target_games":"狙いゲーム数","stop_games":"ヤメゲーム数","advice":"立ち回りアドバイス3〜5行"},"notable":"特筆事項"}`},...images.map(img=>({type:'image',source:{type:'base64',media_type:img.type,data:img.data.split(',')[1]}}))];
+  try{
+    const res=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01'},body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:1500,messages:[{role:'user',content}]})});
+    const data=await res.json();
+    if(data.error)throw new Error(data.error.message);
+    const text=data.content.map(i=>i.text||'').join('');
+    const json=JSON.parse(text.replace(/```json|```/g,'').trim());
+    renderResult(json);
+  }catch(e){document.getElementById('result-container').innerHTML='<div class="error">エラー: '+e.message+'</div>';}
+  btn.disabled=false;btn.textContent='AI判別スタート 🔍';
+}
+function renderResult(d){
+  const s=d.setting_analysis||{};const st=d.strategy||{};
+  const vc={GO:'go',WAIT:'wait',STOP:'stop'}[st.verdict]||'wait';
+  const vl={GO:'✅ 今すぐ打て！',WAIT:'⏳ 様子見',STOP:'🚫 ヤメ推奨'}[st.verdict]||'判定中';
+  const chips=[1,2,3,4,5,6].map(n=>{
+    const e=(s.eliminated||[]).map(String).includes(String(n));
+    const p=(s.possible||[]).map(String).includes(String(n));
+    const l=String(s.most_likely)===String(n);
+    return '<div class="s-chip '+(e?'':l?'active':p?'possible':'')+'" style="'+(e?'opacity:0.2':'')+'">設'+n+'</div>';
+  }).join('');
+  const dd=d.data||{};
+  document.getElementById('result-container').innerHTML='<div class="result-card"><div class="machine-name">'+(d.machine||'機種不明')+'</div><div style="font-size:11px;color:#888;margin-bottom:8px">'+(d.maker||'')+' '+(d.type||'')+'</div><div class="verdict '+vc+'">'+vl+'</div>'+(dd.games||dd.bonus_count?'<div class="section-title">読み取りデータ</div><div class="data-grid">'+(dd.games?'<div class="data-item"><div class="data-label">ゲーム数</div><div class="data-val">'+dd.games+'G</div></div>':'')+(dd.bonus_count?'<div class="data-item"><div class="data-label">ボーナス回数</div><div class="data-val">'+dd.bonus_count+'回</div></div>':'')+(dd.at_count?'<div class="data-item"><div class="data-label">AT/ART回数</div><div class="data-val">'+dd.at_count+'回</div></div>':'')+(dd.bonus_rate?'<div class="data-item"><div class="data-label">ボーナス確率</div><div class="data-val">'+dd.bonus_rate+'</div></div>':'')+'</div>':'')+'<div class="section-title">設定判別</div><div class="setting-bar">'+chips+'</div><div style="font-size:12px;color:#888;margin-top:6px;line-height:1.7">'+(s.reason||'')+'</div><div class="section-title">立ち回り判定</div><div style="margin-bottom:8px">'+(st.approach?'<span class="zone-tag">'+st.approach+'</span>':'')+(st.target_games?'<span class="zone-tag">狙い目 '+st.target_games+'G〜</span>':'')+(st.stop_games?'<span class="zone-tag">ヤメ '+st.stop_games+'G</span>':'')+'</div><div class="advice-text">'+(st.advice||st.verdict_reason||'')+'</div>'+(d.notable?'<div class="section-title">注目ポイント</div><div style="font-size:12px;color:#e8b84b;line-height:1.7">'+d.notable+'</div>':'')+'</div>';
+}
+</script>
+</body>
+</html>
