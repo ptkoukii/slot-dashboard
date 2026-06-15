@@ -346,46 +346,45 @@ function aiRenderResult(d) {
 function addClaudeButton() {
   const root = $("#analyze-root");
   if (!root) return;
-  const template = `以下の情報をもとに、この台を今打つべきか総合判別してください。
+  const template = [
+    "以下の情報をもとに、この台を今打つべきか総合判別してください。",
+    "",
+    "【送る情報】",
+    "・筐体の写真（機種名確認用）",
+    "・データ画面の写真（ゲーム数・ボーナス回数・AT回数・確率など）",
+    "・グラフ画面の写真（出玉の波・当たりのタイミングなど）",
+    "※写真は複数枚送るほど精度が上がります！",
+    "",
+    "【判別してほしいこと】",
+    "1. 機種名と基本スペックを教えてください",
+    "2. データから読み取れる設定推測（設定1〜6のどれが濃厚か）",
+    "3. 以下のどの狙い方が有効か判断してください",
+    "   - 朝一リセット狙い（天井短縮・モード優遇はあるか）",
+    "   - ゾーン狙い（有効なゾーンはどこか）",
+    "   - 天井狙い（現在のゲーム数から天井まで何G必要か）",
+    "   - 設定狙い（高設定の可能性はあるか）",
+    "4. 今すぐ打つべきか・様子見か・ヤメ推奨かを教えてください",
+    "5. 打つ場合の具体的な狙いゲーム数とヤメ時を教えてください"
+  ].join("\n");
 
-【送る情報】
-・筐体の写真（機種名確認用）
-・データ画面の写真（ゲーム数・ボーナス回数・AT回数・確率など）
-・グラフ画面の写真（出玉の波・当たりのタイミングなど）
-※写真は複数枚送るほど精度が上がります！
-
-【判別してほしいこと】
-1. 機種名と基本スペックを教えてください
-2. データから読み取れる設定推測（設定1〜6のどれが濃厚か）
-3. 以下のどの狙い方が有効か判断してください
-   - 朝一リセット狙い（天井短縮・モード優遇はあるか）
-   - ゾーン狙い（有効なゾーンはどこか）
-   - 天井狙い（現在のゲーム数から天井まで何G必要か）
-   - 設定狙い（高設定の可能性はあるか）
-4. 今すぐ打つべきか・様子見か・ヤメ推奨かを教えてください
-5. 打つ場合の具体的な狙いゲーム数とヤメ時を教えてください`;
-
-  const btn = document.createElement('div');
-  btn.style.cssText = 'padding:0 1rem 1rem;max-width:480px;margin:0 auto';
-  btn.innerHTML = \`
-    <div style="border-top:1px solid #334155;margin-bottom:1rem"></div>
-    <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:1rem">
-      <div style="font-size:13px;font-weight:600;color:#f1f5f9;margin-bottom:8px">💬 APIキーなしで使う</div>
-      <div style="background:#0f172a;border-radius:8px;padding:10px;margin-bottom:12px;font-size:11px;color:#94a3b8;line-height:1.7">
-        <div style="color:#f59e0b;font-weight:600;margin-bottom:6px">📸 送ると精度UP！</div>
-        ① 筐体の写真（機種名確認）<br>
-        ② データ画面（ゲーム数・回数・確率）<br>
-        ③ グラフ画面（出玉の波・当たりタイミング）<br>
-        <span style="color:#64748b">※複数枚送るほど判別精度が上がります</span>
-      </div>
-      <button onclick="navigator.clipboard.writeText(document.getElementById('claude-template').value).then(()=>alert('コピーしました！claude.aiに貼り付けてください'))" style="width:100%;padding:8px;border:1px solid #334155;border-radius:8px;background:#1e293b;color:#94a3b8;font-size:12px;cursor:pointer;margin-bottom:8px">
-        📋 質問テンプレートをコピー
-      </button>
-      <textarea id="claude-template" readonly style="position:absolute;left:-9999px">\${template}</textarea>
-      <a href="https://claude.ai" target="_blank" style="display:block;width:100%;padding:12px;border:none;border-radius:10px;font-size:14px;font-weight:600;background:linear-gradient(135deg,#7c3aed,#4f46e5);color:white;text-decoration:none;box-sizing:border-box;text-align:center">
-        💬 Claudeを開く →
-      </a>
-      <div style="font-size:11px;color:#64748b;margin-top:8px;text-align:center">テンプレをコピー → Claudeを開く → 写真と一緒に送信！</div>
-    </div>\`;
+  const btn = document.createElement("div");
+  btn.style.cssText = "padding:0 1rem 1rem;max-width:480px;margin:0 auto";
+  btn.innerHTML = "<div style=\"border-top:1px solid #334155;margin-bottom:1rem\"></div>"
+    + "<div style=\"background:#1e293b;border:1px solid #334155;border-radius:12px;padding:1rem\">"
+    + "<div style=\"font-size:13px;font-weight:600;color:#f1f5f9;margin-bottom:8px\">💬 APIキーなしで使う</div>"
+    + "<div style=\"background:#0f172a;border-radius:8px;padding:10px;margin-bottom:12px;font-size:11px;color:#94a3b8;line-height:1.7\">"
+    + "<div style=\"color:#f59e0b;font-weight:600;margin-bottom:6px\">📸 送ると精度UP！</div>"
+    + "① 筐体の写真（機種名確認）<br>"
+    + "② データ画面（ゲーム数・回数・確率）<br>"
+    + "③ グラフ画面（出玉の波・当たりタイミング）<br>"
+    + "<span style=\"color:#64748b\">※複数枚送るほど判別精度が上がります</span>"
+    + "</div>"
+    + "<button onclick=\"navigator.clipboard.writeText(document.getElementById('claude-tmpl').textContent).then(function(){alert('コピーしました！claude.aiに貼り付けてください')})\" style=\"width:100%;padding:8px;border:1px solid #334155;border-radius:8px;background:#1e293b;color:#94a3b8;font-size:12px;cursor:pointer;margin-bottom:8px\">📋 質問テンプレートをコピー</button>"
+    + "<span id=\"claude-tmpl\" style=\"display:none\"></span>"
+    + "<a href=\"https://claude.ai\" target=\"_blank\" style=\"display:block;width:100%;padding:12px;border:none;border-radius:10px;font-size:14px;font-weight:600;background:linear-gradient(135deg,#7c3aed,#4f46e5);color:white;text-decoration:none;box-sizing:border-box;text-align:center\">💬 Claudeを開く →</a>"
+    + "<div style=\"font-size:11px;color:#64748b;margin-top:8px;text-align:center\">テンプレをコピー → Claudeを開く → 写真と一緒に送信！</div>"
+    + "</div>";
   root.appendChild(btn);
+  const tmpl = document.getElementById("claude-tmpl");
+  if (tmpl) tmpl.textContent = template;
 }
