@@ -2,570 +2,31 @@
   "source": "hall-navi.com",
   "prefecture": "東京都",
   "pref_code": 1,
-  "fetched_at": "2026-06-24T09:16:10.140249+09:00",
-  "total_listed": 906,
-  "count": 290,
+  "fetched_at": "2026-06-25T17:40:03.504832+09:00",
+  "total_listed": 894,
+  "count": 286,
   "schedules": [
     {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "エスパス日拓秋葉原駅前店",
-      "hid": "101002100000011560",
-      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000011560",
-      "address": "東京都千代田区外神田1-15-6",
-      "station": "秋葉原駅",
-      "score": 16.4,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (4のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
+      "date": "2026-06-25",
+      "weekday": "木",
       "hall": "エクス・アリーナ東京",
       "hid": "131004200000002850",
       "hall_url": "https://hall-navi.com/hole_view?hid=131004200000002850",
       "address": "東京都墨田区東墨田2-8-5",
       "station": "八広駅",
-      "score": 16.0,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (4のつく日)"
-        },
-        {
-          "rank": "C",
-          "name": "パセリ取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "マルハン亀有店",
-      "hid": "125006100000004110",
-      "hall_url": "https://hall-navi.com/hole_view?hid=125006100000004110",
-      "address": "東京都葛飾区亀有4-1-15",
-      "station": "亀有駅",
-      "score": 15.0,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (4のつく日)"
-        },
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5+ (4のつく日)"
-        },
-        {
-          "rank": "A",
-          "name": "結城レン来店"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "みとや錦糸町北口店",
-      "hid": "130001300000003340",
-      "hall_url": "https://hall-navi.com/hole_view?hid=130001300000003340",
-      "address": "東京都墨田区錦糸3-3-4",
-      "station": "錦糸町駅",
-      "score": 13.4,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★5 (4のつく日)"
-        },
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5 (4のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(4のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "出玉王田無店",
-      "hid": "188000400000004250",
-      "hall_url": "https://hall-navi.com/hole_view?hid=188000400000004250",
-      "address": null,
-      "station": null,
-      "score": 13.3,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★5 (4のつく日)"
-        },
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5 (4のつく日)"
-        },
-        {
-          "rank": "B",
-          "name": "アナスロ予測(店舗オリジナル)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "BIGディッパー東中野店",
-      "hid": "164000300000005331",
-      "hall_url": "https://hall-navi.com/hole_view?hid=164000300000005331",
-      "address": "東京都中野区東中野5-3-3",
-      "station": "東中野駅",
-      "score": 12.8,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★5 (4のつく日)"
-        },
-        {
-          "rank": "C",
-          "name": "スロでも編集部来店"
-        },
-        {
-          "rank": "C",
-          "name": "リアルアイ予想"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "スーパーハリウッド品川",
-      "hid": "108007400000410200",
-      "hall_url": "https://hall-navi.com/hole_view?hid=108007400000410200",
-      "address": "東京都港区高輪4-10-20",
-      "station": "品川駅",
-      "score": 11.9,
-      "events": [
-        {
-          "rank": "A",
-          "name": "でちゃう！取材（金）"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "金時京急蒲田店",
-      "hid": "144005200000004640",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000004640",
-      "address": null,
-      "station": null,
-      "score": 11.5,
-      "events": [
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (4のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "マルハン大山店",
-      "hid": "173002300000003910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=173002300000003910",
-      "address": "東京都板橋区大山町39-1",
-      "station": "大山駅",
-      "score": 10.8,
-      "events": [
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (4のつく日)"
-        },
-        {
-          "rank": "C",
-          "name": "四星(超太陽神)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "マルハンメガシティ東大和店",
-      "hid": "207002200000213910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=207002200000213910",
-      "address": null,
-      "station": null,
-      "score": 10.6,
-      "events": [
-        {
-          "rank": "・",
-          "name": "四星(太陽神)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "パチンコヒロキ蒲田東口店",
-      "hid": "144005200000059130",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000059130",
-      "address": "東京都大田区蒲田5-9-13",
-      "station": "蒲田駅",
-      "score": 9.2,
-      "events": [
-        {
-          "rank": "C",
-          "name": "ヒロキ全力来店取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "みとや浅草千束",
-      "hid": "111003200000005930",
-      "hall_url": "https://hall-navi.com/hole_view?hid=111003200000005930",
-      "address": "東京都台東区浅草5-9-3",
-      "station": "浅草駅",
-      "score": 8.7,
-      "events": [
-        {
-          "rank": "C",
-          "name": "ナビ子AI予想【機種仕掛け】★1 (4のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(4のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "新橋UNO",
-      "hid": "105000400000032010",
-      "hall_url": "https://hall-navi.com/hole_view?hid=105000400000032010",
-      "address": "東京都港区新橋3-20-1",
-      "station": "新橋駅",
-      "score": 8.3,
-      "events": [
-        {
-          "rank": "C",
-          "name": "推連の華"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "ヒロキMAX蒲田店",
-      "hid": "144005100000074120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000074120",
-      "address": "東京都大田区西蒲田7-4-12",
-      "station": "蒲田駅",
-      "score": 8.1,
-      "events": [
-        {
-          "rank": "C",
-          "name": "スロ王来店取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "フェイス1100瑞穂",
-      "hid": "190120400000021710",
-      "hall_url": "https://hall-navi.com/hole_view?hid=190120400000021710",
-      "address": null,
-      "station": null,
-      "score": 7.7,
-      "events": [
-        {
-          "rank": "C",
-          "name": "乱王"
-        },
-        {
-          "rank": "・",
-          "name": "パチンコ乱王"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "グランパ中野",
-      "hid": "164000100000560120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=164000100000560120",
-      "address": "東京都中野区中野5-60-12",
-      "station": "中野駅",
-      "score": 7.4,
-      "events": [
-        {
-          "rank": "C",
-          "name": "クロロ調査隊チームS"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "プラザ西台",
-      "hid": "175008200000017930",
-      "hall_url": "https://hall-navi.com/hole_view?hid=175008200000017930",
-      "address": null,
-      "station": null,
-      "score": 6.5,
-      "events": [
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (4のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "三栄ホール",
-      "hid": "135000400000011250",
-      "hall_url": "https://hall-navi.com/hole_view?hid=135000400000011250",
-      "address": "東京都江東区森下1-12-5",
-      "station": "森下駅",
-      "score": 6.0,
-      "events": [
-        {
-          "rank": "B",
-          "name": "セブンラッシュリサーチ"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "大井ニュー東京東口店",
-      "hid": "140001100000051310",
-      "hall_url": "https://hall-navi.com/hole_view?hid=140001100000051310",
-      "address": null,
-      "station": null,
-      "score": 5.6,
-      "events": [
-        {
-          "rank": "・",
-          "name": "スロミナティ15日間調査"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "大山オーシャンスロット専門館",
-      "hid": "173001400000002150",
-      "hall_url": "https://hall-navi.com/hole_view?hid=173001400000002150",
-      "address": null,
-      "station": null,
-      "score": 5.1,
-      "events": [
-        {
-          "rank": "・",
-          "name": "サキドリ来店取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "クリエ府中西原店",
-      "hid": "183004600000001450",
-      "hall_url": "https://hall-navi.com/hole_view?hid=183004600000001450",
-      "address": null,
-      "station": null,
-      "score": 4.9,
-      "events": [
-        {
-          "rank": "・",
-          "name": "GOBOTEN来店取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "オーパスワン立石店",
-      "hid": "124001200000007290",
-      "hall_url": "https://hall-navi.com/hole_view?hid=124001200000007290",
-      "address": "東京都葛飾区立石7-2-9",
-      "station": "京成立石駅",
-      "score": 2.8,
-      "events": [
-        {
-          "rank": "・",
-          "name": "ローテーション リンネ取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-24",
-      "weekday": "水",
-      "hall": "みとや鶯谷M-1",
-      "hid": "110000300000011200",
-      "hall_url": "https://hall-navi.com/hole_view?hid=110000300000011200",
-      "address": "東京都台東区根岸1-1-20",
-      "station": "鶯谷駅",
-      "score": 0.0,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ(4のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
-      "hall": "マルハン新宿東宝ビル店",
-      "hid": "160002100000011910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=160002100000011910",
-      "address": "東京都新宿区歌舞伎町1-19-1",
-      "station": "西武新宿駅",
-      "score": 18.2,
-      "events": [
-        {
-          "rank": "S",
-          "name": "スロパチ東京あかまる来店取材"
-        },
-        {
-          "rank": "A",
-          "name": "黒帝(コクテイ)来店取材(S)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
-      "hall": "ハイパージアス立川",
-      "hid": "190002300000003620",
-      "hall_url": "https://hall-navi.com/hole_view?hid=190002300000003620",
-      "address": "東京都立川市柴崎町3-6-2",
-      "station": "立川駅",
-      "score": 16.0,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5 (5のつく日)"
-        },
-        {
-          "rank": "A",
-          "name": "ナマ調来店撮影"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(5のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
-      "hall": "PIA八王子",
-      "hid": "192008300000000510",
-      "hall_url": "https://hall-navi.com/hole_view?hid=192008300000000510",
-      "address": "東京都八王子市旭町5-1",
-      "station": "八王子駅",
-      "score": 15.6,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5 (5のつく日)"
-        },
-        {
-          "rank": "A",
-          "name": "スロット天下無双"
-        },
-        {
-          "rank": "C",
-          "name": "ナビ子AI独自予想 N +4.0"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(5のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
-      "hall": "エスパス日拓上野本館",
-      "hid": "110000500000041040",
-      "hall_url": "https://hall-navi.com/hole_view?hid=110000500000041040",
-      "address": "東京都台東区上野4-10-4",
-      "station": "上野駅",
-      "score": 14.5,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5 (5のつく日)"
-        },
-        {
-          "rank": "C",
-          "name": "SS・ヒカルくん取材"
-        },
-        {
-          "rank": "・",
-          "name": "SS・ビッグボム取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
-      "hall": "ジャラン浅草店",
-      "hid": "111004100000002672",
-      "hall_url": "https://hall-navi.com/hole_view?hid=111004100000002672",
-      "address": "東京都台東区浅草2丁目6番7号　東京楽天地浅草ビル地下1階、地上1階",
-      "station": "稲荷町駅",
-      "score": 14.2,
+      "score": 16.3,
       "events": [
         {
           "rank": "S",
           "name": "ナビ子AI予想【差枚プラス】★3 (5のつく日)"
         },
         {
-          "rank": "B",
-          "name": "青島来店"
+          "rank": "S",
+          "name": "ナビ子AI予想【機種仕掛け】★5+ (5のつく日)"
         },
         {
-          "rank": "C",
-          "name": "桜兎ぬしこ来店"
+          "rank": "・",
+          "name": "旧イベ(5のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -573,12 +34,29 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "ゴードン祖師谷店",
-      "hid": "157007200000031200",
-      "hall_url": "https://hall-navi.com/hole_view?hid=157007200000031200",
-      "address": "東京都世田谷区祖師谷3-1-20",
-      "station": "祖師谷大蔵駅",
-      "score": 14.0,
+      "hall": "マルハンメガシティ2000蒲田7",
+      "hid": "144005200000511123",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000511123",
+      "address": "東京都大田区蒲田5-11-12",
+      "station": "蒲田駅",
+      "score": 15.6,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (5のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "木",
+      "hall": "アミューズ浅草店",
+      "hid": "111003200000014311",
+      "hall_url": "https://hall-navi.com/hole_view?hid=111003200000014311",
+      "address": "東京都台東区浅草1-43-1",
+      "station": "浅草駅",
+      "score": 14.7,
       "events": [
         {
           "rank": "S",
@@ -587,10 +65,31 @@
         {
           "rank": "S",
           "name": "ナビ子AI予想【機種仕掛け】★5+ (5のつく日)"
-        },
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "木",
+      "hall": "新！ガーデン板橋店",
+      "hid": "174004100000001570",
+      "hall_url": "https://hall-navi.com/hole_view?hid=174004100000001570",
+      "address": "東京都板橋区舟渡1-5-7",
+      "station": "浮間舟渡駅",
+      "score": 14.3,
+      "events": [
         {
           "rank": "S",
-          "name": "テッペンDASHリサーチ"
+          "name": "旧イベ過去状況評価 +7.0"
+        },
+        {
+          "rank": "A",
+          "name": "でちゃう編集部来店(こしあん)"
+        },
+        {
+          "rank": "・",
+          "name": "ワタシの推し取材"
         },
         {
           "rank": "・",
@@ -602,20 +101,41 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "スパークルⅤ アニスロBASE",
-      "hid": "183005500000172120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=183005500000172120",
-      "address": null,
-      "station": null,
-      "score": 13.1,
+      "hall": "マルハンメガシティ2000 蒲田1",
+      "hid": "144005200000005920",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000005920",
+      "address": "東京都大田区蒲田5-9-2",
+      "station": "蒲田駅",
+      "score": 14.0,
       "events": [
         {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★5 (5のつく日)"
+          "rank": "A",
+          "name": "ナビ子AI予想【差枚プラス】★1 (5のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "木",
+      "hall": "プレゴ立川店(PREGO)",
+      "hid": "190002300000003750",
+      "hall_url": "https://hall-navi.com/hole_view?hid=190002300000003750",
+      "address": "東京都立川市柴崎町3-7-5",
+      "station": "立川南駅",
+      "score": 13.7,
+      "events": [
+        {
+          "rank": "A",
+          "name": "ナビ子AI予想【機種仕掛け】★4 (5のつく日)"
         },
         {
-          "rank": "C",
-          "name": "ぱちタウンタレント来店(あさくら)"
+          "rank": "B",
+          "name": "ニコナナ来店"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(5のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -661,24 +181,16 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "金時蒲田東口店",
-      "hid": "144005200000051670",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000051670",
-      "address": "東京都大田区蒲田5-16-7",
-      "station": "蒲田駅",
-      "score": 11.9,
+      "hall": "パーラースーパーセブン新高円寺店",
+      "hid": "166001100000021170",
+      "hall_url": "https://hall-navi.com/hole_view?hid=166001100000021170",
+      "address": "東京都杉並区梅里2-1-17",
+      "station": "新高円寺駅",
+      "score": 12.2,
       "events": [
         {
           "rank": "A",
           "name": "ナビ子AI予想【差枚プラス】★1 (5のつく日)"
-        },
-        {
-          "rank": "B",
-          "name": "ナビ子AI予想【機種仕掛け】★2 (5のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "トリプルスラッシュ"
         },
         {
           "rank": "・",
@@ -690,32 +202,20 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "ゴードン永山店",
-      "hid": "206002500000001320",
-      "hall_url": "https://hall-navi.com/hole_view?hid=206002500000001320",
-      "address": "東京都多摩市永山1-3-2",
-      "station": "永山駅",
+      "hall": "エスパス日拓高田馬場本店",
+      "hid": "169007500000214110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=169007500000214110",
+      "address": null,
+      "station": null,
       "score": 11.9,
       "events": [
         {
           "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (5のつく日)"
+          "name": "ととのっち来店"
         },
         {
-          "rank": "B",
-          "name": "PFちゅんげー調査隊来店"
-        },
-        {
-          "rank": "B",
-          "name": "ナビ子AI予想【機種仕掛け】★2 (5のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "とある来店取材【薔薇領域】"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(5のつく日)"
+          "rank": "C",
+          "name": "発汗ととのっち取材"
         }
       ],
       "prefecture": "東京都"
@@ -723,16 +223,20 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "ジアス南大沢",
-      "hid": "192036400000002300",
-      "hall_url": "https://hall-navi.com/hole_view?hid=192036400000002300",
+      "hall": "大山オーシャンスロット専門館",
+      "hid": "173001400000002150",
+      "hall_url": "https://hall-navi.com/hole_view?hid=173001400000002150",
       "address": null,
       "station": null,
-      "score": 11.4,
+      "score": 11.5,
       "events": [
         {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (5のつく日)"
+        },
+        {
           "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (5のつく日)"
+          "name": "スロトレ調査団　ハーフテン"
         }
       ],
       "prefecture": "東京都"
@@ -740,16 +244,37 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "国際センター中村橋店",
-      "hid": "176002300000031150",
-      "hall_url": "https://hall-navi.com/hole_view?hid=176002300000031150",
-      "address": null,
-      "station": null,
-      "score": 10.8,
+      "hall": "楽園立川店",
+      "hid": "190002300000003132",
+      "hall_url": "https://hall-navi.com/hole_view?hid=190002300000003132",
+      "address": "東京都立川市柴崎町3-1-3 立川南口駅前ビル",
+      "station": "立川駅",
+      "score": 11.2,
       "events": [
         {
-          "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (5のつく日)"
+          "rank": "C",
+          "name": "頂チャンネル"
+        },
+        {
+          "rank": "C",
+          "name": "パセリ取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "木",
+      "hall": "マルハン鹿浜店",
+      "hid": "123087400000115170",
+      "hall_url": "https://hall-navi.com/hole_view?hid=123087400000115170",
+      "address": "東京都足立区堀之内1-15-17",
+      "station": "江北駅",
+      "score": 10.7,
+      "events": [
+        {
+          "rank": "C",
+          "name": "パセリ取材"
         }
       ],
       "prefecture": "東京都"
@@ -799,54 +324,28 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "PIA上野",
-      "hid": "110000500000061390",
-      "hall_url": "https://hall-navi.com/hole_view?hid=110000500000061390",
-      "address": "東京都台東区上野6-13-9",
-      "station": "上野駅",
+      "hall": "金時京急蒲田店",
+      "hid": "144005200000004640",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000004640",
+      "address": null,
+      "station": null,
       "score": 10.1,
       "events": [
         {
-          "rank": "C",
-          "name": "道化師取材"
+          "rank": "B",
+          "name": "ナビ子AI予想【機種仕掛け】★2 (5のつく日)"
+        },
+        {
+          "rank": "・",
+          "name": "MONSTER"
+        },
+        {
+          "rank": "・",
+          "name": "モンスター取材調査員来店"
         },
         {
           "rank": "・",
           "name": "旧イベ(5のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
-      "hall": "つつじヶ丘ワールド",
-      "hid": "182000600000333110",
-      "hall_url": "https://hall-navi.com/hole_view?hid=182000600000333110",
-      "address": null,
-      "station": null,
-      "score": 9.9,
-      "events": [
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (5のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
-      "hall": "パチンコヒロキ蒲田東口店",
-      "hid": "144005200000059130",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000059130",
-      "address": "東京都大田区蒲田5-9-13",
-      "station": "蒲田駅",
-      "score": 9.2,
-      "events": [
-        {
-          "rank": "C",
-          "name": "ヒロキ全力来店取材"
         }
       ],
       "prefecture": "東京都"
@@ -859,7 +358,7 @@
       "hall_url": "https://hall-navi.com/hole_view?hid=175009400000212730",
       "address": "東京都板橋区成増2丁目12番7号 EH第3ビル",
       "station": "成増駅",
-      "score": 8.8,
+      "score": 9.3,
       "events": [
         {
           "rank": "C",
@@ -871,20 +370,37 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "ビッグアップル.秋葉原店",
-      "hid": "101002100000011610",
-      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000011610",
-      "address": "東京都千代田区外神田1-16-1",
-      "station": "秋葉原駅",
-      "score": 8.1,
+      "hall": "パチンコヒロキ蒲田東口店",
+      "hid": "144005200000059130",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000059130",
+      "address": "東京都大田区蒲田5-9-13",
+      "station": "蒲田駅",
+      "score": 8.7,
       "events": [
         {
-          "rank": "・",
-          "name": "銀弾の陣"
+          "rank": "C",
+          "name": "ヒロキ全力来店取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "木",
+      "hall": "エスパス日拓赤坂見附駅前新館",
+      "hid": "107005200000003960",
+      "hall_url": "https://hall-navi.com/hole_view?hid=107005200000003960",
+      "address": "東京都港区赤坂3-9-6",
+      "station": "赤坂見附駅",
+      "score": 8.0,
+      "events": [
+        {
+          "rank": "C",
+          "name": "SS・ヒカルくん取材"
         },
         {
           "rank": "・",
-          "name": "並攻の陣"
+          "name": "SS・蓮くん取材"
         }
       ],
       "prefecture": "東京都"
@@ -934,20 +450,20 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "エスパス日拓新大久保駅前店",
-      "hid": "169007300000111200",
-      "hall_url": "https://hall-navi.com/hole_view?hid=169007300000111200",
-      "address": "東京都新宿区百人町1-11-20",
-      "station": "新大久保駅",
+      "hall": "ピーアーク北千住SSS",
+      "hid": "120002600000000351",
+      "hall_url": "https://hall-navi.com/hole_view?hid=120002600000000351",
+      "address": "東京都足立区千住旭町3-5",
+      "station": "北千住駅",
       "score": 7.4,
       "events": [
         {
           "rank": "C",
-          "name": "スマート取材[スロッター篇]"
+          "name": "全力取材"
         },
         {
-          "rank": "C",
-          "name": "超CHANGE取材"
+          "rank": "・",
+          "name": "七珍万宝7Days"
         }
       ],
       "prefecture": "東京都"
@@ -955,16 +471,20 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "ジュラク王子店",
-      "hid": "114000200000001950",
-      "hall_url": "https://hall-navi.com/hole_view?hid=114000200000001950",
-      "address": "東京都北区王子1-9-5",
-      "station": "王子駅",
-      "score": 7.2,
+      "hall": "フェイス1100瑞穂",
+      "hid": "190120400000021710",
+      "hall_url": "https://hall-navi.com/hole_view?hid=190120400000021710",
+      "address": null,
+      "station": null,
+      "score": 7.3,
       "events": [
         {
+          "rank": "C",
+          "name": "ジャグ取材"
+        },
+        {
           "rank": "・",
-          "name": "光撃取材"
+          "name": "エヴァ取材(百花繚乱)"
         }
       ],
       "prefecture": "東京都"
@@ -993,33 +513,12 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "ピーアーク三田",
-      "hid": "108001400000052250",
-      "hall_url": "https://hall-navi.com/hole_view?hid=108001400000052250",
-      "address": "東京都港区芝5-22-5",
-      "station": "三田駅",
-      "score": 6.8,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ過去状況評価 +0.5"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(5のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
       "hall": "エスパス日拓西武新宿駅前店",
       "hid": "160002100000012540",
       "hall_url": "https://hall-navi.com/hole_view?hid=160002100000012540",
       "address": null,
       "station": null,
-      "score": 6.5,
+      "score": 7.0,
       "events": [
         {
           "rank": "C",
@@ -1031,20 +530,50 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "DAS小山",
-      "hid": "142006200000004330",
-      "hall_url": "https://hall-navi.com/hole_view?hid=142006200000004330",
-      "address": null,
-      "station": null,
-      "score": 6.2,
+      "hall": "楽園渋谷駅前店",
+      "hid": "150004300000001311",
+      "hall_url": "https://hall-navi.com/hole_view?hid=150004300000001311",
+      "address": "東京都渋谷区道玄坂1-3-1",
+      "station": "渋谷駅",
+      "score": 6.7,
       "events": [
         {
           "rank": "C",
-          "name": "総力取材(エースプロ)"
-        },
+          "name": "螺旋丸来店取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "木",
+      "hall": "DELFEEL NEW TOKYO",
+      "hid": "140001400000011520",
+      "hall_url": "https://hall-navi.com/hole_view?hid=140001400000011520",
+      "address": null,
+      "station": null,
+      "score": 6.4,
+      "events": [
+        {
+          "rank": "C",
+          "name": "スロミナティ13日間調査"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "木",
+      "hall": "ビックディッパー新橋２号店",
+      "hid": "105000400000028121",
+      "hall_url": "https://hall-navi.com/hole_view?hid=105000400000028121",
+      "address": "東京都港区新橋2-8-12",
+      "station": "新橋駅",
+      "score": 6.1,
+      "events": [
         {
           "rank": "・",
-          "name": "旧イベ過去状況評価 +1.0"
+          "name": "旧イベ過去状況評価 +1.5"
         },
         {
           "rank": "・",
@@ -1090,16 +619,20 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "神田ジャンボ",
-      "hid": "101004400000001790",
-      "hall_url": "https://hall-navi.com/hole_view?hid=101004400000001790",
-      "address": "東京都千代田区鍛冶町1-7-9",
-      "station": "神田駅",
+      "hall": "ミカド五反野店",
+      "hid": "120001500000043870",
+      "hall_url": "https://hall-navi.com/hole_view?hid=120001500000043870",
+      "address": "東京都足立区足立4-38-7",
+      "station": "五反野駅",
       "score": 4.7,
       "events": [
         {
           "rank": "・",
-          "name": "ドラゴン調査隊S出撃"
+          "name": "ピエロ取材"
+        },
+        {
+          "rank": "・",
+          "name": "回胴モガミ来店取材"
         }
       ],
       "prefecture": "東京都"
@@ -1128,16 +661,16 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "プレゴ永山店(PREGO)",
-      "hid": "206002500000001340",
-      "hall_url": "https://hall-navi.com/hole_view?hid=206002500000001340",
+      "hall": "パラッツォ秋津店",
+      "hid": "204000400000529240",
+      "hall_url": "https://hall-navi.com/hole_view?hid=204000400000529240",
       "address": null,
       "station": null,
-      "score": 3.3,
+      "score": 3.1,
       "events": [
         {
           "rank": "・",
-          "name": "旧イベ(5のつく日)"
+          "name": "5のつく日ポスター掲載"
         }
       ],
       "prefecture": "東京都"
@@ -1145,33 +678,29 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "ウエスタン西葛西店",
-      "hid": "134008800000005610",
-      "hall_url": "https://hall-navi.com/hole_view?hid=134008800000005610",
-      "address": "東京都江戸川区西葛西5-6-1",
-      "station": "西葛西駅",
-      "score": 3.0,
-      "events": [
-        {
-          "rank": "C",
-          "name": "LetsGO輝き取材"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(5のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
-      "hall": "AIS小川店",
-      "hid": "187003500000433241",
-      "hall_url": "https://hall-navi.com/hole_view?hid=187003500000433241",
-      "address": null,
-      "station": null,
+      "hall": "ニューグランド土支田店",
+      "hid": "179007600000012970",
+      "hall_url": "https://hall-navi.com/hole_view?hid=179007600000012970",
+      "address": "東京都練馬区土支田1-29-7",
+      "station": "光が丘駅",
       "score": 2.0,
+      "events": [
+        {
+          "rank": "・",
+          "name": "ジャグラーATTENTION来店取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "木",
+      "hall": "AIS昭島店",
+      "hid": "196001500000002580",
+      "hall_url": "https://hall-navi.com/hole_view?hid=196001500000002580",
+      "address": null,
+      "station": null,
+      "score": 1.5,
       "events": [
         {
           "rank": "・",
@@ -1183,28 +712,11 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "008クロノス",
-      "hid": "133005700000122180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=133005700000122180",
-      "address": "東京都江戸川区西小岩1-22-18",
-      "station": "小岩駅",
-      "score": 0.5,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ(5のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-25",
-      "weekday": "木",
-      "hall": "プリマクラブエックス",
-      "hid": "136007200000054570",
-      "hall_url": "https://hall-navi.com/hole_view?hid=136007200000054570",
-      "address": "東京都江東区大島5-45-7",
-      "station": "大島駅",
+      "hall": "プリマクラブ",
+      "hid": "135001600000031090",
+      "hall_url": "https://hall-navi.com/hole_view?hid=135001600000031090",
+      "address": "東京都江東区東陽3-10-9",
+      "station": "木場駅",
       "score": 0.0,
       "events": [
         {
@@ -1217,11 +729,11 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "パーラーJOY方南町店",
-      "hid": "168006200000022110",
-      "hall_url": "https://hall-navi.com/hole_view?hid=168006200000022110",
-      "address": null,
-      "station": null,
+      "hall": "パチスロゴーゴーセブン",
+      "hid": "164000300000004450",
+      "hall_url": "https://hall-navi.com/hole_view?hid=164000300000004450",
+      "address": "東京都中野区東中野4-4-5",
+      "station": "東中野駅",
       "score": 0.0,
       "events": [
         {
@@ -1234,11 +746,11 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "ミリオン上石神井5号店",
-      "hid": "177004400000011440",
-      "hall_url": "https://hall-navi.com/hole_view?hid=177004400000011440",
-      "address": "東京都練馬区上石神井1-14-4",
-      "station": "上石神井駅",
+      "hall": "プレゴEX池袋南口店(PREGO)",
+      "hid": "171002200000012120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=171002200000012120",
+      "address": "東京都豊島区南池袋1-21-2",
+      "station": "池袋駅",
       "score": 0.0,
       "events": [
         {
@@ -1251,11 +763,28 @@
     {
       "date": "2026-06-25",
       "weekday": "木",
-      "hall": "チャレンジャー多摩大塚店",
-      "hid": "192035200000005520",
-      "hall_url": "https://hall-navi.com/hole_view?hid=192035200000005520",
-      "address": "東京都八王子市大塚552",
-      "station": "帝京大学駅",
+      "hall": "ビーム高倉",
+      "hid": "192003300000051110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=192003300000051110",
+      "address": "東京都八王子市高倉町51-11",
+      "station": "北八王子駅",
+      "score": 0.0,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(5のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "木",
+      "hall": "チャレンジャー福生",
+      "hid": "197001300000023160",
+      "hall_url": "https://hall-navi.com/hole_view?hid=197001300000023160",
+      "address": "東京都福生市武蔵野台2-3-16",
+      "station": "福生駅",
       "score": 0.0,
       "events": [
         {
@@ -1268,20 +797,24 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "マルハン新宿東宝ビル店",
-      "hid": "160002100000011910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=160002100000011910",
-      "address": "東京都新宿区歌舞伎町1-19-1",
-      "station": "西武新宿駅",
-      "score": 17.7,
+      "hall": "エスパス日拓秋葉原駅前店",
+      "hid": "101002100000011560",
+      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000011560",
+      "address": "東京都千代田区外神田1-15-6",
+      "station": "秋葉原駅",
+      "score": 16.5,
       "events": [
         {
           "rank": "S",
           "name": "ナビ子AI予想【差枚プラス】★5 (6のつく日)"
         },
         {
-          "rank": "C",
-          "name": "サンスポホール取材"
+          "rank": "A",
+          "name": "覇王のリアル"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(6のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -1402,20 +935,20 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "楽園町田店",
-      "hid": "194001300000616110",
-      "hall_url": "https://hall-navi.com/hole_view?hid=194001300000616110",
+      "hall": "SAP北野",
+      "hid": "192091100000033320",
+      "hall_url": "https://hall-navi.com/hole_view?hid=192091100000033320",
       "address": null,
       "station": null,
-      "score": 12.8,
+      "score": 13.1,
       "events": [
         {
           "rank": "S",
-          "name": "アルティメットCG調査隊"
+          "name": "プロジェクト コードF"
         },
         {
-          "rank": "B",
-          "name": "ゆきめし来店"
+          "rank": "A",
+          "name": "SAP取材"
         }
       ],
       "prefecture": "東京都"
@@ -1452,24 +985,20 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "ヒロキ蒲田西口店",
-      "hid": "144005100000007370",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000007370",
-      "address": "東京都大田区西蒲田7-3-7",
-      "station": "蒲田駅",
+      "hall": "やすだ西池袋6号店",
+      "hid": "171002100000013630",
+      "hall_url": "https://hall-navi.com/hole_view?hid=171002100000013630",
+      "address": "東京都豊島区西池袋1-36-3",
+      "station": "池袋駅",
       "score": 11.9,
       "events": [
         {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★5 (6のつく日)"
+        },
+        {
           "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (6のつく日)"
-        },
-        {
-          "rank": "B",
-          "name": "ナビ子AI予想【機種仕掛け】★2 (6のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "テンペスト来店取材‐暴食之王‐"
+          "name": "ナビ子AI予想【機種仕掛け】★3 (6のつく日)"
         },
         {
           "rank": "・",
@@ -1506,16 +1035,16 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "グランパ中野",
-      "hid": "164000100000560120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=164000100000560120",
-      "address": "東京都中野区中野5-60-12",
-      "station": "中野駅",
-      "score": 11.1,
+      "hall": "メッセ荻窪本店",
+      "hid": "167004300011616110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=167004300011616110",
+      "address": "東京都杉並区上荻1-16-16 ユアビル1 地下1F",
+      "station": "荻窪駅",
+      "score": 10.9,
       "events": [
         {
-          "rank": "A",
-          "name": "保留アオ来店"
+          "rank": "S",
+          "name": "天草超絶ホール応援団来店"
         }
       ],
       "prefecture": "東京都"
@@ -1578,24 +1107,16 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "フェイス1100瑞穂",
-      "hid": "190120400000021710",
-      "hall_url": "https://hall-navi.com/hole_view?hid=190120400000021710",
-      "address": null,
-      "station": null,
-      "score": 9.2,
+      "hall": "エクス・アリーナ東京",
+      "hid": "131004200000002850",
+      "hall_url": "https://hall-navi.com/hole_view?hid=131004200000002850",
+      "address": "東京都墨田区東墨田2-8-5",
+      "station": "八広駅",
+      "score": 9.4,
       "events": [
         {
-          "rank": "B",
-          "name": "たなちゅう来店"
-        },
-        {
-          "rank": "・",
-          "name": "たなちゅうのパチンコ婚活"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(6のつく日)"
+          "rank": "C",
+          "name": "スロトレ調査団 光告"
         }
       ],
       "prefecture": "東京都"
@@ -1603,16 +1124,28 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "マルハン小岩スロット館",
-      "hid": "133005700000012390",
-      "hall_url": "https://hall-navi.com/hole_view?hid=133005700000012390",
-      "address": "東京都江戸川区西小岩1-23-9",
-      "station": "小岩駅",
-      "score": 8.9,
+      "hall": "将軍葛西店",
+      "hid": "134008300000033560",
+      "hall_url": "https://hall-navi.com/hole_view?hid=134008300000033560",
+      "address": "東京都江戸川区中葛西3-35-6",
+      "station": "葛西駅",
+      "score": 8.7,
       "events": [
         {
           "rank": "C",
-          "name": "スロパチ東京あかくろまる来店取材"
+          "name": "連 BOOST!!来店取材"
+        },
+        {
+          "rank": "C",
+          "name": "ナビ子AI予想【機種仕掛け】★1 (6のつく日)"
+        },
+        {
+          "rank": "・",
+          "name": "ガンガンLIVE"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(6のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -1641,28 +1174,16 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "ピーアーク北綾瀬駅前",
-      "hid": "120000600000022180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120000600000022180",
-      "address": "東京都足立区谷中2-22-18",
-      "station": "北綾瀬駅",
-      "score": 7.5,
+      "hall": "ビックディッパー大井町店",
+      "hid": "140001100000051541",
+      "hall_url": "https://hall-navi.com/hole_view?hid=140001100000051541",
+      "address": "東京都品川区東大井5-15-4",
+      "station": "大井町駅",
+      "score": 8.2,
       "events": [
         {
           "rank": "C",
-          "name": "全力取材"
-        },
-        {
-          "rank": "・",
-          "name": "週刊りみっとくん"
-        },
-        {
-          "rank": "・",
-          "name": "Makoto案内人マルっとパチンコver."
-        },
-        {
-          "rank": "・",
-          "name": "真実のデータ1円パチンコ＆５円スロット"
+          "name": "スロでも編集部来店"
         }
       ],
       "prefecture": "東京都"
@@ -1670,16 +1191,16 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "マルハン大山店",
-      "hid": "173002300000003910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=173002300000003910",
-      "address": "東京都板橋区大山町39-1",
-      "station": "大山駅",
-      "score": 6.7,
+      "hall": "やすだひばりヶ丘店",
+      "hid": "202000500000003980",
+      "hall_url": "https://hall-navi.com/hole_view?hid=202000500000003980",
+      "address": "東京都西東京市住吉町3-9-8",
+      "station": "ひばりが丘駅",
+      "score": 7.0,
       "events": [
         {
-          "rank": "C",
-          "name": "四星(超太陽神)"
+          "rank": "・",
+          "name": "東京喰種RESEARCH"
         }
       ],
       "prefecture": "東京都"
@@ -1687,20 +1208,37 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "出玉王田無店",
-      "hid": "188000400000004250",
-      "hall_url": "https://hall-navi.com/hole_view?hid=188000400000004250",
+      "hall": "DELFEEL NEW TOKYO",
+      "hid": "140001400000011520",
+      "hall_url": "https://hall-navi.com/hole_view?hid=140001400000011520",
       "address": null,
       "station": null,
       "score": 6.4,
       "events": [
         {
+          "rank": "C",
+          "name": "スロミナティ13日間調査"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-26",
+      "weekday": "金",
+      "hall": "オーパス・ワン恵比寿店",
+      "hid": "150002100000001220",
+      "hall_url": "https://hall-navi.com/hole_view?hid=150002100000001220",
+      "address": "東京都渋谷区恵比寿西1-2-2",
+      "station": "恵比寿駅",
+      "score": 6.1,
+      "events": [
+        {
           "rank": "・",
-          "name": "旧イベ過去状況評価 +0.5"
+          "name": "SS・摩天楼取材"
         },
         {
           "rank": "・",
-          "name": "旧イベ(6のつく日)"
+          "name": "SS・蓮くん取材"
         }
       ],
       "prefecture": "東京都"
@@ -1708,16 +1246,16 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "田無モナコ",
-      "hid": "188001100000002110",
-      "hall_url": "https://hall-navi.com/hole_view?hid=188001100000002110",
-      "address": null,
-      "station": null,
-      "score": 6.0,
+      "hall": "やすだ清水町店",
+      "hid": "174005300000003270",
+      "hall_url": "https://hall-navi.com/hole_view?hid=174005300000003270",
+      "address": "東京都板橋区清水町32-7",
+      "station": "板橋本町駅",
+      "score": 5.8,
       "events": [
         {
-          "rank": "B",
-          "name": "スロトリ密着リサーチ来店取材"
+          "rank": "C",
+          "name": "やすだオリジナル ジャグラー取材"
         }
       ],
       "prefecture": "東京都"
@@ -1725,16 +1263,16 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "ピーアーク北千住店",
-      "hid": "120003400000039210",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120003400000039210",
-      "address": "東京都足立区千住3-92　千住ミルディスI番館　1階",
-      "station": "北千住駅",
+      "hall": "キコーナ平井店",
+      "hid": "132003500000007790",
+      "hall_url": "https://hall-navi.com/hole_view?hid=132003500000007790",
+      "address": "東京都江戸川区平井7-7-9",
+      "station": "平井駅",
       "score": 5.4,
       "events": [
         {
           "rank": "・",
-          "name": "週刊りみっとくん"
+          "name": "あつろく来店"
         }
       ],
       "prefecture": "東京都"
@@ -1742,50 +1280,37 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "デルパラ9東浅川店",
-      "hid": "193083400000005030",
-      "hall_url": "https://hall-navi.com/hole_view?hid=193083400000005030",
-      "address": "東京都八王子市東浅川町503番地デルパラビル",
-      "station": "高尾駅",
-      "score": 5.0,
-      "events": [
-        {
-          "rank": "・",
-          "name": "IMPERIAL BLUE"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-26",
-      "weekday": "金",
-      "hall": "ミカド五反野店",
-      "hid": "120001500000043870",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120001500000043870",
-      "address": "東京都足立区足立4-38-7",
-      "station": "五反野駅",
-      "score": 4.8,
-      "events": [
-        {
-          "rank": "・",
-          "name": "回胴モガミ来店取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-26",
-      "weekday": "金",
-      "hall": "百億",
-      "hid": "186000300000021460",
-      "hall_url": "https://hall-navi.com/hole_view?hid=186000300000021460",
+      "hall": "スパークル府中",
+      "hid": "183002300000001500",
+      "hall_url": "https://hall-navi.com/hole_view?hid=183002300000001500",
       "address": null,
       "station": null,
-      "score": 4.0,
+      "score": 4.9,
       "events": [
         {
           "rank": "・",
-          "name": "金曜は夜ふかし"
+          "name": "超トロフィー狩り"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-26",
+      "weekday": "金",
+      "hall": "ミカド田無店393",
+      "hid": "188001200000004410",
+      "hall_url": "https://hall-navi.com/hole_view?hid=188001200000004410",
+      "address": "東京都西東京市南町4-4-1",
+      "station": "田無駅",
+      "score": 4.1,
+      "events": [
+        {
+          "rank": "・",
+          "name": "東京喰種レポート"
+        },
+        {
+          "rank": "・",
+          "name": "今週のおすすめ機種(リアルモガミ)"
         }
       ],
       "prefecture": "東京都"
@@ -1810,20 +1335,16 @@
     {
       "date": "2026-06-26",
       "weekday": "金",
-      "hall": "AIS昭島店",
-      "hid": "196001500000002580",
-      "hall_url": "https://hall-navi.com/hole_view?hid=196001500000002580",
-      "address": null,
-      "station": null,
-      "score": 2.5,
+      "hall": "オーパスワン立石店",
+      "hid": "124001200000007290",
+      "hall_url": "https://hall-navi.com/hole_view?hid=124001200000007290",
+      "address": "東京都葛飾区立石7-2-9",
+      "station": "京成立石駅",
+      "score": 2.8,
       "events": [
         {
-          "rank": "C",
-          "name": "ナインスクープ来店取材"
-        },
-        {
           "rank": "・",
-          "name": "旧イベ(6のつく日)"
+          "name": "ローテーション リンネ取材"
         }
       ],
       "prefecture": "東京都"
@@ -1878,7 +1399,7 @@
         },
         {
           "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5+ (7のつく日)"
+          "name": "ナビ子AI予想【機種仕掛け】★5+ (毎週 土曜日)"
         },
         {
           "rank": "・",
@@ -1920,7 +1441,7 @@
       "events": [
         {
           "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5"
+          "name": "ナビ子AI予想【機種仕掛け】★5 (毎週 土曜日)"
         },
         {
           "rank": "A",
@@ -1961,12 +1482,70 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "マルハン亀有店",
-      "hid": "125006100000004110",
-      "hall_url": "https://hall-navi.com/hole_view?hid=125006100000004110",
-      "address": "東京都葛飾区亀有4-1-15",
-      "station": "亀有駅",
-      "score": 14.8,
+      "hall": "ピーアーク北千住SSS",
+      "hid": "120002600000000351",
+      "hall_url": "https://hall-navi.com/hole_view?hid=120002600000000351",
+      "address": "東京都足立区千住旭町3-5",
+      "station": "北千住駅",
+      "score": 14.9,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★5 (毎週 土曜日)"
+        },
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【機種仕掛け】★5+ (毎週 土曜日)"
+        },
+        {
+          "rank": "A",
+          "name": "エラスロ"
+        },
+        {
+          "rank": "B",
+          "name": "超東京インパクト来店取材12"
+        },
+        {
+          "rank": "C",
+          "name": "全力取材"
+        },
+        {
+          "rank": "・",
+          "name": "Makoto案内人のピックアップホール"
+        },
+        {
+          "rank": "・",
+          "name": "七珍万宝7Days"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "Dステーション新小岩",
+      "hid": "124002400000014140",
+      "hall_url": "https://hall-navi.com/hole_view?hid=124002400000014140",
+      "address": "東京都葛飾区新小岩1-41-4",
+      "station": "新小岩駅",
+      "score": 14.7,
+      "events": [
+        {
+          "rank": "S",
+          "name": "スロパチステーション来店取材(紫)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "マルハン日野店",
+      "hid": "191000100000052390",
+      "hall_url": "https://hall-navi.com/hole_view?hid=191000100000052390",
+      "address": null,
+      "station": null,
+      "score": 14.6,
       "events": [
         {
           "rank": "S",
@@ -1977,29 +1556,8 @@
           "name": "ナビ子AI予想【機種仕掛け】★5+ (7のつく日)"
         },
         {
-          "rank": "・",
-          "name": "旧イベ(7のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "マルハン鹿浜店",
-      "hid": "123087400000115170",
-      "hall_url": "https://hall-navi.com/hole_view?hid=123087400000115170",
-      "address": "東京都足立区堀之内1-15-17",
-      "station": "江北駅",
-      "score": 14.6,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (7のつく日)"
-        },
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5+ (7のつく日)"
+          "rank": "B",
+          "name": "でちゃう編集部来店(あしなっくす)"
         },
         {
           "rank": "・",
@@ -2024,7 +1582,7 @@
         },
         {
           "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5 (7のつく日)"
+          "name": "ナビ子AI予想【機種仕掛け】★5 (毎週 土曜日)"
         },
         {
           "rank": "・",
@@ -2090,7 +1648,7 @@
         },
         {
           "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5+ (7のつく日)"
+          "name": "ナビ子AI予想【機種仕掛け】★5+ (毎週 土曜日)"
         },
         {
           "rank": "A",
@@ -2139,24 +1697,20 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "楽園渋谷道玄坂店",
-      "hid": "150004300000026160",
-      "hall_url": "https://hall-navi.com/hole_view?hid=150004300000026160",
-      "address": "東京都渋谷区道玄坂2-6-16",
-      "station": "渋谷駅",
-      "score": 14.1,
+      "hall": "123+N東雲店",
+      "hid": "135006200000016130",
+      "hall_url": "https://hall-navi.com/hole_view?hid=135006200000016130",
+      "address": "東京都江東区東雲1-6-13",
+      "station": "東雲駅",
+      "score": 13.9,
       "events": [
         {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (毎週 土曜日)"
-        },
-        {
           "rank": "A",
-          "name": "四星(ブラックホール)"
+          "name": "ナビ子AI予想【機種仕掛け】★3 (毎週 土曜日)"
         },
         {
-          "rank": "C",
-          "name": "超CHANGE取材"
+          "rank": "・",
+          "name": "旧イベ(7のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -2164,24 +1718,16 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "三ノ輪UNO",
-      "hid": "110000300000522100",
-      "hall_url": "https://hall-navi.com/hole_view?hid=110000300000522100",
-      "address": "東京都台東区根岸5-22-10",
-      "station": "三ノ輪駅",
-      "score": 13.9,
+      "hall": "仙川UNO",
+      "hid": "182000200000002210",
+      "hall_url": "https://hall-navi.com/hole_view?hid=182000200000002210",
+      "address": "東京都調布市仙川町2-21",
+      "station": "仙川駅",
+      "score": 13.8,
       "events": [
         {
           "rank": "S",
           "name": "ナビ子AI予想【機種仕掛け】★5 (毎週 土曜日)"
-        },
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (7のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "ライジング来店取材"
         }
       ],
       "prefecture": "東京都"
@@ -2189,33 +1735,16 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "プレゴ立川店(PREGO)",
-      "hid": "190002300000003750",
-      "hall_url": "https://hall-navi.com/hole_view?hid=190002300000003750",
-      "address": "東京都立川市柴崎町3-7-5",
-      "station": "立川南駅",
-      "score": 13.9,
+      "hall": "みとや大森町店",
+      "hid": "143001500000529110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=143001500000529110",
+      "address": null,
+      "station": null,
+      "score": 13.4,
       "events": [
         {
           "rank": "S",
-          "name": "ハカセさんぽ"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "Dステーション八王子北野店",
-      "hid": "192090600000058811",
-      "hall_url": "https://hall-navi.com/hole_view?hid=192090600000058811",
-      "address": "東京都八王子市北野町588-1",
-      "station": "北野駅",
-      "score": 13.5,
-      "events": [
-        {
-          "rank": "S",
-          "name": "スロパチガール来店S"
+          "name": "ナビ子AI予想【差枚プラス】★3 (7のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -2228,7 +1757,7 @@
       "hall_url": "https://hall-navi.com/hole_view?hid=133005700000012390",
       "address": "東京都江戸川区西小岩1-23-9",
       "station": "小岩駅",
-      "score": 13.3,
+      "score": 13.2,
       "events": [
         {
           "rank": "S",
@@ -2248,24 +1777,83 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "ミリオン石神井公園店スロット館",
-      "hid": "177004100000041130",
-      "hall_url": "https://hall-navi.com/hole_view?hid=177004100000041130",
-      "address": "東京都練馬区石神井町4-1-13",
-      "station": "石神井公園駅",
-      "score": 13.2,
+      "hall": "グランドシップ",
+      "hid": "135006200000110220",
+      "hall_url": "https://hall-navi.com/hole_view?hid=135006200000110220",
+      "address": null,
+      "station": null,
+      "score": 13.0,
+      "events": [
+        {
+          "rank": "S",
+          "name": "爆汗くーまくん取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "三ノ輪UNO",
+      "hid": "110000300000522100",
+      "hall_url": "https://hall-navi.com/hole_view?hid=110000300000522100",
+      "address": "東京都台東区根岸5-22-10",
+      "station": "三ノ輪駅",
+      "score": 12.8,
+      "events": [
+        {
+          "rank": "A",
+          "name": "ナビ子AI予想【差枚プラス】★1 (7のつく日)"
+        },
+        {
+          "rank": "A",
+          "name": "ナビ子AI予想【機種仕掛け】★4 (毎週 土曜日)"
+        },
+        {
+          "rank": "・",
+          "name": "ライジング来店取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "BIGディッパー東中野店",
+      "hid": "164000300000005331",
+      "hall_url": "https://hall-navi.com/hole_view?hid=164000300000005331",
+      "address": "東京都中野区東中野5-3-3",
+      "station": "東中野駅",
+      "score": 12.7,
       "events": [
         {
           "rank": "S",
           "name": "ナビ子AI予想【差枚プラス】★5 (7のつく日)"
         },
         {
+          "rank": "B",
+          "name": "アナスロ予測(店舗オリジナル)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "メッセ荻窪新館",
+      "hid": "167004300110121230",
+      "hall_url": "https://hall-navi.com/hole_view?hid=167004300110121230",
+      "address": "東京都杉並区上荻1-10-12東亜会館1．2．3F",
+      "station": "荻窪駅",
+      "score": 12.5,
+      "events": [
+        {
           "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5+ (7のつく日)"
+          "name": "天草超絶ホール応援団来店"
         },
         {
-          "rank": "・",
-          "name": "旧イベ(7のつく日)"
+          "rank": "B",
+          "name": "月城かりん"
         }
       ],
       "prefecture": "東京都"
@@ -2278,15 +1866,15 @@
       "hall_url": "https://hall-navi.com/hole_view?hid=166001100000021170",
       "address": "東京都杉並区梅里2-1-17",
       "station": "新高円寺駅",
-      "score": 13.1,
+      "score": 12.1,
       "events": [
         {
-          "rank": "A",
-          "name": "ありまゆま来店"
+          "rank": "B",
+          "name": "ナビ子AI予想【機種仕掛け】★2 (毎週 土曜日)"
         },
         {
           "rank": "B",
-          "name": "ナビ子AI予想【機種仕掛け】★2 (7のつく日)"
+          "name": "ありまゆま来店"
         },
         {
           "rank": "・",
@@ -2302,41 +1890,20 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "ヒロキ蒲田西口店",
-      "hid": "144005100000007370",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000007370",
-      "address": "東京都大田区西蒲田7-3-7",
-      "station": "蒲田駅",
-      "score": 12.8,
-      "events": [
-        {
-          "rank": "S",
-          "name": "スロパチステーション来店取材(オレンジ)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "キングNo.1世田谷",
-      "hid": "156005500000011180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=156005500000011180",
-      "address": "東京都世田谷区船橋1-1-18",
-      "station": "千歳船橋駅",
-      "score": 12.6,
+      "hall": "メッセ奥戸店",
+      "hid": "124002200000517100",
+      "hall_url": "https://hall-navi.com/hole_view?hid=124002200000517100",
+      "address": "東京都葛飾区奥戸5-17-10",
+      "station": "新小岩駅",
+      "score": 12.0,
       "events": [
         {
           "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (7のつく日)"
+          "name": "ぱちニートにの 来店"
         },
         {
-          "rank": "A",
-          "name": "タレント・ライター"
-        },
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【機種仕掛け】★3 (7のつく日)"
+          "rank": "C",
+          "name": "ナビ子AI予想【機種仕掛け】★1 (毎週 土曜日)"
         },
         {
           "rank": "・",
@@ -2348,37 +1915,20 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "楽園池袋店グリーンサイド",
-      "hid": "171002200000012680",
-      "hall_url": "https://hall-navi.com/hole_view?hid=171002200000012680",
-      "address": "東京都豊島区南池袋1-26-8",
-      "station": "池袋駅",
-      "score": 12.4,
+      "hall": "メッセ西荻窪店",
+      "hid": "167005300000031471",
+      "hall_url": "https://hall-navi.com/hole_view?hid=167005300000031471",
+      "address": null,
+      "station": null,
+      "score": 12.0,
       "events": [
         {
           "rank": "A",
           "name": "ナビ子AI予想【差枚プラス】★1 (7のつく日)"
         },
         {
-          "rank": "・",
-          "name": "トリスタキング来店(S)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "ピートレックマーメイド五反田店",
-      "hid": "141002200000002220",
-      "hall_url": "https://hall-navi.com/hole_view?hid=141002200000002220",
-      "address": "東京都品川区東五反田2-2-2",
-      "station": "五反田駅",
-      "score": 12.0,
-      "events": [
-        {
-          "rank": "S",
-          "name": "でちゃう編集部来店(髭原人)"
+          "rank": "B",
+          "name": "あいあい来店"
         }
       ],
       "prefecture": "東京都"
@@ -2428,7 +1978,7 @@
       "events": [
         {
           "rank": "B",
-          "name": "ナビ子AI予想【機種仕掛け】★2 (7のつく日)"
+          "name": "ナビ子AI予想【機種仕掛け】★2 (毎週 土曜日)"
         },
         {
           "rank": "・",
@@ -2457,24 +2007,52 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "メッセ高円寺",
-      "hid": "166000200000002410",
-      "hall_url": "https://hall-navi.com/hole_view?hid=166000200000002410",
-      "address": "東京都杉並区高円寺北2-4-1",
-      "station": "高円寺駅",
+      "hall": "ピーアーク竹ノ塚スタジオ",
+      "hid": "121081300000014180",
+      "hall_url": "https://hall-navi.com/hole_view?hid=121081300000014180",
+      "address": "東京都足立区竹の塚1-41-8",
+      "station": "竹ノ塚駅",
       "score": 11.1,
       "events": [
         {
-          "rank": "B",
-          "name": "ナビ子AI予想【機種仕掛け】★2 (毎週 土曜日)"
+          "rank": "A",
+          "name": "エラスロ"
         },
         {
           "rank": "B",
-          "name": "あんな来店"
+          "name": "月周年日"
+        },
+        {
+          "rank": "B",
+          "name": "超東京インパクト来店取材12"
         },
         {
           "rank": "・",
-          "name": "旧イベ(7のつく日)"
+          "name": "ヴイくん来店"
+        },
+        {
+          "rank": "・",
+          "name": "エンジョイ玉調査隊来店"
+        },
+        {
+          "rank": "・",
+          "name": "Makoto案内人のピックアップホール"
+        },
+        {
+          "rank": "・",
+          "name": "週刊りみっとくん"
+        },
+        {
+          "rank": "・",
+          "name": "リアルシックス注目期間β"
+        },
+        {
+          "rank": "・",
+          "name": "半転全昇"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(毎週 土曜日)"
         }
       ],
       "prefecture": "東京都"
@@ -2507,24 +2085,20 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "ミカド五反野店",
-      "hid": "120001500000043870",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120001500000043870",
-      "address": "東京都足立区足立4-38-7",
-      "station": "五反野駅",
+      "hall": "オリエントヴィーナスホール",
+      "hid": "198003600000010630",
+      "hall_url": "https://hall-navi.com/hole_view?hid=198003600000010630",
+      "address": null,
+      "station": null,
       "score": 10.6,
       "events": [
         {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5"
+          "rank": "B",
+          "name": "ナビ子AI予想【機種仕掛け】★2 (毎週 土曜日)"
         },
         {
           "rank": "・",
-          "name": "半鬼の太鼓"
-        },
-        {
-          "rank": "・",
-          "name": "ケッケ来店"
+          "name": "旧イベ(7のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -2532,32 +2106,24 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "ピーアーク北千住店",
-      "hid": "120003400000039210",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120003400000039210",
-      "address": "東京都足立区千住3-92　千住ミルディスI番館　1階",
-      "station": "北千住駅",
-      "score": 10.5,
+      "hall": "メッセ扇店",
+      "hid": "123087300000024680",
+      "hall_url": "https://hall-navi.com/hole_view?hid=123087300000024680",
+      "address": "東京都足立区扇2-46-8",
+      "station": "高野駅",
+      "score": 10.4,
       "events": [
-        {
-          "rank": "A",
-          "name": "エラスロ"
-        },
         {
           "rank": "B",
-          "name": "超東京インパクト来店取材12"
+          "name": "ちゃかりこ来店"
         },
         {
           "rank": "C",
-          "name": "ちゅんげー玉調査隊来店"
+          "name": "ナビ子AI予想【機種仕掛け】★1 (毎週 土曜日)"
         },
         {
           "rank": "・",
-          "name": "Makoto案内人のピックアップホール"
-        },
-        {
-          "rank": "・",
-          "name": "週刊りみっとくん"
+          "name": "旧イベ(7のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -2565,33 +2131,20 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "ガリレオ",
-      "hid": "193080300000049710",
-      "hall_url": "https://hall-navi.com/hole_view?hid=193080300000049710",
-      "address": "東京都八王子市楢原町497-1",
-      "station": "一本松（バス）駅",
-      "score": 10.3,
+      "hall": "新橋UNO",
+      "hid": "105000400000032010",
+      "hall_url": "https://hall-navi.com/hole_view?hid=105000400000032010",
+      "address": "東京都港区新橋3-20-1",
+      "station": "新橋駅",
+      "score": 9.7,
       "events": [
         {
-          "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (毎週 土曜日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "ベガスベガス国分寺恋ヶ窪店",
-      "hid": "185001400000005630",
-      "hall_url": "https://hall-navi.com/hole_view?hid=185001400000005630",
-      "address": null,
-      "station": null,
-      "score": 10.1,
-      "events": [
+          "rank": "B",
+          "name": "裏半撃来店取材"
+        },
         {
           "rank": "C",
-          "name": "スロセレ"
+          "name": "推連の華"
         }
       ],
       "prefecture": "東京都"
@@ -2599,20 +2152,20 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "パチンコヒロキ蒲田東口店",
-      "hid": "144005200000059130",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000059130",
-      "address": "東京都大田区蒲田5-9-13",
-      "station": "蒲田駅",
+      "hall": "パーラースーパーセブン新中野店",
+      "hid": "164001100000005110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=164001100000005110",
+      "address": "東京都中野区中央5-1-1",
+      "station": "新中野駅",
       "score": 9.6,
       "events": [
         {
           "rank": "C",
-          "name": "ヒロキ全力来店取材"
+          "name": "ナビ子AI予想【機種仕掛け】★1 (毎週 土曜日)"
         },
         {
-          "rank": "C",
-          "name": "戦極 電光石火"
+          "rank": "・",
+          "name": "旧イベ(7のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -2620,20 +2173,16 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "キコーナ蒲田店",
-      "hid": "144005100000081120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000081120",
-      "address": "東京都大田区西蒲田8-1-12",
-      "station": "蒲田駅",
+      "hall": "スパークルⅤ アニスロBASE",
+      "hid": "183005500000172120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=183005500000172120",
+      "address": null,
+      "station": null,
       "score": 9.5,
       "events": [
         {
-          "rank": "C",
-          "name": "よっしー社長の厳選ホール"
-        },
-        {
-          "rank": "・",
-          "name": "ビンゴ８ 来店取材"
+          "rank": "B",
+          "name": "3×3STAR取材"
         }
       ],
       "prefecture": "東京都"
@@ -2658,20 +2207,28 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "ジャンジャン高島平駅前店",
-      "hid": "175008200000008410",
-      "hall_url": "https://hall-navi.com/hole_view?hid=175008200000008410",
-      "address": null,
-      "station": null,
+      "hall": "グランパ中野",
+      "hid": "164000100000560120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=164000100000560120",
+      "address": "東京都中野区中野5-60-12",
+      "station": "中野駅",
       "score": 9.3,
       "events": [
         {
+          "rank": "B",
+          "name": "来店実戦_BASHtv"
+        },
+        {
           "rank": "C",
-          "name": "豪雷〜GOURAI〜来店取材"
+          "name": "SS・ヒカルくん取材"
         },
         {
           "rank": "・",
-          "name": "リルスロ来店"
+          "name": "SS・蓮くん取材"
+        },
+        {
+          "rank": "・",
+          "name": "首を長くして待て取材"
         }
       ],
       "prefecture": "東京都"
@@ -2679,20 +2236,20 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "BIGディッパー花小金井店",
-      "hid": "187000200000011131",
-      "hall_url": "https://hall-navi.com/hole_view?hid=187000200000011131",
+      "hall": "SAP日野",
+      "hid": "192003200002974130",
+      "hall_url": "https://hall-navi.com/hole_view?hid=192003200002974130",
       "address": null,
       "station": null,
-      "score": 9.1,
+      "score": 9.3,
       "events": [
         {
-          "rank": "B",
-          "name": "アナスロ予測(店舗オリジナル)"
+          "rank": "・",
+          "name": "SS・蓮くん取材"
         },
         {
-          "rank": "C",
-          "name": "パセリ取材"
+          "rank": "・",
+          "name": "旧イベ(7のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -2709,7 +2266,7 @@
       "events": [
         {
           "rank": "C",
-          "name": "ナビ子AI予想【機種仕掛け】★1 (7のつく日)"
+          "name": "ナビ子AI予想【機種仕掛け】★1 (毎週 土曜日)"
         },
         {
           "rank": "・",
@@ -2721,41 +2278,20 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "新！ガーデン千歳烏山店",
-      "hid": "157006200000051991",
-      "hall_url": "https://hall-navi.com/hole_view?hid=157006200000051991",
-      "address": "東京都世田谷区南烏山5-19-9",
-      "station": "千歳烏山駅",
+      "hall": "みとや鶯谷M-2",
+      "hid": "110000300000011210",
+      "hall_url": "https://hall-navi.com/hole_view?hid=110000300000011210",
+      "address": "東京都台東区根岸1-1-21",
+      "station": "鶯谷駅",
       "score": 8.7,
       "events": [
         {
-          "rank": "C",
-          "name": "ちょび来店"
+          "rank": "・",
+          "name": "旧イベ過去状況評価 +3.5"
         },
         {
           "rank": "・",
-          "name": "KARATEN来店取材NEO烏山ver"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "ヒロキMAX蒲田店",
-      "hid": "144005100000074120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000074120",
-      "address": "東京都大田区西蒲田7-4-12",
-      "station": "蒲田駅",
-      "score": 8.5,
-      "events": [
-        {
-          "rank": "C",
-          "name": "スロ王来店取材"
-        },
-        {
-          "rank": "・",
-          "name": "神崎リオン来店"
+          "name": "旧イベ(7のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -2768,7 +2304,7 @@
       "hall_url": "https://hall-navi.com/hole_view?hid=130000200000031790",
       "address": "東京都墨田区業平3-17-9",
       "station": "押上駅",
-      "score": 8.3,
+      "score": 8.6,
       "events": [
         {
           "rank": "・",
@@ -2784,16 +2320,45 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "ザシティベルシティ篠崎店",
-      "hid": "133006100000007310",
-      "hall_url": "https://hall-navi.com/hole_view?hid=133006100000007310",
-      "address": "東京都江戸川区篠崎町7-31",
-      "station": "篠崎駅",
+      "hall": "オーパ荻窪",
+      "hid": "167003200000003270",
+      "hall_url": "https://hall-navi.com/hole_view?hid=167003200000003270",
+      "address": "東京都杉並区天沼3-2-7",
+      "station": "荻窪駅",
+      "score": 8.5,
+      "events": [
+        {
+          "rank": "C",
+          "name": "テンペスト来店取材‐三巨頭‐"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "BBステーション日暮里店",
+      "hid": "116001400000551120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=116001400000551120",
+      "address": "東京都荒川区東日暮里5-51-12",
+      "station": "日暮里駅",
       "score": 8.2,
       "events": [
         {
+          "rank": "B",
+          "name": "スロミュー調査隊応援ホール"
+        },
+        {
+          "rank": "C",
+          "name": "マル特レポート（スマスロ）"
+        },
+        {
+          "rank": "C",
+          "name": "スロッター×ワールド"
+        },
+        {
           "rank": "・",
-          "name": "ラスサタ応援団"
+          "name": "マル特レポート（華光）"
         }
       ],
       "prefecture": "東京都"
@@ -2801,24 +2366,16 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "エンジェルⅤ",
-      "hid": "142006200000032530",
-      "hall_url": "https://hall-navi.com/hole_view?hid=142006200000032530",
+      "hall": "ドキわくランド 中河原駅前店",
+      "hid": "183003400000002260",
+      "hall_url": "https://hall-navi.com/hole_view?hid=183003400000002260",
       "address": null,
       "station": null,
-      "score": 7.7,
+      "score": 7.8,
       "events": [
         {
-          "rank": "・",
-          "name": "SS・蓮二郎取材"
-        },
-        {
-          "rank": "・",
-          "name": "PP・銀王取材"
-        },
-        {
-          "rank": "・",
-          "name": "SS・ボムくん取材"
+          "rank": "B",
+          "name": "3×3STAR取材"
         }
       ],
       "prefecture": "東京都"
@@ -2826,16 +2383,16 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "コトブキプラス谷在家店",
-      "hid": "123086300000031180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=123086300000031180",
-      "address": "東京都足立区谷在家3-1-18",
-      "station": "谷在家駅",
-      "score": 7.5,
+      "hall": "金時大森東口店",
+      "hid": "143001600000001440",
+      "hall_url": "https://hall-navi.com/hole_view?hid=143001600000001440",
+      "address": null,
+      "station": null,
+      "score": 7.6,
       "events": [
         {
-          "rank": "A",
-          "name": "APチャンネル来店"
+          "rank": "・",
+          "name": "最光取材(百花繚乱)"
         }
       ],
       "prefecture": "東京都"
@@ -2843,88 +2400,37 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "一番舘東久留米店",
-      "hid": "203003200000031380",
-      "hall_url": "https://hall-navi.com/hole_view?hid=203003200000031380",
-      "address": "東京都東久留米市前沢3-13-8",
-      "station": "花小金井駅",
+      "hall": "フェイス1100瑞穂",
+      "hid": "190120400000021710",
+      "hall_url": "https://hall-navi.com/hole_view?hid=190120400000021710",
+      "address": null,
+      "station": null,
       "score": 7.3,
       "events": [
         {
           "rank": "・",
-          "name": "旧イベ(7のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "新!ガーデン亀戸店",
-      "hid": "136007100000338130",
-      "hall_url": "https://hall-navi.com/hole_view?hid=136007100000338130",
-      "address": "東京都江東区亀戸3-38-13",
-      "station": "亀戸駅",
-      "score": 7.2,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ(毎週 土曜日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "やすだひばりヶ丘店",
-      "hid": "202000500000003980",
-      "hall_url": "https://hall-navi.com/hole_view?hid=202000500000003980",
-      "address": "東京都西東京市住吉町3-9-8",
-      "station": "ひばりが丘駅",
-      "score": 7.1,
-      "events": [
-        {
-          "rank": "・",
-          "name": "風林火山"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "ベルシティザシティ篠崎南口1",
-      "hid": "133006100000726102",
-      "hall_url": "https://hall-navi.com/hole_view?hid=133006100000726102",
-      "address": "東京都江戸川区篠崎町7-26-10",
-      "station": "篠崎駅",
-      "score": 6.8,
-      "events": [
-        {
-          "rank": "・",
-          "name": "ラスサタ応援団"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "MGM綾瀬西口店",
-      "hid": "120000500000046300",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120000500000046300",
-      "address": "東京都足立区綾瀬4-6-30",
-      "station": "綾瀬駅",
-      "score": 6.6,
-      "events": [
-        {
-          "rank": "C",
-          "name": "MGGO来店取材"
+          "name": "スロットアカデミア取材"
         },
         {
           "rank": "・",
-          "name": "愛を取り戻SE来店取材"
+          "name": "パチンコアカデミア取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "ヒノマルパチンコ下井草店",
+      "hid": "167002200000024460",
+      "hall_url": "https://hall-navi.com/hole_view?hid=167002200000024460",
+      "address": "東京都杉並区下井草2-44-6",
+      "station": "下井草駅",
+      "score": 7.0,
+      "events": [
+        {
+          "rank": "A",
+          "name": "池田モードC来店"
         }
       ],
       "prefecture": "東京都"
@@ -2937,11 +2443,66 @@
       "hall_url": "https://hall-navi.com/hole_view?hid=206003300000011120",
       "address": null,
       "station": null,
-      "score": 6.4,
+      "score": 6.9,
       "events": [
         {
           "rank": "・",
           "name": "ライジング来店取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "エランドール田無店",
+      "hid": "188001100000021141",
+      "hall_url": "https://hall-navi.com/hole_view?hid=188001100000021141",
+      "address": "東京都西東京市田無町2-11-4東海ビル",
+      "station": "田無駅",
+      "score": 6.7,
+      "events": [
+        {
+          "rank": "・",
+          "name": "トレジャーインパクト取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "ベルシティザシティ篠崎南口1",
+      "hid": "133006100000726102",
+      "hall_url": "https://hall-navi.com/hole_view?hid=133006100000726102",
+      "address": "東京都江戸川区篠崎町7-26-10",
+      "station": "篠崎駅",
+      "score": 6.3,
+      "events": [
+        {
+          "rank": "・",
+          "name": "ラスサタ応援団"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "ベルシティザシティ篠崎南口0",
+      "hid": "133006100000727200",
+      "hall_url": "https://hall-navi.com/hole_view?hid=133006100000727200",
+      "address": "東京都江戸川区篠崎町7-27-20",
+      "station": "篠崎駅",
+      "score": 6.0,
+      "events": [
+        {
+          "rank": "・",
+          "name": "ラスサタ応援団"
+        },
+        {
+          "rank": "・",
+          "name": "トレジャーシティ来店取材"
         }
       ],
       "prefecture": "東京都"
@@ -3025,16 +2586,16 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "バンビー",
-      "hid": "135004700000018170",
-      "hall_url": "https://hall-navi.com/hole_view?hid=135004700000018170",
-      "address": "東京都江東区富岡1-8-17",
-      "station": "門前仲町駅",
+      "hall": "アクアミッドタワーグランド",
+      "hid": "104005200012211060",
+      "hall_url": "https://hall-navi.com/hole_view?hid=104005200012211060",
+      "address": "東京都中央区月島1-22-1 ミッドタワ-グランド106",
+      "station": "月島駅",
       "score": 5.0,
       "events": [
         {
           "rank": "C",
-          "name": "真穂(魔法ちゃん)来店"
+          "name": "SIR来店"
         }
       ],
       "prefecture": "東京都"
@@ -3042,16 +2603,33 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "DAS小山",
-      "hid": "142006200000004330",
-      "hall_url": "https://hall-navi.com/hole_view?hid=142006200000004330",
+      "hall": "スパークル府中",
+      "hid": "183002300000001500",
+      "hall_url": "https://hall-navi.com/hole_view?hid=183002300000001500",
       "address": null,
       "station": null,
-      "score": 4.8,
+      "score": 4.9,
       "events": [
         {
           "rank": "・",
-          "name": "No.1"
+          "name": "神拳覚醒"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "ライオン",
+      "hid": "204002100000013460",
+      "hall_url": "https://hall-navi.com/hole_view?hid=204002100000013460",
+      "address": null,
+      "station": null,
+      "score": 4.5,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(7のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -3110,37 +2688,20 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "王子龍龍",
-      "hid": "114000200000011880",
-      "hall_url": "https://hall-navi.com/hole_view?hid=114000200000011880",
-      "address": "東京都北区王子1-18-8",
-      "station": "王子駅",
-      "score": 3.2,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ(7のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "AIS昭島店",
-      "hid": "196001500000002580",
-      "hall_url": "https://hall-navi.com/hole_view?hid=196001500000002580",
-      "address": null,
-      "station": null,
-      "score": 2.9,
+      "hall": "プレゴEX池袋南口店(PREGO)",
+      "hid": "171002200000012120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=171002200000012120",
+      "address": "東京都豊島区南池袋1-21-2",
+      "station": "池袋駅",
+      "score": 3.4,
       "events": [
         {
           "rank": "C",
-          "name": "サンスポ 取材班来店"
+          "name": "あがり取材"
         },
         {
           "rank": "C",
-          "name": "トクダネ！"
+          "name": "ジャンジャンドリドリ取材"
         }
       ],
       "prefecture": "東京都"
@@ -3148,16 +2709,16 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "オアシス飯田橋店",
-      "hid": "162082500000001120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=162082500000001120",
-      "address": null,
-      "station": null,
-      "score": 2.4,
+      "hall": "ニラク武蔵村山伊奈平店",
+      "hid": "208002300000019010",
+      "hall_url": "https://hall-navi.com/hole_view?hid=208002300000019010",
+      "address": "東京都武蔵村山市伊奈平1-90-1",
+      "station": "西武立川駅",
+      "score": 2.5,
       "events": [
         {
           "rank": "・",
-          "name": "旧イベ(毎週 土曜日)"
+          "name": "回胴アドベンチャー"
         }
       ],
       "prefecture": "東京都"
@@ -3165,13 +2726,17 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "008クロノス",
-      "hid": "133005700000122180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=133005700000122180",
-      "address": "東京都江戸川区西小岩1-22-18",
-      "station": "小岩駅",
-      "score": 0.5,
+      "hall": "マルハン青梅店",
+      "hid": "198002200000032100",
+      "hall_url": "https://hall-navi.com/hole_view?hid=198002200000032100",
+      "address": null,
+      "station": null,
+      "score": 2.0,
       "events": [
+        {
+          "rank": "C",
+          "name": "スロパチ東京くろまる来店取材"
+        },
         {
           "rank": "・",
           "name": "旧イベ(7のつく日)"
@@ -3182,11 +2747,11 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "みとや鶯谷M-1",
-      "hid": "110000300000011200",
-      "hall_url": "https://hall-navi.com/hole_view?hid=110000300000011200",
-      "address": "東京都台東区根岸1-1-20",
-      "station": "鶯谷駅",
+      "hall": "みとや神田西口店",
+      "hid": "101004700000002980",
+      "hall_url": "https://hall-navi.com/hole_view?hid=101004700000002980",
+      "address": "東京都千代田区内神田2-9-8",
+      "station": "神田駅",
       "score": 0.0,
       "events": [
         {
@@ -3199,10 +2764,27 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "ダイナム金町北口店",
-      "hid": "125004100000014380",
-      "hall_url": "https://hall-navi.com/hole_view?hid=125004100000014380",
-      "address": "東京都葛飾区東金町1-43-8",
+      "hall": "ダイナム西日暮里スロット店",
+      "hid": "116001300000052170",
+      "hall_url": "https://hall-navi.com/hole_view?hid=116001300000052170",
+      "address": "東京都荒川区西日暮里5-21-7",
+      "station": "西日暮里駅",
+      "score": 0.0,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(7のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "ダイナム金町南口店",
+      "hid": "125004200000006580",
+      "hall_url": "https://hall-navi.com/hole_view?hid=125004200000006580",
+      "address": "東京都葛飾区金町6-5-8",
       "station": "金町駅",
       "score": 0.0,
       "events": [
@@ -3216,43 +2798,9 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "マルハン小岩パチンコ館",
-      "hid": "133005700000121190",
-      "hall_url": "https://hall-navi.com/hole_view?hid=133005700000121190",
-      "address": "東京都江戸川区西小岩1-21-19",
-      "station": "小岩駅",
-      "score": 0.0,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ(7のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "スーパーセブン学芸大学店",
-      "hid": "152000400000003160",
-      "hall_url": "https://hall-navi.com/hole_view?hid=152000400000003160",
-      "address": "東京都目黒区鷹番3-1-6",
-      "station": "学芸大学駅",
-      "score": 0.0,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ(7のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-27",
-      "weekday": "土",
-      "hall": "パーラーフィオーレ浜田山",
-      "hid": "168006500000220190",
-      "hall_url": "https://hall-navi.com/hole_view?hid=168006500000220190",
+      "hall": "ダイナム砂町銀座店",
+      "hid": "136007300000033010",
+      "hall_url": "https://hall-navi.com/hole_view?hid=136007300000033010",
       "address": null,
       "station": null,
       "score": 0.0,
@@ -3267,9 +2815,43 @@
     {
       "date": "2026-06-27",
       "weekday": "土",
-      "hall": "ダイナム東村山店",
-      "hid": "189001400000002610",
-      "hall_url": "https://hall-navi.com/hole_view?hid=189001400000002610",
+      "hall": "コンサートホール野方",
+      "hid": "165002700000518120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=165002700000518120",
+      "address": "東京都中野区野方5-18-12",
+      "station": "野方駅",
+      "score": 0.0,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(7のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "成増会館",
+      "hid": "175009400000021941",
+      "hall_url": "https://hall-navi.com/hole_view?hid=175009400000021941",
+      "address": "東京都板橋区成増2-19-4",
+      "station": "成増駅",
+      "score": 0.0,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(7のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "土",
+      "hall": "オリエントインペリアルホール",
+      "hid": "198002400000031850",
+      "hall_url": "https://hall-navi.com/hole_view?hid=198002400000031850",
       "address": null,
       "station": null,
       "score": 0.0,
@@ -3289,28 +2871,11 @@
       "hall_url": "https://hall-navi.com/hole_view?hid=160002100000012330",
       "address": null,
       "station": null,
-      "score": 16.8,
+      "score": 16.7,
       "events": [
         {
           "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5+ (毎週 日曜日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-28",
-      "weekday": "日",
-      "hall": "マルハンメガシティ2000蒲田7",
-      "hid": "144005200000511123",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000511123",
-      "address": "東京都大田区蒲田5-11-12",
-      "station": "蒲田駅",
-      "score": 15.5,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (8のつく日)"
+          "name": "ナビ子AI予想【差枚プラス】★3 (毎週 日曜日)"
         },
         {
           "rank": "S",
@@ -3322,16 +2887,45 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "スーパーD'ステーション 錦糸町店",
-      "hid": "130002200000042551",
-      "hall_url": "https://hall-navi.com/hole_view?hid=130002200000042551",
-      "address": "東京都墨田区江東橋4-25-5",
-      "station": "錦糸町駅",
-      "score": 14.6,
+      "hall": "アイランド秋葉原",
+      "hid": "101002100000004330",
+      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000004330",
+      "address": "東京都千代田区外神田4-3-3",
+      "station": "秋葉原駅",
+      "score": 15.8,
       "events": [
         {
           "rank": "S",
-          "name": "スロパチステーション来店取材(青)"
+          "name": "ナビ子AI予想【差枚プラス】★5 (毎週 日曜日)"
+        },
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【機種仕掛け】★5+ (8のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-28",
+      "weekday": "日",
+      "hall": "マルハン亀有店",
+      "hid": "125006100000004110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=125006100000004110",
+      "address": "東京都葛飾区亀有4-1-15",
+      "station": "亀有駅",
+      "score": 15.0,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (毎週 日曜日)"
+        },
+        {
+          "rank": "B",
+          "name": "番組収録(ジャンバリ)"
+        },
+        {
+          "rank": "・",
+          "name": "マスターズ(青)"
         }
       ],
       "prefecture": "東京都"
@@ -3381,24 +2975,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "ピーアーク北千住SSS",
-      "hid": "120002600000000351",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120002600000000351",
-      "address": "東京都足立区千住旭町3-5",
-      "station": "北千住駅",
-      "score": 13.9,
+      "hall": "楽園渋谷道玄坂店",
+      "hid": "150004300000026160",
+      "hall_url": "https://hall-navi.com/hole_view?hid=150004300000026160",
+      "address": "東京都渋谷区道玄坂2-6-16",
+      "station": "渋谷駅",
+      "score": 14.0,
       "events": [
         {
           "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★5 (毎週 日曜日)"
-        },
-        {
-          "rank": "C",
-          "name": "全力取材"
-        },
-        {
-          "rank": "・",
-          "name": "七珍万宝7Days"
+          "name": "スロパチステーション来店取材(紫)"
         }
       ],
       "prefecture": "東京都"
@@ -3422,7 +3008,7 @@
           "name": "ナビ子AI予想【機種仕掛け】★5 (8のつく日)"
         },
         {
-          "rank": "S",
+          "rank": "A",
           "name": "全力厳選ホール"
         },
         {
@@ -3435,32 +3021,45 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "エスパス日拓新大久保駅前店",
-      "hid": "169007300000111200",
-      "hall_url": "https://hall-navi.com/hole_view?hid=169007300000111200",
-      "address": "東京都新宿区百人町1-11-20",
-      "station": "新大久保駅",
-      "score": 13.5,
+      "hall": "ピーアーク三田",
+      "hid": "108001400000052250",
+      "hall_url": "https://hall-navi.com/hole_view?hid=108001400000052250",
+      "address": "東京都港区芝5-22-5",
+      "station": "三田駅",
+      "score": 13.3,
       "events": [
         {
           "rank": "S",
           "name": "ナビ子AI予想【差枚プラス】★3 (8のつく日)"
         },
         {
-          "rank": "A",
-          "name": "ナビ子AI予想【機種仕掛け】★4 (8のつく日)"
-        },
-        {
-          "rank": "A",
-          "name": "ととのっち来店"
-        },
-        {
-          "rank": "B",
-          "name": "クロロ調査隊SUPERトリプルＳ"
+          "rank": "C",
+          "name": "タイガー来店取材玉10"
         },
         {
           "rank": "C",
-          "name": "発汗ととのっち取材"
+          "name": "半撃来店取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-28",
+      "weekday": "日",
+      "hall": "ジュラク王子店",
+      "hid": "114000200000001950",
+      "hall_url": "https://hall-navi.com/hole_view?hid=114000200000001950",
+      "address": "東京都北区王子1-9-5",
+      "station": "王子駅",
+      "score": 13.1,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (8のつく日)"
+        },
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【機種仕掛け】★5 (8のつく日)"
         },
         {
           "rank": "・",
@@ -3472,54 +3071,24 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "仙川UNO",
-      "hid": "182000200000002210",
-      "hall_url": "https://hall-navi.com/hole_view?hid=182000200000002210",
-      "address": "東京都調布市仙川町2-21",
-      "station": "仙川駅",
-      "score": 13.3,
-      "events": [
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【機種仕掛け】★4 (毎週 日曜日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-28",
-      "weekday": "日",
-      "hall": "グランドシップ",
-      "hid": "135006200000110220",
-      "hall_url": "https://hall-navi.com/hole_view?hid=135006200000110220",
+      "hall": "エスパス日拓高田馬場本店",
+      "hid": "169007500000214110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=169007500000214110",
       "address": null,
       "station": null,
       "score": 12.9,
       "events": [
         {
           "rank": "A",
-          "name": "ナビ子AI予想【機種仕掛け】★4 (毎週 日曜日)"
+          "name": "ナビ子AI予想【機種仕掛け】★4 (8のつく日)"
+        },
+        {
+          "rank": "A",
+          "name": "極上取材(まぐろくん)"
         },
         {
           "rank": "・",
           "name": "旧イベ(8のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-28",
-      "weekday": "日",
-      "hall": "レッドロック学芸大学駅前店",
-      "hid": "152000400000031102",
-      "hall_url": "https://hall-navi.com/hole_view?hid=152000400000031102",
-      "address": null,
-      "station": null,
-      "score": 12.8,
-      "events": [
-        {
-          "rank": "A",
-          "name": "ありまゆま来店"
         }
       ],
       "prefecture": "東京都"
@@ -3548,20 +3117,20 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "スーパーDステーション立川",
-      "hid": "190001200000002450",
-      "hall_url": "https://hall-navi.com/hole_view?hid=190001200000002450",
-      "address": "東京都立川市曙町2-4-5",
-      "station": "立川駅",
-      "score": 12.5,
+      "hall": "グランドシップ",
+      "hid": "135006200000110220",
+      "hall_url": "https://hall-navi.com/hole_view?hid=135006200000110220",
+      "address": null,
+      "station": null,
+      "score": 12.4,
       "events": [
         {
           "rank": "A",
-          "name": "黒瀬ルイ来店"
+          "name": "ナビ子AI予想【機種仕掛け】★3 (毎週 日曜日)"
         },
         {
           "rank": "・",
-          "name": "マグロ取材"
+          "name": "旧イベ(8のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -3569,16 +3138,28 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "エスパス日拓上野新館",
-      "hid": "110000500000004750",
-      "hall_url": "https://hall-navi.com/hole_view?hid=110000500000004750",
-      "address": "東京都台東区上野4-7-5",
-      "station": "上野駅",
-      "score": 12.1,
+      "hall": "新！ガーデン千歳烏山店",
+      "hid": "157006200000051991",
+      "hall_url": "https://hall-navi.com/hole_view?hid=157006200000051991",
+      "address": "東京都世田谷区南烏山5-19-9",
+      "station": "千歳烏山駅",
+      "score": 12.2,
       "events": [
         {
           "rank": "A",
-          "name": "スロット天下無双"
+          "name": "シャルミッション弍【真価】"
+        },
+        {
+          "rank": "A",
+          "name": "ナビ子AI予想【機種仕掛け】★3"
+        },
+        {
+          "rank": "B",
+          "name": "月城かりん"
+        },
+        {
+          "rank": "C",
+          "name": "ナビ子AI独自予想 N +4.0"
         }
       ],
       "prefecture": "東京都"
@@ -3586,33 +3167,33 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "デルパラ9東村山店",
-      "hid": "189001100000011910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=189001100000011910",
+      "hall": "キングNo.1世田谷",
+      "hid": "156005500000011180",
+      "hall_url": "https://hall-navi.com/hole_view?hid=156005500000011180",
+      "address": "東京都世田谷区船橋1-1-18",
+      "station": "千歳船橋駅",
+      "score": 12.0,
+      "events": [
+        {
+          "rank": "A",
+          "name": "苺ゆい来店"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-28",
+      "weekday": "日",
+      "hall": "レッドロック学芸大学駅前店",
+      "hid": "152000400000031102",
+      "hall_url": "https://hall-navi.com/hole_view?hid=152000400000031102",
       "address": null,
       "station": null,
-      "score": 11.9,
+      "score": 11.8,
       "events": [
         {
-          "rank": "S",
-          "name": "ヒカルの一致団結（スロミュー×ヒカル）"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-28",
-      "weekday": "日",
-      "hall": "楽園池袋店グリーンサイド",
-      "hid": "171002200000012680",
-      "hall_url": "https://hall-navi.com/hole_view?hid=171002200000012680",
-      "address": "東京都豊島区南池袋1-26-8",
-      "station": "池袋駅",
-      "score": 11.7,
-      "events": [
-        {
-          "rank": "A",
-          "name": "SS・蓮天取材"
+          "rank": "B",
+          "name": "ありまゆま来店"
         }
       ],
       "prefecture": "東京都"
@@ -3625,28 +3206,11 @@
       "hall_url": "https://hall-navi.com/hole_view?hid=190002300000003620",
       "address": "東京都立川市柴崎町3-6-2",
       "station": "立川駅",
-      "score": 11.5,
+      "score": 11.6,
       "events": [
         {
           "rank": "C",
           "name": "サンスポホール取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-28",
-      "weekday": "日",
-      "hall": "オーパ荻窪",
-      "hid": "167003200000003270",
-      "hall_url": "https://hall-navi.com/hole_view?hid=167003200000003270",
-      "address": "東京都杉並区天沼3-2-7",
-      "station": "荻窪駅",
-      "score": 10.7,
-      "events": [
-        {
-          "rank": "A",
-          "name": "テンペスト来店取材‐隠密者‐"
         }
       ],
       "prefecture": "東京都"
@@ -3659,11 +3223,15 @@
       "hall_url": "https://hall-navi.com/hole_view?hid=188001200000004410",
       "address": "東京都西東京市南町4-4-1",
       "station": "田無駅",
-      "score": 10.6,
+      "score": 10.8,
       "events": [
         {
           "rank": "S",
           "name": "ナビ子AI予想【機種仕掛け】★5"
+        },
+        {
+          "rank": "・",
+          "name": "東京喰種レポート"
         },
         {
           "rank": "・",
@@ -3675,20 +3243,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "ミカド五反野店",
-      "hid": "120001500000043870",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120001500000043870",
-      "address": "東京都足立区足立4-38-7",
-      "station": "五反野駅",
-      "score": 10.4,
+      "hall": "金時大森東口店",
+      "hid": "143001600000001440",
+      "hall_url": "https://hall-navi.com/hole_view?hid=143001600000001440",
+      "address": null,
+      "station": null,
+      "score": 10.6,
       "events": [
         {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5"
-        },
-        {
-          "rank": "・",
-          "name": "半鬼の太鼓"
+          "rank": "A",
+          "name": "スロッター×スロッターALL STAR【神】"
         }
       ],
       "prefecture": "東京都"
@@ -3696,12 +3260,50 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "デルパラ6あきる野店",
-      "hid": "197082200000001511",
-      "hall_url": "https://hall-navi.com/hole_view?hid=197082200000001511",
-      "address": null,
-      "station": null,
+      "hall": "マルホン",
+      "hid": "130000200000031790",
+      "hall_url": "https://hall-navi.com/hole_view?hid=130000200000031790",
+      "address": "東京都墨田区業平3-17-9",
+      "station": "押上駅",
       "score": 10.2,
+      "events": [
+        {
+          "rank": "C",
+          "name": "旧イベ過去状況評価 +4.5"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(毎月 28日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-28",
+      "weekday": "日",
+      "hall": "メッセ高円寺",
+      "hid": "166000200000002410",
+      "hall_url": "https://hall-navi.com/hole_view?hid=166000200000002410",
+      "address": "東京都杉並区高円寺北2-4-1",
+      "station": "高円寺駅",
+      "score": 10.2,
+      "events": [
+        {
+          "rank": "B",
+          "name": "覚醒てえんだ来店"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-28",
+      "weekday": "日",
+      "hall": "デルパラ9東浅川店",
+      "hid": "193083400000005030",
+      "hall_url": "https://hall-navi.com/hole_view?hid=193083400000005030",
+      "address": "東京都八王子市東浅川町503番地デルパラビル",
+      "station": "高尾駅",
+      "score": 10.1,
       "events": [
         {
           "rank": "S",
@@ -3730,37 +3332,20 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "スパークル府中",
-      "hid": "183002300000001500",
-      "hall_url": "https://hall-navi.com/hole_view?hid=183002300000001500",
-      "address": null,
-      "station": null,
+      "hall": "有楽町DUO",
+      "hid": "100000600000002810",
+      "hall_url": "https://hall-navi.com/hole_view?hid=100000600000002810",
+      "address": "東京都千代田区有楽町2-8-1",
+      "station": "有楽町駅",
       "score": 9.5,
       "events": [
         {
-          "rank": "A",
-          "name": "全撃来店取材"
+          "rank": "B",
+          "name": "とある来店取材【全知全能】"
         },
         {
-          "rank": "・",
-          "name": "玉手箱来店取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-28",
-      "weekday": "日",
-      "hall": "オーパ阿佐ヶ谷",
-      "hid": "166000400000021881",
-      "hall_url": "https://hall-navi.com/hole_view?hid=166000400000021881",
-      "address": "東京都杉並区阿佐谷南2-18-8",
-      "station": "阿佐ヶ谷駅",
-      "score": 9.1,
-      "events": [
-        {
           "rank": "C",
-          "name": "皇帝のリアル"
+          "name": "とある来店取材【並行演算】"
         }
       ],
       "prefecture": "東京都"
@@ -3789,6 +3374,23 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
+      "hall": "グランド ラ・カータ 1111瑞穂店",
+      "hid": "190120400000023311",
+      "hall_url": "https://hall-navi.com/hole_view?hid=190120400000023311",
+      "address": null,
+      "station": null,
+      "score": 9.0,
+      "events": [
+        {
+          "rank": "C",
+          "name": "makoto案内人のPS予想調査の巻"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-28",
+      "weekday": "日",
       "hall": "スーパースロットサンフラワー＋",
       "hid": "190122200000026170",
       "hall_url": "https://hall-navi.com/hole_view?hid=190122200000026170",
@@ -3806,16 +3408,20 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "パチンコ大王 高島平店",
-      "hid": "175008200000071350",
-      "hall_url": "https://hall-navi.com/hole_view?hid=175008200000071350",
-      "address": "東京都板橋区高島平7-13-5",
-      "station": "新高島平駅",
+      "hall": "ベルシティザシティ篠崎南口1",
+      "hid": "133006100000726102",
+      "hall_url": "https://hall-navi.com/hole_view?hid=133006100000726102",
+      "address": "東京都江戸川区篠崎町7-26-10",
+      "station": "篠崎駅",
       "score": 8.7,
       "events": [
         {
-          "rank": "C",
-          "name": "ナビ子AI予想【機種仕掛け】★1 (毎週 日曜日)"
+          "rank": "B",
+          "name": "ナビ子AI予想【機種仕掛け】★2 (8のつく日)"
+        },
+        {
+          "rank": "・",
+          "name": "超キングダム"
         },
         {
           "rank": "・",
@@ -3827,16 +3433,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "オリエンタルパサージュ自由が丘店",
-      "hid": "152003500000011470",
-      "hall_url": "https://hall-navi.com/hole_view?hid=152003500000011470",
-      "address": "東京都目黒区自由が丘1-14-7",
-      "station": "自由が丘駅",
-      "score": 8.5,
+      "hall": "キコーナ蒲田店",
+      "hid": "144005100000081120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000081120",
+      "address": "東京都大田区西蒲田8-1-12",
+      "station": "蒲田駅",
+      "score": 8.6,
       "events": [
         {
           "rank": "・",
-          "name": "マグロ取材"
+          "name": "Half strong取材"
         }
       ],
       "prefecture": "東京都"
@@ -3844,16 +3450,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "出玉王田無店",
-      "hid": "188000400000004250",
-      "hall_url": "https://hall-navi.com/hole_view?hid=188000400000004250",
-      "address": null,
-      "station": null,
-      "score": 8.4,
+      "hall": "パチンコヒロキ蒲田東口店",
+      "hid": "144005200000059130",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000059130",
+      "address": "東京都大田区蒲田5-9-13",
+      "station": "蒲田駅",
+      "score": 8.2,
       "events": [
         {
-          "rank": "C",
-          "name": "クロロ調査隊チームS"
+          "rank": "・",
+          "name": "テンペスト来店取材‐幻影分身‐"
         }
       ],
       "prefecture": "東京都"
@@ -3861,16 +3467,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "ビッグアップル.秋葉原店",
-      "hid": "101002100000011610",
-      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000011610",
-      "address": "東京都千代田区外神田1-16-1",
-      "station": "秋葉原駅",
+      "hall": "ヒロキMAX蒲田店",
+      "hid": "144005100000074120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000074120",
+      "address": "東京都大田区西蒲田7-4-12",
+      "station": "蒲田駅",
       "score": 8.1,
       "events": [
         {
-          "rank": "・",
-          "name": "全攻の陣"
+          "rank": "C",
+          "name": "サンスポホール取材"
         }
       ],
       "prefecture": "東京都"
@@ -3878,16 +3484,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "YASUDA5",
-      "hid": "173001400000060100",
-      "hall_url": "https://hall-navi.com/hole_view?hid=173001400000060100",
-      "address": "東京都板橋区大山東町60-10",
-      "station": "大山駅",
+      "hall": "デルパラ10南大沢店",
+      "hid": "192036400000000251",
+      "hall_url": "https://hall-navi.com/hole_view?hid=192036400000000251",
+      "address": "東京都八王子市南大沢2-5",
+      "station": "南大沢駅",
       "score": 8.0,
       "events": [
         {
-          "rank": "B",
-          "name": "燃える魂レッド取材"
+          "rank": "S",
+          "name": "ヒカルの一致団結（スロミュー×ヒカル）"
         }
       ],
       "prefecture": "東京都"
@@ -3895,41 +3501,41 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "ゴードン多摩センターA館",
-      "hid": "206003300000011120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=206003300000011120",
+      "hall": "ゴールド二子玉川店",
+      "hid": "158009400000003610",
+      "hall_url": "https://hall-navi.com/hole_view?hid=158009400000003610",
+      "address": "東京都世田谷区玉川3-6-1",
+      "station": "二子玉川駅",
+      "score": 7.9,
+      "events": [
+        {
+          "rank": "C",
+          "name": "パセリ取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-28",
+      "weekday": "日",
+      "hall": "エンジェルⅤ",
+      "hid": "142006200000032530",
+      "hall_url": "https://hall-navi.com/hole_view?hid=142006200000032530",
       "address": null,
       "station": null,
-      "score": 8.0,
-      "events": [
-        {
-          "rank": "C",
-          "name": "サンスポ 取材班来店"
-        },
-        {
-          "rank": "C",
-          "name": "トクダネ！"
-        },
-        {
-          "rank": "・",
-          "name": "トクパチ！"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-28",
-      "weekday": "日",
-      "hall": "金時蒲田東口店",
-      "hid": "144005200000051670",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000051670",
-      "address": "東京都大田区蒲田5-16-7",
-      "station": "蒲田駅",
-      "score": 7.8,
+      "score": 7.7,
       "events": [
         {
           "rank": "・",
-          "name": "ジャンヌ梨亜来店"
+          "name": "SS・CUBEくん取材"
+        },
+        {
+          "rank": "・",
+          "name": "SS・摩天楼取材"
+        },
+        {
+          "rank": "・",
+          "name": "PP・闘玉丸取材"
         }
       ],
       "prefecture": "東京都"
@@ -3962,16 +3568,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "ジャンジャン高島平駅前店",
-      "hid": "175008200000008410",
-      "hall_url": "https://hall-navi.com/hole_view?hid=175008200000008410",
-      "address": null,
-      "station": null,
-      "score": 7.4,
+      "hall": "やすだ西池袋6号店",
+      "hid": "171002100000013630",
+      "hall_url": "https://hall-navi.com/hole_view?hid=171002100000013630",
+      "address": "東京都豊島区西池袋1-36-3",
+      "station": "池袋駅",
+      "score": 7.5,
       "events": [
         {
           "rank": "・",
-          "name": "リルスロ来店"
+          "name": "襷取材"
         }
       ],
       "prefecture": "東京都"
@@ -3979,16 +3585,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "新!ガーデン亀戸店",
-      "hid": "136007100000338130",
-      "hall_url": "https://hall-navi.com/hole_view?hid=136007100000338130",
-      "address": "東京都江東区亀戸3-38-13",
-      "station": "亀戸駅",
+      "hall": "ニュークラウン綾瀬店",
+      "hid": "120000500000049270",
+      "hall_url": "https://hall-navi.com/hole_view?hid=120000500000049270",
+      "address": "東京都足立区綾瀬4-9-27",
+      "station": "綾瀬駅",
       "score": 7.2,
       "events": [
         {
-          "rank": "・",
-          "name": "旧イベ(8のつく日)"
+          "rank": "C",
+          "name": "スロ王来店取材"
         }
       ],
       "prefecture": "東京都"
@@ -3996,16 +3602,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "楽園蒲田店",
-      "hid": "144005100000074680",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000074680",
-      "address": "東京都大田区西蒲田7-46-8",
-      "station": "蒲田駅",
+      "hall": "楽園アメ横店",
+      "hid": "110000500000069740",
+      "hall_url": "https://hall-navi.com/hole_view?hid=110000500000069740",
+      "address": "東京都台東区上野6-9-7 センチュリ-ビル4F",
+      "station": "上野駅",
       "score": 7.1,
       "events": [
         {
           "rank": "・",
-          "name": "全国最大のスロ専『戦』来店取材"
+          "name": "小さなメダル探し来店取材"
         }
       ],
       "prefecture": "東京都"
@@ -4013,37 +3619,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "MGM綾瀬西口店",
-      "hid": "120000500000046300",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120000500000046300",
-      "address": "東京都足立区綾瀬4-6-30",
-      "station": "綾瀬駅",
-      "score": 6.6,
-      "events": [
-        {
-          "rank": "C",
-          "name": "MGGO来店取材"
-        },
-        {
-          "rank": "・",
-          "name": "ツラギリ来店取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-28",
-      "weekday": "日",
-      "hall": "マルハン八王子四谷店",
-      "hid": "193081300000006510",
-      "hall_url": "https://hall-navi.com/hole_view?hid=193081300000006510",
+      "hall": "フルハウス戸越公園店",
+      "hid": "142004100000006660",
+      "hall_url": "https://hall-navi.com/hole_view?hid=142004100000006660",
       "address": null,
       "station": null,
       "score": 6.6,
       "events": [
         {
           "rank": "・",
-          "name": "戦極 獅子奮迅"
+          "name": "スロガチャ"
         }
       ],
       "prefecture": "東京都"
@@ -4051,20 +3636,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "ベルシティザシティ篠崎南口0",
-      "hid": "133006100000727200",
-      "hall_url": "https://hall-navi.com/hole_view?hid=133006100000727200",
-      "address": "東京都江戸川区篠崎町7-27-20",
-      "station": "篠崎駅",
+      "hall": "プレサス飯田橋",
+      "hid": "102007100000002720",
+      "hall_url": "https://hall-navi.com/hole_view?hid=102007100000002720",
+      "address": "東京都千代田区富士見2-7-2",
+      "station": "飯田橋駅",
       "score": 6.5,
       "events": [
         {
           "rank": "・",
-          "name": "鉄カバ探検隊SP(銀)"
-        },
-        {
-          "rank": "・",
-          "name": "トレジャーシティ来店取材"
+          "name": "リプレイ"
         }
       ],
       "prefecture": "東京都"
@@ -4072,16 +3653,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "ピートレックマーメイド五反田店",
-      "hid": "141002200000002220",
-      "hall_url": "https://hall-navi.com/hole_view?hid=141002200000002220",
-      "address": "東京都品川区東五反田2-2-2",
-      "station": "五反田駅",
+      "hall": "やすだ仲宿店",
+      "hid": "173000500000060150",
+      "hall_url": "https://hall-navi.com/hole_view?hid=173000500000060150",
+      "address": "東京都板橋区仲宿60-15",
+      "station": "板橋区役所前駅",
       "score": 6.4,
       "events": [
         {
-          "rank": "・",
-          "name": "みんトレ！！来店取材"
+          "rank": "C",
+          "name": "般若の鼓動"
         }
       ],
       "prefecture": "東京都"
@@ -4106,16 +3687,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "アムディ亀有",
-      "hid": "125006100000537130",
-      "hall_url": "https://hall-navi.com/hole_view?hid=125006100000537130",
-      "address": "東京都葛飾区亀有5-37-13",
-      "station": "亀有駅",
-      "score": 5.7,
+      "hall": "大井ニュー東京東口店",
+      "hid": "140001100000051310",
+      "hall_url": "https://hall-navi.com/hole_view?hid=140001100000051310",
+      "address": null,
+      "station": null,
+      "score": 5.6,
       "events": [
         {
           "rank": "・",
-          "name": "ジャンバリマンシール入荷"
+          "name": "スロミナティ15日間調査"
         }
       ],
       "prefecture": "東京都"
@@ -4123,16 +3704,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "DAS東十条店",
-      "hid": "114000100000004180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=114000100000004180",
-      "address": "東京都北区東十条4-1-8",
-      "station": "東十条駅",
+      "hall": "ウエスタン一之江店",
+      "hid": "132002400000031160",
+      "hall_url": "https://hall-navi.com/hole_view?hid=132002400000031160",
+      "address": "東京都江戸川区一之江3-1-16",
+      "station": "一之江駅",
       "score": 5.2,
       "events": [
         {
-          "rank": "・",
-          "name": "No.1"
+          "rank": "A",
+          "name": "天使ゆりたん来店"
         }
       ],
       "prefecture": "東京都"
@@ -4237,16 +3818,16 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "ウエスタン西葛西店",
-      "hid": "134008800000005610",
-      "hall_url": "https://hall-navi.com/hole_view?hid=134008800000005610",
-      "address": "東京都江戸川区西葛西5-6-1",
-      "station": "西葛西駅",
-      "score": 1.0,
+      "hall": "ダイナム金町南口店",
+      "hid": "125004200000006580",
+      "hall_url": "https://hall-navi.com/hole_view?hid=125004200000006580",
+      "address": "東京都葛飾区金町6-5-8",
+      "station": "金町駅",
+      "score": 1.5,
       "events": [
         {
           "rank": "・",
-          "name": "みなひろ収録来店"
+          "name": "ジャグラーシリーズ取材(パチ7)"
         }
       ],
       "prefecture": "東京都"
@@ -4254,11 +3835,28 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "008ポニー",
-      "hid": "132000100000002120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=132000100000002120",
-      "address": "東京都江戸川区新堀2-1-2",
-      "station": "瑞江駅",
+      "hall": "008カイノスネオス",
+      "hid": "133005700000127310",
+      "hall_url": "https://hall-navi.com/hole_view?hid=133005700000127310",
+      "address": "東京都江戸川区西小岩1-27-31",
+      "station": "小岩駅",
+      "score": 0.5,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(8のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-28",
+      "weekday": "日",
+      "hall": "キング会館日野店",
+      "hid": "191006200000002220",
+      "hall_url": "https://hall-navi.com/hole_view?hid=191006200000002220",
+      "address": "東京都日野市多摩平2-2-2",
+      "station": "豊田駅",
       "score": 0.0,
       "events": [
         {
@@ -4271,9 +3869,9 @@
     {
       "date": "2026-06-28",
       "weekday": "日",
-      "hall": "トワーズ野上店",
-      "hid": "198003100000032030",
-      "hall_url": "https://hall-navi.com/hole_view?hid=198003100000032030",
+      "hall": "トワーズ千ヶ瀬店",
+      "hid": "198004300000561210",
+      "hall_url": "https://hall-navi.com/hole_view?hid=198004300000561210",
       "address": null,
       "station": null,
       "score": 0.0,
@@ -4288,16 +3886,16 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "マルハン新宿東宝ビル店",
-      "hid": "160002100000011910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=160002100000011910",
-      "address": "東京都新宿区歌舞伎町1-19-1",
-      "station": "西武新宿駅",
-      "score": 17.8,
+      "hall": "アイランド秋葉原",
+      "hid": "101002100000004330",
+      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000004330",
+      "address": "東京都千代田区外神田4-3-3",
+      "station": "秋葉原駅",
+      "score": 15.9,
       "events": [
         {
           "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (9のつく日)"
+          "name": "ナビ子AI予想【差枚プラス】★5 (9のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -4305,46 +3903,12 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "マルハンメガシティ東大和店",
-      "hid": "207002200000213910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=207002200000213910",
-      "address": null,
-      "station": null,
-      "score": 15.6,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (9のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-29",
-      "weekday": "月",
-      "hall": "マルハンメガシティ2000蒲田7",
-      "hid": "144005200000511123",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000511123",
-      "address": "東京都大田区蒲田5-11-12",
-      "station": "蒲田駅",
-      "score": 15.1,
-      "events": [
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (9のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-29",
-      "weekday": "月",
-      "hall": "BIGディッパー戸越銀座店",
-      "hid": "142005100000001852",
-      "hall_url": "https://hall-navi.com/hole_view?hid=142005100000001852",
-      "address": null,
-      "station": null,
-      "score": 14.5,
+      "hall": "エスパス1300新小岩北口駅前店",
+      "hid": "124002500000011010",
+      "hall_url": "https://hall-navi.com/hole_view?hid=124002500000011010",
+      "address": "東京都葛飾区西新小岩1-10-1",
+      "station": "新小岩駅",
+      "score": 15.4,
       "events": [
         {
           "rank": "S",
@@ -4355,20 +3919,8 @@
           "name": "ナビ子AI予想【機種仕掛け】★5+ (9のつく日)"
         },
         {
-          "rank": "B",
-          "name": "とある来店取材【全知全能】"
-        },
-        {
-          "rank": "C",
-          "name": "とある来店取材【並行演算】"
-        },
-        {
-          "rank": "C",
-          "name": "とある来店取材【半心半技】"
-        },
-        {
-          "rank": "C",
-          "name": "とある来店取材【極上至極】"
+          "rank": "・",
+          "name": "旧イベ(9のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -4376,11 +3928,28 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "ジャラン五反田店",
-      "hid": "141003100000002770",
-      "hall_url": "https://hall-navi.com/hole_view?hid=141003100000002770",
-      "address": "東京都品川区西五反田2-7-7",
-      "station": "五反田駅",
+      "hall": "マルハン亀有店",
+      "hid": "125006100000004110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=125006100000004110",
+      "address": "東京都葛飾区亀有4-1-15",
+      "station": "亀有駅",
+      "score": 14.9,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (9のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-29",
+      "weekday": "月",
+      "hall": "ジャラン浅草店",
+      "hid": "111004100000002672",
+      "hall_url": "https://hall-navi.com/hole_view?hid=111004100000002672",
+      "address": "東京都台東区浅草2丁目6番7号　東京楽天地浅草ビル地下1階、地上1階",
+      "station": "稲荷町駅",
       "score": 14.2,
       "events": [
         {
@@ -4388,8 +3957,58 @@
           "name": "ナビ子AI予想【差枚プラス】★5 (9のつく日)"
         },
         {
+          "rank": "A",
+          "name": "ナビ子AI予想【機種仕掛け】★4 (9のつく日)"
+        },
+        {
+          "rank": "B",
+          "name": "でちゃう編集部来店(ももせみくる)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-29",
+      "weekday": "月",
+      "hall": "キコーナ府中店",
+      "hid": "183002200000000120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=183002200000000120",
+      "address": null,
+      "station": null,
+      "score": 13.7,
+      "events": [
+        {
           "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5+ (9のつく日)"
+          "name": "伝説の刻"
+        },
+        {
+          "rank": "A",
+          "name": "ナビ子AI予想【機種仕掛け】★4 (9のつく日)"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(9のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-29",
+      "weekday": "月",
+      "hall": "キューデンアネックス西新井店",
+      "hid": "123084300000002230",
+      "hall_url": "https://hall-navi.com/hole_view?hid=123084300000002230",
+      "address": "東京都足立区西新井栄町2-2-3",
+      "station": "西新井駅",
+      "score": 12.8,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (9のつく日)"
+        },
+        {
+          "rank": "A",
+          "name": "ナビ子AI予想【機種仕掛け】★3 (9のつく日)"
         },
         {
           "rank": "・",
@@ -4406,10 +4025,10 @@
       "hall_url": "https://hall-navi.com/hole_view?hid=164000100000560120",
       "address": "東京都中野区中野5-60-12",
       "station": "中野駅",
-      "score": 13.7,
+      "score": 12.0,
       "events": [
         {
-          "rank": "S",
+          "rank": "A",
           "name": "全力厳選ホール"
         },
         {
@@ -4423,44 +4042,6 @@
         {
           "rank": "・",
           "name": "旧イベ(毎月 29日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-29",
-      "weekday": "月",
-      "hall": "エスパス日拓西武新宿駅前店",
-      "hid": "160002100000012540",
-      "hall_url": "https://hall-navi.com/hole_view?hid=160002100000012540",
-      "address": null,
-      "station": null,
-      "score": 13.0,
-      "events": [
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【差枚プラス】★1 (9のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-29",
-      "weekday": "月",
-      "hall": "キューデンアネックス西新井店",
-      "hid": "123084300000002230",
-      "hall_url": "https://hall-navi.com/hole_view?hid=123084300000002230",
-      "address": "東京都足立区西新井栄町2-2-3",
-      "station": "西新井駅",
-      "score": 11.9,
-      "events": [
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【機種仕掛け】★3 (9のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(9のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -4510,16 +4091,16 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "ハイパージアス立川",
-      "hid": "190002300000003620",
-      "hall_url": "https://hall-navi.com/hole_view?hid=190002300000003620",
-      "address": "東京都立川市柴崎町3-6-2",
-      "station": "立川駅",
-      "score": 10.5,
+      "hall": "PIA町田新館",
+      "hid": "194001300000613210",
+      "hall_url": "https://hall-navi.com/hole_view?hid=194001300000613210",
+      "address": null,
+      "station": null,
+      "score": 10.6,
       "events": [
         {
-          "rank": "・",
-          "name": "半鬼の太鼓"
+          "rank": "B",
+          "name": "PFちゅんげー調査隊来店"
         }
       ],
       "prefecture": "東京都"
@@ -4548,12 +4129,12 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "ガイア瑞江店",
-      "hid": "132001100000021140",
-      "hall_url": "https://hall-navi.com/hole_view?hid=132001100000021140",
-      "address": "東京都江戸川区瑞江2-1-14",
-      "station": "瑞江駅",
-      "score": 9.1,
+      "hall": "ガイア大島店",
+      "hid": "136007200000005971",
+      "hall_url": "https://hall-navi.com/hole_view?hid=136007200000005971",
+      "address": null,
+      "station": null,
+      "score": 9.0,
       "events": [
         {
           "rank": "C",
@@ -4569,13 +4150,17 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "スーパーD'ステーション 錦糸町店",
-      "hid": "130002200000042551",
-      "hall_url": "https://hall-navi.com/hole_view?hid=130002200000042551",
-      "address": "東京都墨田区江東橋4-25-5",
-      "station": "錦糸町駅",
-      "score": 7.7,
+      "hall": "メガガイア明大前店",
+      "hid": "156004300000245130",
+      "hall_url": "https://hall-navi.com/hole_view?hid=156004300000245130",
+      "address": "東京都世田谷区松原2-45-13",
+      "station": "明大前駅",
+      "score": 8.5,
       "events": [
+        {
+          "rank": "C",
+          "name": "ナビ子AI予想【機種仕掛け】★1 (9のつく日)"
+        },
         {
           "rank": "・",
           "name": "旧イベ(9のつく日)"
@@ -4586,16 +4171,16 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "マルハン青梅新町店",
-      "hid": "198002400000006810",
-      "hall_url": "https://hall-navi.com/hole_view?hid=198002400000006810",
-      "address": "東京都青梅市新町6-8-1",
-      "station": "小作駅",
-      "score": 7.6,
+      "hall": "マルハン日野店",
+      "hid": "191000100000052390",
+      "hall_url": "https://hall-navi.com/hole_view?hid=191000100000052390",
+      "address": null,
+      "station": null,
+      "score": 7.7,
       "events": [
         {
           "rank": "・",
-          "name": "SS・ニック星人取材"
+          "name": "トリスタキング来店(S)"
         }
       ],
       "prefecture": "東京都"
@@ -4603,72 +4188,17 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "エスパス日拓上野新館",
-      "hid": "110000500000004750",
-      "hall_url": "https://hall-navi.com/hole_view?hid=110000500000004750",
-      "address": "東京都台東区上野4-7-5",
-      "station": "上野駅",
-      "score": 7.4,
+      "hall": "楽園町田店",
+      "hid": "194001300000616110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=194001300000616110",
+      "address": null,
+      "station": null,
+      "score": 7.5,
       "events": [
         {
-          "rank": "・",
-          "name": "SS・ニック星人取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-29",
-      "weekday": "月",
-      "hall": "楽園蒲田店",
-      "hid": "144005100000074680",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000074680",
-      "address": "東京都大田区西蒲田7-46-8",
-      "station": "蒲田駅",
-      "score": 7.1,
-      "events": [
-        {
-          "rank": "・",
-          "name": "超トロフィー狩り"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-29",
-      "weekday": "月",
-      "hall": "ピーアーク竹ノ塚スタジオ",
-      "hid": "121081300000014180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=121081300000014180",
-      "address": "東京都足立区竹の塚1-41-8",
-      "station": "竹ノ塚駅",
-      "score": 6.6,
-      "events": [
-        {
-          "rank": "B",
-          "name": "東京喰種インパクト来店取材12"
+          "rank": "C",
+          "name": "四星(金星神)"
         },
-        {
-          "rank": "・",
-          "name": "週刊りみっとくん"
-        },
-        {
-          "rank": "・",
-          "name": "リアルシックス注目期間β"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-29",
-      "weekday": "月",
-      "hall": "マルハン池袋店",
-      "hid": "170001300000014350",
-      "hall_url": "https://hall-navi.com/hole_view?hid=170001300000014350",
-      "address": "東京都豊島区東池袋1-43-5",
-      "station": "池袋駅",
-      "score": 6.5,
-      "events": [
         {
           "rank": "・",
           "name": "四星(水星神)"
@@ -4679,16 +4209,67 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "Dステーション新小岩",
-      "hid": "124002400000014140",
-      "hall_url": "https://hall-navi.com/hole_view?hid=124002400000014140",
-      "address": "東京都葛飾区新小岩1-41-4",
-      "station": "新小岩駅",
-      "score": 6.2,
+      "hall": "ドキわくランド 中河原駅前店",
+      "hid": "183003400000002260",
+      "hall_url": "https://hall-navi.com/hole_view?hid=183003400000002260",
+      "address": null,
+      "station": null,
+      "score": 7.3,
+      "events": [
+        {
+          "rank": "C",
+          "name": "スロセレ"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-29",
+      "weekday": "月",
+      "hall": "ジャラン高島平店",
+      "hid": "175008200000008311",
+      "hall_url": "https://hall-navi.com/hole_view?hid=175008200000008311",
+      "address": "東京都板橋区高島平8-3-1",
+      "station": "高島平駅",
+      "score": 6.9,
       "events": [
         {
           "rank": "・",
-          "name": "旧イベ(9のつく日)"
+          "name": "テンペスト来店取材‐熾天使‐"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-29",
+      "weekday": "月",
+      "hall": "マルハン八王子四谷店",
+      "hid": "193081300000006510",
+      "hall_url": "https://hall-navi.com/hole_view?hid=193081300000006510",
+      "address": null,
+      "station": null,
+      "score": 6.6,
+      "events": [
+        {
+          "rank": "・",
+          "name": "スロイベさんぽ"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-29",
+      "weekday": "月",
+      "hall": "ピートレックマーメイド五反田店",
+      "hid": "141002200000002220",
+      "hall_url": "https://hall-navi.com/hole_view?hid=141002200000002220",
+      "address": "東京都品川区東五反田2-2-2",
+      "station": "五反田駅",
+      "score": 6.4,
+      "events": [
+        {
+          "rank": "・",
+          "name": "マーメイドインパクト来店取材"
         }
       ],
       "prefecture": "東京都"
@@ -4713,37 +4294,20 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "大山オーシャンスロット専門館",
-      "hid": "173001400000002150",
-      "hall_url": "https://hall-navi.com/hole_view?hid=173001400000002150",
-      "address": null,
-      "station": null,
-      "score": 5.1,
-      "events": [
-        {
-          "rank": "・",
-          "name": "サキドリ来店取材"
-        },
-        {
-          "rank": "・",
-          "name": "時を戻そう取材！"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-29",
-      "weekday": "月",
-      "hall": "クリエ府中西原店",
-      "hid": "183004600000001450",
-      "hall_url": "https://hall-navi.com/hole_view?hid=183004600000001450",
-      "address": null,
-      "station": null,
+      "hall": "MGM国領店",
+      "hid": "182002200000031380",
+      "hall_url": "https://hall-navi.com/hole_view?hid=182002200000031380",
+      "address": "東京都調布市国領町3-1-38",
+      "station": "国領駅",
       "score": 4.9,
       "events": [
         {
           "rank": "C",
-          "name": "スロ姫来店"
+          "name": "2222拳極来店取材"
+        },
+        {
+          "rank": "・",
+          "name": "暴覚醒3150来店取材"
         }
       ],
       "prefecture": "東京都"
@@ -4751,12 +4315,12 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "ガイア経堂店",
-      "hid": "156005200000002410",
-      "hall_url": "https://hall-navi.com/hole_view?hid=156005200000002410",
-      "address": "東京都世田谷区経堂2-4-1",
-      "station": "経堂駅",
-      "score": 4.4,
+      "hall": "ガイア大塚北口店",
+      "hid": "170000400000215100",
+      "hall_url": "https://hall-navi.com/hole_view?hid=170000400000215100",
+      "address": "東京都豊島区北大塚2-15-10",
+      "station": "大塚駅",
+      "score": 4.6,
       "events": [
         {
           "rank": "・",
@@ -4772,11 +4336,28 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "ガイア瑞江II",
-      "hid": "132001100000002191",
-      "hall_url": "https://hall-navi.com/hole_view?hid=132001100000002191",
-      "address": "東京都江戸川区瑞江2-1-9",
-      "station": "瑞江駅",
+      "hall": "ミツボシ祖師谷店",
+      "hid": "157007200000018130",
+      "hall_url": "https://hall-navi.com/hole_view?hid=157007200000018130",
+      "address": "東京都世田谷区祖師谷1-8-13",
+      "station": "祖師谷大蔵駅",
+      "score": 4.3,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(9のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-29",
+      "weekday": "月",
+      "hall": "ガイアネクスト東小金井店",
+      "hid": "184001100000442200",
+      "hall_url": "https://hall-navi.com/hole_view?hid=184001100000442200",
+      "address": null,
+      "station": null,
       "score": 4.1,
       "events": [
         {
@@ -4793,16 +4374,16 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "マルハン青梅店",
-      "hid": "198002200000032100",
-      "hall_url": "https://hall-navi.com/hole_view?hid=198002200000032100",
-      "address": null,
-      "station": null,
-      "score": 1.0,
+      "hall": "メガガイア蒲田店",
+      "hid": "144005200000511121",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000511121",
+      "address": "東京都大田区蒲田5-11-12",
+      "station": "蒲田駅",
+      "score": 0.5,
       "events": [
         {
           "rank": "・",
-          "name": "PJP調査隊"
+          "name": "旧イベ(9のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -4810,11 +4391,11 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "ニラク大田長原店",
-      "hid": "145006400000017160",
-      "hall_url": "https://hall-navi.com/hole_view?hid=145006400000017160",
-      "address": "東京都大田区上池台1-7-16",
-      "station": "長原駅",
+      "hall": "ニラク中野サンモール2号店",
+      "hid": "164000100000056070",
+      "hall_url": "https://hall-navi.com/hole_view?hid=164000100000056070",
+      "address": "東京都中野区中野5-60-7",
+      "station": "中野駅",
       "score": 0.0,
       "events": [
         {
@@ -4831,11 +4412,11 @@
     {
       "date": "2026-06-29",
       "weekday": "月",
-      "hall": "ニラク東大和店",
-      "hid": "207002100000448220",
-      "hall_url": "https://hall-navi.com/hole_view?hid=207002100000448220",
-      "address": "東京都東大和市立野4-482-2",
-      "station": "桜街道駅",
+      "hall": "ニラク上北台店",
+      "hid": "207002300000001140",
+      "hall_url": "https://hall-navi.com/hole_view?hid=207002300000001140",
+      "address": "東京都東大和市上北台1-1-4",
+      "station": "上北台駅",
       "score": 0.0,
       "events": [
         {
@@ -4852,12 +4433,12 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "エクス・アリーナ東京",
-      "hid": "131004200000002850",
-      "hall_url": "https://hall-navi.com/hole_view?hid=131004200000002850",
-      "address": "東京都墨田区東墨田2-8-5",
-      "station": "八広駅",
-      "score": 16.2,
+      "hall": "アイランド秋葉原",
+      "hid": "101002100000004330",
+      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000004330",
+      "address": "東京都千代田区外神田4-3-3",
+      "station": "秋葉原駅",
+      "score": 15.8,
       "events": [
         {
           "rank": "S",
@@ -4866,14 +4447,6 @@
         {
           "rank": "S",
           "name": "ナビ子AI予想【機種仕掛け】★5+ (0のつく日)"
-        },
-        {
-          "rank": "A",
-          "name": "めぐー。来店"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(0のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -4915,16 +4488,20 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "マルハン新宿東宝ビル店",
-      "hid": "160002100000011910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=160002100000011910",
-      "address": "東京都新宿区歌舞伎町1-19-1",
-      "station": "西武新宿駅",
+      "hall": "エスパス日拓上野本館",
+      "hid": "110000500000041040",
+      "hall_url": "https://hall-navi.com/hole_view?hid=110000500000041040",
+      "address": "東京都台東区上野4-10-4",
+      "station": "上野駅",
       "score": 13.8,
       "events": [
         {
-          "rank": "B",
-          "name": "キングマック来店"
+          "rank": "S",
+          "name": "爆汗くーまくん取材"
+        },
+        {
+          "rank": "A",
+          "name": "ととのっち来店"
         }
       ],
       "prefecture": "東京都"
@@ -4949,16 +4526,16 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "マルハン亀有店",
-      "hid": "125006100000004110",
-      "hall_url": "https://hall-navi.com/hole_view?hid=125006100000004110",
-      "address": "東京都葛飾区亀有4-1-15",
-      "station": "亀有駅",
-      "score": 12.6,
+      "hall": "プレサス飯田橋",
+      "hid": "102007100000002720",
+      "hall_url": "https://hall-navi.com/hole_view?hid=102007100000002720",
+      "address": "東京都千代田区富士見2-7-2",
+      "station": "飯田橋駅",
+      "score": 13.0,
       "events": [
         {
-          "rank": "A",
-          "name": "極誓取材"
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (0のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -4987,28 +4564,37 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "阿佐ヶ谷オーシャン",
-      "hid": "166000400000021620",
-      "hall_url": "https://hall-navi.com/hole_view?hid=166000400000021620",
-      "address": "東京都杉並区阿佐谷南2-16-2",
-      "station": "阿佐ヶ谷駅",
-      "score": 11.4,
+      "hall": "将軍田端店",
+      "hid": "114001400000062330",
+      "hall_url": "https://hall-navi.com/hole_view?hid=114001400000062330",
+      "address": "東京都北区田端6-2-33",
+      "station": "田端駅",
+      "score": 10.4,
       "events": [
         {
-          "rank": "A",
-          "name": "スロトレ調査団　ハーフテン"
-        },
-        {
-          "rank": "B",
-          "name": "ナビ子AI予想【機種仕掛け】★2 (0のつく日)"
-        },
+          "rank": "C",
+          "name": "マグロ取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-30",
+      "weekday": "火",
+      "hall": "トーヨーホール木場駅前店",
+      "hid": "135001600000003690",
+      "hall_url": "https://hall-navi.com/hole_view?hid=135001600000003690",
+      "address": "東京都江東区東陽3-6-9",
+      "station": "木場駅",
+      "score": 9.2,
+      "events": [
         {
           "rank": "C",
-          "name": "えりな来店"
+          "name": "ナビ子AI予想【機種仕掛け】★1 (0のつく日)"
         },
         {
           "rank": "・",
-          "name": "旧イベ(0のつく日)"
+          "name": "旧イベ(毎月 30日)"
         }
       ],
       "prefecture": "東京都"
@@ -5016,16 +4602,16 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "ベルシティザシティ篠崎南口0",
-      "hid": "133006100000727200",
-      "hall_url": "https://hall-navi.com/hole_view?hid=133006100000727200",
-      "address": "東京都江戸川区篠崎町7-27-20",
-      "station": "篠崎駅",
-      "score": 9.8,
+      "hall": "メッセ荻窪新館",
+      "hid": "167004300110121230",
+      "hall_url": "https://hall-navi.com/hole_view?hid=167004300110121230",
+      "address": "東京都杉並区上荻1-10-12東亜会館1．2．3F",
+      "station": "荻窪駅",
+      "score": 8.9,
       "events": [
         {
-          "rank": "A",
-          "name": "マッティー実践来店"
+          "rank": "B",
+          "name": "月詠乃愛来店"
         }
       ],
       "prefecture": "東京都"
@@ -5033,28 +4619,11 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "PIA町田新館",
-      "hid": "194001300000613210",
-      "hall_url": "https://hall-navi.com/hole_view?hid=194001300000613210",
-      "address": null,
-      "station": null,
-      "score": 9.1,
-      "events": [
-        {
-          "rank": "C",
-          "name": "戦極 電光石火"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-30",
-      "weekday": "火",
-      "hall": "みとや鶯谷M-2",
-      "hid": "110000300000011210",
-      "hall_url": "https://hall-navi.com/hole_view?hid=110000300000011210",
-      "address": "東京都台東区根岸1-1-21",
-      "station": "鶯谷駅",
+      "hall": "みとやジャックポット錦糸町店",
+      "hid": "130002200000039170",
+      "hall_url": "https://hall-navi.com/hole_view?hid=130002200000039170",
+      "address": "東京都墨田区江東橋3-9-17",
+      "station": "錦糸町駅",
       "score": 8.7,
       "events": [
         {
@@ -5071,16 +4640,20 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "グランパ中野",
-      "hid": "164000100000560120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=164000100000560120",
-      "address": "東京都中野区中野5-60-12",
-      "station": "中野駅",
-      "score": 8.4,
+      "hall": "ドキわくランド 中河原駅前店",
+      "hid": "183003400000002260",
+      "hall_url": "https://hall-navi.com/hole_view?hid=183003400000002260",
+      "address": null,
+      "station": null,
+      "score": 8.3,
       "events": [
         {
-          "rank": "B",
-          "name": "必勝本ライター来店情報"
+          "rank": "C",
+          "name": "ナビ子AI予想【機種仕掛け】★1 (0のつく日)"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(0のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -5105,58 +4678,33 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "フェイス1100瑞穂",
-      "hid": "190120400000021710",
-      "hall_url": "https://hall-navi.com/hole_view?hid=190120400000021710",
+      "hall": "ヒロキMAX蒲田店",
+      "hid": "144005100000074120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000074120",
+      "address": "東京都大田区西蒲田7-4-12",
+      "station": "蒲田駅",
+      "score": 7.1,
+      "events": [
+        {
+          "rank": "・",
+          "name": "テンペスト来店取材‐双乱‐"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-30",
+      "weekday": "火",
+      "hall": "エスパス日拓西武新宿駅前店",
+      "hid": "160002100000012540",
+      "hall_url": "https://hall-navi.com/hole_view?hid=160002100000012540",
       "address": null,
       "station": null,
-      "score": 7.3,
-      "events": [
-        {
-          "rank": "・",
-          "name": "沖スロ取材(百花繚乱)"
-        },
-        {
-          "rank": "・",
-          "name": "牙狼取材(百花繚乱)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-30",
-      "weekday": "火",
-      "hall": "ピーアーク竹ノ塚スタジオ",
-      "hid": "121081300000014180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=121081300000014180",
-      "address": "東京都足立区竹の塚1-41-8",
-      "station": "竹ノ塚駅",
-      "score": 6.6,
-      "events": [
-        {
-          "rank": "・",
-          "name": "週刊りみっとくん"
-        },
-        {
-          "rank": "・",
-          "name": "リアルシックス注目期間β"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-30",
-      "weekday": "火",
-      "hall": "YASUDA5",
-      "hid": "173001400000060100",
-      "hall_url": "https://hall-navi.com/hole_view?hid=173001400000060100",
-      "address": "東京都板橋区大山東町60-10",
-      "station": "大山駅",
       "score": 6.5,
       "events": [
         {
           "rank": "・",
-          "name": "鳥獣戯画取材"
+          "name": "スロミューネジレンジャー"
         }
       ],
       "prefecture": "東京都"
@@ -5164,24 +4712,50 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "DAS小山",
-      "hid": "142006200000004330",
-      "hall_url": "https://hall-navi.com/hole_view?hid=142006200000004330",
+      "hall": "キコーナ平井店",
+      "hid": "132003500000007790",
+      "hall_url": "https://hall-navi.com/hole_view?hid=132003500000007790",
+      "address": "東京都江戸川区平井7-7-9",
+      "station": "平井駅",
+      "score": 6.4,
+      "events": [
+        {
+          "rank": "・",
+          "name": "極零取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-30",
+      "weekday": "火",
+      "hall": "甲子園池袋店",
+      "hid": "171002100000012280",
+      "hall_url": "https://hall-navi.com/hole_view?hid=171002100000012280",
+      "address": "東京都豊島区西池袋1-22-8",
+      "station": "池袋駅",
+      "score": 6.0,
+      "events": [
+        {
+          "rank": "B",
+          "name": "VEPPAN"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-30",
+      "weekday": "火",
+      "hall": "大井ニュー東京東口店",
+      "hid": "140001100000051310",
+      "hall_url": "https://hall-navi.com/hole_view?hid=140001100000051310",
       "address": null,
       "station": null,
-      "score": 6.2,
+      "score": 5.6,
       "events": [
         {
-          "rank": "C",
-          "name": "総力取材(エースプロ)"
-        },
-        {
           "rank": "・",
-          "name": "旧イベ過去状況評価 +1.0"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(0のつく日)"
+          "name": "スロミナティ15日間調査"
         }
       ],
       "prefecture": "東京都"
@@ -5189,20 +4763,16 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "みとや浅草千束",
-      "hid": "111003200000005930",
-      "hall_url": "https://hall-navi.com/hole_view?hid=111003200000005930",
-      "address": "東京都台東区浅草5-9-3",
-      "station": "浅草駅",
-      "score": 5.2,
+      "hall": "クリエ府中西原店",
+      "hid": "183004600000001450",
+      "hall_url": "https://hall-navi.com/hole_view?hid=183004600000001450",
+      "address": null,
+      "station": null,
+      "score": 4.9,
       "events": [
         {
           "rank": "・",
-          "name": "旧イベ過去状況評価 +1.0"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(0のつく日)"
+          "name": "ぱちたん川柳SELECTION"
         }
       ],
       "prefecture": "東京都"
@@ -5210,50 +4780,16 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "ミカド五反野店",
-      "hid": "120001500000043870",
-      "hall_url": "https://hall-navi.com/hole_view?hid=120001500000043870",
-      "address": "東京都足立区足立4-38-7",
-      "station": "五反野駅",
-      "score": 4.8,
-      "events": [
-        {
-          "rank": "・",
-          "name": "回胴モガミ来店取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-30",
-      "weekday": "火",
-      "hall": "トワーズ四谷店",
-      "hid": "193081300001910180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=193081300001910180",
-      "address": "東京都八王子市四谷町1910-18",
-      "station": "西八王子駅",
+      "hall": "ヒノマル西小山店",
+      "hid": "142006200000006460",
+      "hall_url": "https://hall-navi.com/hole_view?hid=142006200000006460",
+      "address": null,
+      "station": null,
       "score": 4.0,
       "events": [
         {
           "rank": "・",
-          "name": "旧イベ(0のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-30",
-      "weekday": "火",
-      "hall": "トワーズ東久留米店",
-      "hid": "203004200000013190",
-      "hall_url": "https://hall-navi.com/hole_view?hid=203004200000013190",
-      "address": null,
-      "station": null,
-      "score": 3.6,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ過去状況評価 +0.5"
+          "name": "お前の財布でどこまでも"
         },
         {
           "rank": "・",
@@ -5265,13 +4801,17 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "ヒノマル狛江店",
-      "hid": "201001400000129210",
-      "hall_url": "https://hall-navi.com/hole_view?hid=201001400000129210",
+      "hall": "トワーズ羽村店",
+      "hid": "205002300000004210",
+      "hall_url": "https://hall-navi.com/hole_view?hid=205002300000004210",
       "address": null,
       "station": null,
-      "score": 2.0,
+      "score": 3.8,
       "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ過去状況評価 +1.0"
+        },
         {
           "rank": "・",
           "name": "旧イベ(0のつく日)"
@@ -5282,45 +4822,28 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "ニューマツヤ麻布",
-      "hid": "106004500000021940",
-      "hall_url": "https://hall-navi.com/hole_view?hid=106004500000021940",
-      "address": "東京都港区麻布十番2-19-4",
-      "station": "麻布十番駅",
-      "score": 0.0,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ(0のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-30",
-      "weekday": "火",
-      "hall": "ヒノマル錦糸町店",
-      "hid": "130002200000039160",
-      "hall_url": "https://hall-navi.com/hole_view?hid=130002200000039160",
-      "address": "東京都墨田区江東橋3-9-16",
-      "station": "錦糸町駅",
-      "score": 0.0,
-      "events": [
-        {
-          "rank": "・",
-          "name": "旧イベ(0のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-06-30",
-      "weekday": "火",
-      "hall": "ヒノマル 下丸子店",
-      "hid": "146009200000031020",
-      "hall_url": "https://hall-navi.com/hole_view?hid=146009200000031020",
+      "hall": "マルハン青梅店",
+      "hid": "198002200000032100",
+      "hall_url": "https://hall-navi.com/hole_view?hid=198002200000032100",
       "address": null,
       "station": null,
+      "score": 3.0,
+      "events": [
+        {
+          "rank": "B",
+          "name": "サンスポ取材"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-30",
+      "weekday": "火",
+      "hall": "みとや神田西口店",
+      "hid": "101004700000002980",
+      "hall_url": "https://hall-navi.com/hole_view?hid=101004700000002980",
+      "address": "東京都千代田区内神田2-9-8",
+      "station": "神田駅",
       "score": 0.0,
       "events": [
         {
@@ -5333,11 +4856,11 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "ヒノマル中目黒",
-      "hid": "153005100000011980",
-      "hall_url": "https://hall-navi.com/hole_view?hid=153005100000011980",
-      "address": "東京都目黒区上目黒1-19-8",
-      "station": "中目黒駅",
+      "hall": "ベラジオ東十条店",
+      "hid": "114000100000004410",
+      "hall_url": "https://hall-navi.com/hole_view?hid=114000100000004410",
+      "address": "東京都北区東十条4-4-1",
+      "station": "東十条駅",
       "score": 0.0,
       "events": [
         {
@@ -5350,11 +4873,11 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "ヒノマル江古田店",
-      "hid": "176000500000017210",
-      "hall_url": "https://hall-navi.com/hole_view?hid=176000500000017210",
-      "address": "東京都練馬区旭丘1-72-1",
-      "station": "江古田駅",
+      "hall": "ヒノマル広尾店",
+      "hid": "150001200000514280",
+      "hall_url": "https://hall-navi.com/hole_view?hid=150001200000514280",
+      "address": "東京都渋谷区広尾5-14-28",
+      "station": "広尾駅",
       "score": 0.0,
       "events": [
         {
@@ -5367,11 +4890,11 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "アミージャアミーゴ昭島店(AmijaAmigo)",
-      "hid": "196001500000511160",
-      "hall_url": "https://hall-navi.com/hole_view?hid=196001500000511160",
-      "address": null,
-      "station": null,
+      "hall": "ヒノマル駒沢店",
+      "hid": "154001200000021720",
+      "hall_url": "https://hall-navi.com/hole_view?hid=154001200000021720",
+      "address": "東京都世田谷区駒沢2-17-2",
+      "station": "駒澤大学駅",
       "score": 0.0,
       "events": [
         {
@@ -5384,9 +4907,26 @@
     {
       "date": "2026-06-30",
       "weekday": "火",
-      "hall": "トワーズ武蔵村山店",
-      "hid": "208002300002247130",
-      "hall_url": "https://hall-navi.com/hole_view?hid=208002300002247130",
+      "hall": "練馬オーシャンパチンコ専門館",
+      "hid": "176001200000051950",
+      "hall_url": "https://hall-navi.com/hole_view?hid=176001200000051950",
+      "address": "東京都練馬区豊玉北5-19-5",
+      "station": "練馬駅",
+      "score": 0.0,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(0のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-06-30",
+      "weekday": "火",
+      "hall": "トワーズ野上店",
+      "hid": "198003100000032030",
+      "hall_url": "https://hall-navi.com/hole_view?hid=198003100000032030",
       "address": null,
       "station": null,
       "score": 0.0,
@@ -5401,12 +4941,37 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "エスパス日拓秋葉原駅前店",
-      "hid": "101002100000011560",
-      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000011560",
-      "address": "東京都千代田区外神田1-15-6",
+      "hall": "マルハン新宿東宝ビル店",
+      "hid": "160002100000011910",
+      "hall_url": "https://hall-navi.com/hole_view?hid=160002100000011910",
+      "address": "東京都新宿区歌舞伎町1-19-1",
+      "station": "西武新宿駅",
+      "score": 17.7,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★5 (1のつく日)"
+        },
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【機種仕掛け】★5+ (1のつく日)"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(毎月 1日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "アイランド秋葉原",
+      "hid": "101002100000004330",
+      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000004330",
+      "address": "東京都千代田区外神田4-3-3",
       "station": "秋葉原駅",
-      "score": 16.3,
+      "score": 15.8,
       "events": [
         {
           "rank": "S",
@@ -5422,41 +4987,16 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "マルハンメガシティ2000蒲田7",
-      "hid": "144005200000511123",
-      "hall_url": "https://hall-navi.com/hole_view?hid=144005200000511123",
-      "address": "東京都大田区蒲田5-11-12",
-      "station": "蒲田駅",
-      "score": 15.5,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (1のつく日)"
-        },
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5+ (1のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-07-01",
-      "weekday": "水",
-      "hall": "123+N東雲店",
-      "hid": "135006200000016130",
-      "hall_url": "https://hall-navi.com/hole_view?hid=135006200000016130",
-      "address": "東京都江東区東雲1-6-13",
-      "station": "東雲駅",
-      "score": 14.9,
+      "hall": "楽園池袋店",
+      "hid": "171002200000012450",
+      "hall_url": "https://hall-navi.com/hole_view?hid=171002200000012450",
+      "address": "東京都豊島区南池袋1-24-5",
+      "station": "池袋駅",
+      "score": 15.1,
       "events": [
         {
           "rank": "S",
           "name": "ナビ子AI予想【機種仕掛け】★5 (1のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(1のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -5464,20 +5004,37 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "ARROW池上店",
-      "hid": "146008200000003310",
-      "hall_url": "https://hall-navi.com/hole_view?hid=146008200000003310",
+      "hall": "マルハン鹿浜店",
+      "hid": "123087400000115170",
+      "hall_url": "https://hall-navi.com/hole_view?hid=123087400000115170",
+      "address": "東京都足立区堀之内1-15-17",
+      "station": "江北駅",
+      "score": 14.7,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【機種仕掛け】★5+ (1のつく日)"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(毎月 1日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "マルハン日野店",
+      "hid": "191000100000052390",
+      "hall_url": "https://hall-navi.com/hole_view?hid=191000100000052390",
       "address": null,
       "station": null,
       "score": 14.7,
       "events": [
         {
           "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (1のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "半転全昇"
+          "name": "ナビ子AI予想【機種仕掛け】★5 (1のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -5485,20 +5042,16 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "マルハン池袋 SLOT BASE",
-      "hid": "170001300000143610",
-      "hall_url": "https://hall-navi.com/hole_view?hid=170001300000143610",
-      "address": "東京都豊島区東池袋1-43-6 D-BOXビル1F",
-      "station": "池袋駅",
+      "hall": "エスパス日拓上野本館",
+      "hid": "110000500000041040",
+      "hall_url": "https://hall-navi.com/hole_view?hid=110000500000041040",
+      "address": "東京都台東区上野4-10-4",
+      "station": "上野駅",
       "score": 14.5,
       "events": [
         {
           "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★5 (1のつく日)"
-        },
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【機種仕掛け】★5+ (1のつく日)"
+          "name": "ナビ子AI予想【機種仕掛け】★5 (1のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -5506,12 +5059,12 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "キングNo.1世田谷",
-      "hid": "156005500000011180",
-      "hall_url": "https://hall-navi.com/hole_view?hid=156005500000011180",
-      "address": "東京都世田谷区船橋1-1-18",
-      "station": "千歳船橋駅",
-      "score": 13.7,
+      "hall": "マルハン青梅新町店",
+      "hid": "198002400000006810",
+      "hall_url": "https://hall-navi.com/hole_view?hid=198002400000006810",
+      "address": "東京都青梅市新町6-8-1",
+      "station": "小作駅",
+      "score": 14.5,
       "events": [
         {
           "rank": "S",
@@ -5522,12 +5075,25 @@
           "name": "ナビ子AI予想【機種仕掛け】★5 (1のつく日)"
         },
         {
-          "rank": "B",
-          "name": "でちゃう編集部来店(あんどりゅー)"
-        },
+          "rank": "A",
+          "name": "真骨超"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "楽園アメ横店",
+      "hid": "110000500000069740",
+      "hall_url": "https://hall-navi.com/hole_view?hid=110000500000069740",
+      "address": "東京都台東区上野6-9-7 センチュリ-ビル4F",
+      "station": "上野駅",
+      "score": 13.6,
+      "events": [
         {
-          "rank": "・",
-          "name": "旧イベ(毎月 1日)"
+          "rank": "A",
+          "name": "ナビ子AI予想【機種仕掛け】★4 (1のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -5552,66 +5118,33 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
+      "hall": "メッセ笹塚店",
+      "hid": "151007300000015850",
+      "hall_url": "https://hall-navi.com/hole_view?hid=151007300000015850",
+      "address": "東京都渋谷区笹塚1-58-5",
+      "station": "笹塚駅",
+      "score": 13.3,
+      "events": [
+        {
+          "rank": "S",
+          "name": "周年情報"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
       "hall": "マルハン小岩スロット館",
       "hid": "133005700000012390",
       "hall_url": "https://hall-navi.com/hole_view?hid=133005700000012390",
       "address": "東京都江戸川区西小岩1-23-9",
       "station": "小岩駅",
-      "score": 13.3,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (1のつく日)"
-        },
-        {
-          "rank": "A",
-          "name": "ナビ子AI予想【機種仕掛け】★4 (1のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-07-01",
-      "weekday": "水",
-      "hall": "新宿アラジン",
-      "hid": "160002300000011910",
-      "hall_url": "https://hall-navi.com/hole_view?hid=160002300000011910",
-      "address": "東京都新宿区西新宿1-19-1",
-      "station": "新宿駅",
-      "score": 13.0,
-      "events": [
-        {
-          "rank": "A",
-          "name": "極誓取材"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-07-01",
-      "weekday": "水",
-      "hall": "清瀬UNO",
-      "hid": "204002200000001140",
-      "hall_url": "https://hall-navi.com/hole_view?hid=204002200000001140",
-      "address": "東京都清瀬市松山1-1-4",
-      "station": "清瀬駅",
       "score": 12.8,
       "events": [
         {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (1のつく日)"
-        },
-        {
           "rank": "A",
-          "name": "ナビ子AI予想【機種仕掛け】★3 (1のつく日)"
-        },
-        {
-          "rank": "B",
-          "name": "超キノコ狩り2nd"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(1のつく日)"
+          "name": "ナビ子AI予想【機種仕掛け】★4 (1のつく日)"
         }
       ],
       "prefecture": "東京都"
@@ -5619,37 +5152,12 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "エンジェル本店",
-      "hid": "142006200000032650",
-      "hall_url": "https://hall-navi.com/hole_view?hid=142006200000032650",
-      "address": null,
-      "station": null,
+      "hall": "三ノ輪UNO",
+      "hid": "110000300000522100",
+      "hall_url": "https://hall-navi.com/hole_view?hid=110000300000522100",
+      "address": "東京都台東区根岸5-22-10",
+      "station": "三ノ輪駅",
       "score": 12.6,
-      "events": [
-        {
-          "rank": "S",
-          "name": "ナビ子AI予想【差枚プラス】★3 (1のつく日)"
-        },
-        {
-          "rank": "C",
-          "name": "ナビ子AI予想【機種仕掛け】★1 (1のつく日)"
-        },
-        {
-          "rank": "・",
-          "name": "旧イベ(1のつく日)"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-07-01",
-      "weekday": "水",
-      "hall": "新橋UNO",
-      "hid": "105000400000032010",
-      "hall_url": "https://hall-navi.com/hole_view?hid=105000400000032010",
-      "address": "東京都港区新橋3-20-1",
-      "station": "新橋駅",
-      "score": 11.9,
       "events": [
         {
           "rank": "A",
@@ -5669,33 +5177,20 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "練馬オーシャンスロット専門館",
-      "hid": "176001200000519100",
-      "hall_url": "https://hall-navi.com/hole_view?hid=176001200000519100",
-      "address": "東京都練馬区豊玉北5-19-10",
-      "station": "練馬駅",
-      "score": 11.6,
+      "hall": "YASUDA9",
+      "hid": "170001300000014240",
+      "hall_url": "https://hall-navi.com/hole_view?hid=170001300000014240",
+      "address": "東京都豊島区東池袋1-42-4",
+      "station": "池袋駅",
+      "score": 11.8,
       "events": [
         {
           "rank": "A",
-          "name": "結城レン来店"
-        }
-      ],
-      "prefecture": "東京都"
-    },
-    {
-      "date": "2026-07-01",
-      "weekday": "水",
-      "hall": "メッセ武蔵境店",
-      "hid": "180002200001224120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=180002200001224120",
-      "address": null,
-      "station": null,
-      "score": 10.3,
-      "events": [
+          "name": "始まりノ刻"
+        },
         {
-          "rank": "C",
-          "name": "旧イベ過去状況評価 +4.0"
+          "rank": "・",
+          "name": "旧イベ過去状況評価 +1.5"
         },
         {
           "rank": "・",
@@ -5707,16 +5202,16 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "グランド ラ・カータ 1111瑞穂店",
-      "hid": "190120400000023311",
-      "hall_url": "https://hall-navi.com/hole_view?hid=190120400000023311",
-      "address": null,
-      "station": null,
-      "score": 9.0,
+      "hall": "一番舘東久留米店",
+      "hid": "203003200000031380",
+      "hall_url": "https://hall-navi.com/hole_view?hid=203003200000031380",
+      "address": "東京都東久留米市前沢3-13-8",
+      "station": "花小金井駅",
+      "score": 11.3,
       "events": [
         {
           "rank": "・",
-          "name": "旧イベ過去状況評価 +3.0"
+          "name": "バンカン回胴録"
         },
         {
           "rank": "・",
@@ -5728,16 +5223,105 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "キコーナ府中店",
-      "hid": "183002200000000120",
-      "hall_url": "https://hall-navi.com/hole_view?hid=183002200000000120",
-      "address": null,
-      "station": null,
-      "score": 8.3,
+      "hall": "グランパ中野",
+      "hid": "164000100000560120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=164000100000560120",
+      "address": "東京都中野区中野5-60-12",
+      "station": "中野駅",
+      "score": 10.8,
+      "events": [
+        {
+          "rank": "A",
+          "name": "エヴァCUP"
+        },
+        {
+          "rank": "・",
+          "name": "マスターパピィ"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "キコーナ 新宿三丁目店",
+      "hid": "160002200000003671",
+      "hall_url": "https://hall-navi.com/hole_view?hid=160002200000003671",
+      "address": "東京都新宿区新宿3-6-7",
+      "station": "新宿三丁目駅",
+      "score": 10.4,
       "events": [
         {
           "rank": "C",
           "name": "OneSpark"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "ビックディッパー新橋1号店",
+      "hid": "105000400000031230",
+      "hall_url": "https://hall-navi.com/hole_view?hid=105000400000031230",
+      "address": "東京都港区新橋3-12-3",
+      "station": "新橋駅",
+      "score": 9.6,
+      "events": [
+        {
+          "rank": "C",
+          "name": "リアルアイ予想"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "キコーナ蒲田店",
+      "hid": "144005100000081120",
+      "hall_url": "https://hall-navi.com/hole_view?hid=144005100000081120",
+      "address": "東京都大田区西蒲田8-1-12",
+      "station": "蒲田駅",
+      "score": 9.1,
+      "events": [
+        {
+          "rank": "C",
+          "name": "OneSpark"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "やすだ清水町店",
+      "hid": "174005300000003270",
+      "hall_url": "https://hall-navi.com/hole_view?hid=174005300000003270",
+      "address": "東京都板橋区清水町32-7",
+      "station": "板橋本町駅",
+      "score": 8.8,
+      "events": [
+        {
+          "rank": "A",
+          "name": "始まりノ刻"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "やすだ大山4号店",
+      "hid": "173001400000005920",
+      "hall_url": "https://hall-navi.com/hole_view?hid=173001400000005920",
+      "address": "東京都板橋区大山東町59-2",
+      "station": "大山駅",
+      "score": 8.3,
+      "events": [
+        {
+          "rank": "A",
+          "name": "始まりノ刻"
         }
       ],
       "prefecture": "東京都"
@@ -5779,17 +5363,47 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "戸越ミナト",
-      "hid": "142004100000623190",
-      "hall_url": "https://hall-navi.com/hole_view?hid=142004100000623190",
-      "address": null,
-      "station": null,
-      "score": 5.0,
+      "hall": "123笹塚店",
+      "hid": "151007300000158131",
+      "hall_url": "https://hall-navi.com/hole_view?hid=151007300000158131",
+      "address": "東京都渋谷区笹塚1-58-13",
+      "station": "笹塚駅",
+      "score": 6.5,
+      "events": [
+        {
+          "rank": "B",
+          "name": "くろむ来店"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "ニラク東大和店",
+      "hid": "207002100000448220",
+      "hall_url": "https://hall-navi.com/hole_view?hid=207002100000448220",
+      "address": "東京都東大和市立野4-482-2",
+      "station": "桜街道駅",
+      "score": 4.0,
       "events": [
         {
           "rank": "・",
-          "name": "旧イベ過去状況評価 +1.0"
-        },
+          "name": "回胴アドベンチャー"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "水",
+      "hall": "K-1赤羽店",
+      "hid": "115004500000001740",
+      "hall_url": "https://hall-navi.com/hole_view?hid=115004500000001740",
+      "address": "東京都北区赤羽1-7-4",
+      "station": "赤羽駅",
+      "score": 2.8,
+      "events": [
         {
           "rank": "・",
           "name": "旧イベ(1のつく日)"
@@ -5800,16 +5414,16 @@
     {
       "date": "2026-07-01",
       "weekday": "水",
-      "hall": "マルハン青梅店",
-      "hid": "198002200000032100",
-      "hall_url": "https://hall-navi.com/hole_view?hid=198002200000032100",
-      "address": null,
-      "station": null,
-      "score": 3.5,
+      "hall": "ニラク武蔵村山伊奈平店",
+      "hid": "208002300000019010",
+      "hall_url": "https://hall-navi.com/hole_view?hid=208002300000019010",
+      "address": "東京都武蔵村山市伊奈平1-90-1",
+      "station": "西武立川駅",
+      "score": 2.5,
       "events": [
         {
-          "rank": "B",
-          "name": "必勝本ライター来店情報"
+          "rank": "・",
+          "name": "回胴アドベンチャー"
         }
       ],
       "prefecture": "東京都"
@@ -5844,6 +5458,332 @@
         {
           "rank": "・",
           "name": "旧イベ(毎月 1日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "ビッグアップル.秋葉原店",
+      "hid": "101002100000011610",
+      "hall_url": "https://hall-navi.com/hole_view?hid=101002100000011610",
+      "address": "東京都千代田区外神田1-16-1",
+      "station": "秋葉原駅",
+      "score": 14.6,
+      "events": [
+        {
+          "rank": "A",
+          "name": "旧イベ過去状況評価 +6.5"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "マルハン日野店",
+      "hid": "191000100000052390",
+      "hall_url": "https://hall-navi.com/hole_view?hid=191000100000052390",
+      "address": null,
+      "station": null,
+      "score": 14.6,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (2のつく日)"
+        },
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【機種仕掛け】★5 (2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "新！ガーデン板橋店",
+      "hid": "174004100000001570",
+      "hall_url": "https://hall-navi.com/hole_view?hid=174004100000001570",
+      "address": "東京都板橋区舟渡1-5-7",
+      "station": "浮間舟渡駅",
+      "score": 14.2,
+      "events": [
+        {
+          "rank": "S",
+          "name": "旧イベ過去状況評価 +7.0"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(毎月 2日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "マルハン池袋店",
+      "hid": "170001300000014350",
+      "hall_url": "https://hall-navi.com/hole_view?hid=170001300000014350",
+      "address": "東京都豊島区東池袋1-43-5",
+      "station": "池袋駅",
+      "score": 13.5,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "パラッツォ志村店",
+      "hid": "174005600000037160",
+      "hall_url": "https://hall-navi.com/hole_view?hid=174005600000037160",
+      "address": "東京都板橋区志村3-7-16",
+      "station": "志村三丁目駅",
+      "score": 13.4,
+      "events": [
+        {
+          "rank": "A",
+          "name": "ナビ子AI予想【差枚プラス】★1 (2のつく日)"
+        },
+        {
+          "rank": "A",
+          "name": "保留アオ来店"
+        },
+        {
+          "rank": "C",
+          "name": "ナビ子AI予想【機種仕掛け】★1 (2のつく日)"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "トーヨーホール木場駅前店",
+      "hid": "135001600000003690",
+      "hall_url": "https://hall-navi.com/hole_view?hid=135001600000003690",
+      "address": "東京都江東区東陽3-6-9",
+      "station": "木場駅",
+      "score": 11.7,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ナビ子AI予想【差枚プラス】★3 (2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "有楽町DUO",
+      "hid": "100000600000002810",
+      "hall_url": "https://hall-navi.com/hole_view?hid=100000600000002810",
+      "address": "東京都千代田区有楽町2-8-1",
+      "station": "有楽町駅",
+      "score": 11.2,
+      "events": [
+        {
+          "rank": "A",
+          "name": "ナビ子AI予想【機種仕掛け】★3 (2のつく日)"
+        },
+        {
+          "rank": "B",
+          "name": "超キノコ狩り2nd"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "マルハン大山店",
+      "hid": "173002300000003910",
+      "hall_url": "https://hall-navi.com/hole_view?hid=173002300000003910",
+      "address": "東京都板橋区大山町39-1",
+      "station": "大山駅",
+      "score": 10.3,
+      "events": [
+        {
+          "rank": "A",
+          "name": "ナビ子AI予想【差枚プラス】★1 (2のつく日)"
+        },
+        {
+          "rank": "・",
+          "name": "スロイベさんぽ"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "アミューズメントパークジュラク3",
+      "hid": "114000200000011810",
+      "hall_url": "https://hall-navi.com/hole_view?hid=114000200000011810",
+      "address": "東京都北区王子1-18-1",
+      "station": "王子駅駅",
+      "score": 9.5,
+      "events": [
+        {
+          "rank": "S",
+          "name": "ヒカルの一致団結（スロミュー×ヒカル）"
+        },
+        {
+          "rank": "S",
+          "name": "紅の龍"
+        },
+        {
+          "rank": "A",
+          "name": "スロミュー×ヒカルグッズ限定入荷"
+        },
+        {
+          "rank": "A",
+          "name": "ヒカルのホール千景（スロミュー×ヒカル）"
+        },
+        {
+          "rank": "A",
+          "name": "極パス"
+        },
+        {
+          "rank": "A",
+          "name": "スロミュー突撃福の神"
+        },
+        {
+          "rank": "A",
+          "name": "ヒカ流（スロミュー×ヒカル）"
+        },
+        {
+          "rank": "B",
+          "name": "東西南北　福の神"
+        },
+        {
+          "rank": "B",
+          "name": "錬パス調査隊"
+        },
+        {
+          "rank": "C",
+          "name": "ヒカルのまるとくレポート（スマスロ取材）"
+        },
+        {
+          "rank": "C",
+          "name": "ガチパス調査隊"
+        },
+        {
+          "rank": "C",
+          "name": "ヒカルのまるとくレポート（A取材）"
+        },
+        {
+          "rank": "・",
+          "name": "裏･ヒカルの一致団結"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "新!ガーデン亀戸店",
+      "hid": "136007100000338130",
+      "hall_url": "https://hall-navi.com/hole_view?hid=136007100000338130",
+      "address": "東京都江東区亀戸3-38-13",
+      "station": "亀戸駅",
+      "score": 7.2,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "メッセ荻窪本店",
+      "hid": "167004300011616110",
+      "hall_url": "https://hall-navi.com/hole_view?hid=167004300011616110",
+      "address": "東京都杉並区上荻1-16-16 ユアビル1 地下1F",
+      "station": "荻窪駅",
+      "score": 5.7,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ過去状況評価 +1.5"
+        },
+        {
+          "rank": "・",
+          "name": "旧イベ(2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "京浜ホール",
+      "hid": "143001300000011610",
+      "hall_url": "https://hall-navi.com/hole_view?hid=143001300000011610",
+      "address": "東京都大田区大森南1-16-1",
+      "station": "梅屋敷駅",
+      "score": 2.7,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "ニラク大田長原店",
+      "hid": "145006400000017160",
+      "hall_url": "https://hall-navi.com/hole_view?hid=145006400000017160",
+      "address": "東京都大田区上池台1-7-16",
+      "station": "長原駅",
+      "score": 0.0,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(2のつく日)"
+        }
+      ],
+      "prefecture": "東京都"
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "木",
+      "hall": "ニラク東大和店",
+      "hid": "207002100000448220",
+      "hall_url": "https://hall-navi.com/hole_view?hid=207002100000448220",
+      "address": "東京都東大和市立野4-482-2",
+      "station": "桜街道駅",
+      "score": 0.0,
+      "events": [
+        {
+          "rank": "・",
+          "name": "旧イベ(2のつく日)"
         }
       ],
       "prefecture": "東京都"
